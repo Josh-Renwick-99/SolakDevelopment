@@ -1,0 +1,18 @@
+[8/18/22 09:41AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:43AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:47AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:53AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:53AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:55AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:55AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:56AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:56AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:57AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:57AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:58AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 09:58AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 10:20AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 10:20AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 10:21AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 10:21AM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 10:24AM] Logout with password josjosLogout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	

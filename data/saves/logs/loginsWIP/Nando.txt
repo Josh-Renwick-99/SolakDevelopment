@@ -1,0 +1,2 @@
+[4/27/21 10:45AM] Login from host 127.0.0.1, serial number: 00-FF-34-06-D1-F3, mac address:NHQ3YAA00183715F41340020201022150110.000000-300	
+[4/27/21 10:45AM] Logout with password lmfao123Logout from host 127.0.0.1, serial number: 00-FF-34-06-D1-F3, mac address:NHQ3YAA00183715F41340020201022150110.000000-300	

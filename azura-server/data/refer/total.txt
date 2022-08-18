@@ -1,0 +1,3 @@
+merk : 1
+solak : 2
+stable : 3

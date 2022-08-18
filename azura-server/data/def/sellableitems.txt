@@ -1,0 +1,119 @@
+22084 : 3000 : //Blade Trinity
+22083 : 3000 : //BlastBomb Cannon
+22092 : 5000 : //Art's Staff
+20549 : 5000 : //Shikruu Katana
+20173 : 5000 : //Sorrow Bow
+8809 : 5000 : //Ganopurp staff
+23066 : 150000 : //Nymora crossbow
+23067 : 150000 : //Off-hand Nymora crossbow
+23055 : 150000 : //Ebony sword
+23056 : 150000 : //Ebony shield
+17600 : 150000 : //Vindicta staff
+23175 : 150000 : //Vindicta book
+23144 : 325000 : //Ruthless bow
+23145 : 325000 : //Ruthless staff
+23146 : 325000 : //Ruthless sword
+23039 : 600000 : //Range bow
+23026 : 600000 : //Magic staff
+23027 : 150000 : //Magic book
+23033 : 600000 : //Melee hammers
+23124 : 15000 : //Infinite overload potion (T1)
+23125 : 50000 : //Infinite overload potion (T2)
+23126 : 600000 : //Infinite overload potion (T3)
+23118 : 15000 : //Infinite healing potion (T1)
+23119 : 50000 : //Infinite healing potion (T2)
+23120 : 600000 : //Infinite healing potion (T3)
+23121 : 15000 : //Infinite prayer potion (T1)
+23122 : 50000 : //Infinite prayer potion (T2)
+23123 : 600000 : //Infinite prayer potion (T3)
+23044 : 500 : //Aura (T1)
+23045 : 15000 : //Aura (T2)
+23046 : 60000 : //Aura (T3)
+23047 : 80000 : //Aura (T4)
+23048 : 450000 : //Aura (T5)
+23049 : 800000 : //Aura (T6)
+23028 : 300000 : //Melee helm
+23029 : 400000 : //Melee body
+23030 : 400000 : //Melee legs
+23032 : 100000 : //Melee boots
+23031 : 100000 : //Melee gloves
+23034 : 300000 : //Range helm
+23035 : 400000 : //Range body
+23036 : 400000 : //Range legs
+23038 : 100000 : //Range boots
+23037 : 100000 : //Range gloves
+23021 : 300000 : //Magic helm
+23022 : 400000 : //Magic body
+23023 : 400000 : //Magic legs
+23025 : 100000 : //Magic boots
+23024 : 100000 : //Magic gloves
+23134 : 250000 : //Monkioh helm
+23135 : 250000 : //Monkioh body
+23136 : 250000 : //Monkioh legs
+23138 : 125000 : //Monkioh boots
+23137 : 125000 : //Monkioh gloves
+23075 : 40000 : //Vindicta helm
+23076 : 125000 : //Vindicta body
+23077 : 125000 : //Vindicta legs
+23050 : 40000 : //Ebony helm
+23051 : 125000 : //Ebony body
+23052 : 125000 : //Ebony legs
+23054 : 30000 : //Ebony boots
+23053 : 30000 : //Ebony gloves
+23056 : 100000 : //Ebony shield
+23061 : 40000 : //Nymora helm
+23062 : 125000 : //Nymora body
+23063 : 125000 : //Nymora legs
+23068 : 100000 : //Nymora wings
+14060 : 7500 : //Crystalized helm
+14061 : 7500 : //Crystalized body
+14062 : 7500 : //Crystalized legs
+14063 : 5000 : //Crystalized gloves
+14063 : 5000 : //Crystalized gloves
+20591 : 20000 : //Crystalized cape
+18840 : 7500 : //Moonlight hood
+18837 : 7500 : //Moonlight robetop
+18836 : 7500 : //Moonlight robebottom
+18785 : 5000 : //Moonlight boots
+18802 : 5000 : //Moonlight gloves
+19909 : 75000 : //Moonlight cape
+20057 : 20000 : //Moonlight spirit shield
+4684 : 7500 : //Execution helm
+4685 : 7500 : //Execution body
+4686 : 7500 : //Execution legs
+8274 : 5000 : //Execution boots
+8273 : 5000 : //Execution gloves
+9939 : 75000 : //Execution cape
+19164 : 2000 : //Combatant hood
+19163 : 2000 : //Combatant body
+19161 : 2000 : //Combatant legs
+11421 : 1000 : //Belligerent helm
+11422 : 1000 : //Belligerent body
+11423 : 1000 : //Belligerent legs
+15005 : 300 : //Gladiator full helm
+15006 : 300 : //Gladiator fighterbody
+15007 : 300 : //Gladiator fighterlegs
+15200 : 300 : //Gladiator gloves
+15201 : 300 : //Gladiator boots
+15100 : 300 : //Gladiator cape
+703 : 100 : //Avatar titan helm
+704 : 100 : //Avatar titan body
+705 : 100 : //Avatar titan legs
+19945 : 100 : //Avatar titan boots
+19946 : 100 : //Avatar titan gloves
+19944 : 100 : //Avatar titan cape
+23165 : 500000 : //Hunter's Eye prayer scroll
+23166 : 500000 : //Fury's Swipe prayer scroll
+23167 : 500000 : //Destruction prayer scroll
+23168 : 500000 : //Fortitude prayer scroll
+23170 : 200000 : //Gnome greed prayer scroll
+23169 : 500000 : //Soul leech prayer scroll
+23092 : 500000 : //Valor's wizard ring
+23093 : 500000 : //Valor's archer ring
+23094 : 500000 : //Valor's warrior ring
+23147 : 250000 : //Melee attachement
+23148 : 250000 : //Magic attachement
+23149 : 250000 : //Ranged attachement
+12535 : 25000 : //Execution Vitur
+5010 : 25000 : //Crystalized bow
+18629 : 25000 : //Corrupt moonlight staff

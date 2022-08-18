@@ -1,0 +1,1 @@
+[8/18/22 07:10PM]  [ Test2 ] Player picked up item: Solak Coins, id: 995, amount: 19363, owner: Test2	

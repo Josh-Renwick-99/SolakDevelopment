@@ -1,0 +1,4 @@
+[8/18/22 01:33PM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 01:36PM] Logout with password 123Logout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 07:15PM] Login from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/18/22 07:16PM] Logout with password 123Logout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
