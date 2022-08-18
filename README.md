@@ -20,5 +20,8 @@ double check the project is using the right java build, open file -> project str
 
 in this order navigate to azura-server/src/main/java/com/ruse/GameServer and run the server by clicking the green arrow on line 17
 
+same principles when applying the java version to the client, boot the client by going solak-client/src/main/java/Client and right click the class rune client.main
+
+
 
 
