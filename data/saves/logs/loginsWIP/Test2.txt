@@ -71,3 +71,5 @@
 [8/18/22 07:15PM] Logout with password 123Logout from host 127.0.0.1, serial number: , mac address:18-CC-18-EC-E4-66	
 [8/20/22 01:10PM] Login from host 80.195.183.129, serial number: , mac address:18-CC-18-EC-E4-66	
 [8/20/22 01:11PM] Logout with password 123Logout from host 80.195.183.129, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/20/22 01:13PM] Login from host 80.195.183.129, serial number: , mac address:18-CC-18-EC-E4-66	
+[8/20/22 01:13PM] Logout with password 123Logout from host 80.195.183.129, serial number: , mac address:18-CC-18-EC-E4-66	

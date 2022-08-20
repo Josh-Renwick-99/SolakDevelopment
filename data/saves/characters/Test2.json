@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 1660854075433,
+  "total-play-time-ms": 1660854103637,
   "username": "Test2",
   "password": "123",
   "email": "null",
@@ -8,8 +8,8 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2076,
-    "y": 4452,
+    "x": 2082,
+    "y": 4454,
     "z": 0
   },
   "online-status": "ON",
@@ -44,7 +44,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1660846109682,
+  "lastlogin": 1660997593388,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -172,7 +172,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1659231541903,
+  "last-veng": 1659231664862,
   "fight-type": "BATTLEAXE_CHOP",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -2238,7 +2238,7 @@
       false
     ]
   ],
-  "achievements-daily": 718,
+  "achievements-daily": 720,
   "progression-zones": [
     0,
     0,
