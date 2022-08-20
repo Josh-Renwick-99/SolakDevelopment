@@ -1,0 +1,4 @@
+[8/20/22 05:35PM] Login. ip: 152.37.74.105, mac: 2C-F0-5D-D6-08-B7, uuid: To be filled by O.E.M.20220327124250.000000+060	
+[8/20/22 05:36PM] Picked up gr.Item Solak Coins, amount: 3088	
+[8/20/22 05:36PM] Picked up gr.Item Dragon bones, amount: 1	
+[8/20/22 05:36PM] Receiving item from trade with Josh Id: 7995, amount: 1	

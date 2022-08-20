@@ -1,0 +1,40 @@
+[8/20/22 01:09PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 01:13PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 01:13PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 01:15PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 01:48PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 02:39PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 02:43PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 02:45PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 02:45PM] DEFAULT|2708,5726,0|Said: Bitch	
+[8/20/22 02:45PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 02:46PM] DEFAULT|2709,5727,0|Said: Swef	
+[8/20/22 02:47PM] Has just redeemed a $25 Bond successfully!	
+[8/20/22 02:48PM] Has just redeemed a $25 Bond successfully!	
+[8/20/22 02:48PM] DEFAULT|2710,5730,0|Said: Aef	
+[8/20/22 02:59PM] DEFAULT|2709,5728,0|Said: We needa replace these ones	
+[8/20/22 02:59PM] DEFAULT|2709,5728,0|Said: With the bank booths at the og home	
+[8/20/22 03:02PM] DEFAULT|2713,5726,0|Said: Smh no npc fix command	
+[8/20/22 03:02PM] DEFAULT|2713,5726,0|Said: To reload them	
+[8/20/22 03:02PM] DEFAULT|2713,5726,0|Said: Reload don't do it	
+[8/20/22 03:02PM] DEFAULT|2713,5726,0|Said: Xd	
+[8/20/22 03:02PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 03:03PM] DEFAULT|2712,5729,0|Said: Want those 2 there	
+[8/20/22 03:03PM] DEFAULT|2712,5729,0|Said: :p	
+[8/20/22 03:03PM] DEFAULT|2708,5719,0|Said: They can all be placed on the center of carpet as well	
+[8/20/22 03:23PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 03:23PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 03:26PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 03:30PM] Picked up gr.Item Pet Kalphite queen, amount: 1	
+[8/20/22 03:30PM] Picked up gr.Item Legion scythe, amount: 1	
+[8/20/22 03:34PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 03:35PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 03:39PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 03:49PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 03:53PM] Lithe just kicked Adam!	
+[8/20/22 03:53PM] Picked up gr.Item Grimy torstol, amount: 20	
+[8/20/22 03:57PM] Picked up gr.Item PVM ticket, amount: 17	
+[8/20/22 04:00PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 04:03PM] Picked up gr.Item Solak Coins, amount: 25985	
+[8/20/22 04:03PM] Picked up gr.Item Solak Coins, amount: 33709	
+[8/20/22 04:05PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	

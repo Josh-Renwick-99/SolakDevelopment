@@ -1,0 +1,2 @@
+[8/20/22 02:08PM] Help used command ::home | Player rights = PLAYER	
+[8/20/22 02:14PM] Help used command ::yell xd | Player rights = PLAYER	
