@@ -1461,3 +1461,6 @@
 [8/20/22 01:51AM]  [ Josh ] Josh used command ::npc 9001 | Player rights = DEVELOPER	
 [8/20/22 01:51AM]  [ Josh ] Josh used command ::npc 9000 | Player rights = DEVELOPER	
 [8/20/22 01:52AM]  [ Josh ] Josh used command ::npc 10000 | Player rights = DEVELOPER	
+[8/20/22 01:10PM]  [ Josh ] Josh used command ::dataq | Player rights = PLAYER	
+[8/20/22 01:10PM]  [ Josh ] Josh used command ::data | Player rights = PLAYER	
+[8/20/22 01:10PM]  [ Josh ] Josh used command ::mypos | Player rights = PLAYER	

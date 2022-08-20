@@ -1,3 +1,4 @@
 [8/18/22 10:36AM] Player dropping item: Dharok's platelegs, amount: 1	
 [8/18/22 07:08PM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
 [8/18/22 07:10PM] Picked up gr.Item Solak Coins, amount: 19363	
+[8/20/22 01:10PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
