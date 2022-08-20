@@ -4,3 +4,11 @@
 [8/19/22 10:22AM]  [ Josh ] Player picked up item: Solak Coins, id: 995, amount: 38021, owner: Josh	
 [8/19/22 12:36PM]  [ Josh ] Player picked up item: Weapon Box, id: 19114, amount: 1, owner: Josh	
 [8/19/22 01:32PM]  [ Josh ] Player picked up item: Solak Coins, id: 995, amount: 1495244, owner: Josh	
+[8/20/22 03:30PM]  [ Lithe ] Player picked up item: Pet Kalphite queen, id: 11993, amount: 1, owner: Lithe	
+[8/20/22 03:30PM]  [ Lithe ] Player picked up item: Legion scythe, id: 22091, amount: 1, owner: Lithe	
+[8/20/22 03:53PM]  [ Lithe ] Player picked up item: Grimy torstol, id: 220, amount: 20, owner: Lithe	
+[8/20/22 03:57PM]  [ Lithe ] Player picked up item: PVM ticket, id: 5022, amount: 17, owner: Lithe	
+[8/20/22 04:03PM]  [ Lithe ] Player picked up item: Solak Coins, id: 995, amount: 25985, owner: Lithe	
+[8/20/22 04:03PM]  [ Lithe ] Player picked up item: Solak Coins, id: 995, amount: 33709, owner: Lithe	
+[8/20/22 05:36PM]  [ Qway ] Player picked up item: Solak Coins, id: 995, amount: 3088, owner: Qway	
+[8/20/22 05:36PM]  [ Qway ] Player picked up item: Dragon bones, id: 537, amount: 1, owner: Qway	

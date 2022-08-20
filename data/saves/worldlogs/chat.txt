@@ -59,3 +59,90 @@
 [8/20/22 01:09PM]  [ Adam ] PROGRESSION_ZONES|3037,10287,0|Said: Ll	
 [8/20/22 01:12PM]  [ Adam ] DEFAULT|2076,4456,0|Said: Grt	
 [8/20/22 01:13PM]  [ Adam ] DEFAULT|2075,4457,0|Said: Bfghfft	
+[8/20/22 01:52PM]  [ Adam ] DEFAULT|2072,4455,0|Said: Rip	
+[8/20/22 02:20PM]  [ Adam ] DEFAULT|2079,4454,0|Said: K	
+[8/20/22 02:22PM]  [ Adam ] DEFAULT|2082,4456,0|Said: :>:bank	
+[8/20/22 02:40PM]  [ Adam ] DEFAULT|2706,5724,0|Said: Xd	
+[8/20/22 02:45PM]  [ Adam ] DEFAULT|2708,5724,0|Said: Yo	
+[8/20/22 02:45PM]  [ Lithe ] DEFAULT|2708,5726,0|Said: Bitch	
+[8/20/22 02:46PM]  [ Lithe ] DEFAULT|2709,5727,0|Said: Swef	
+[8/20/22 02:46PM]  [ Adam ] DEFAULT|2710,5725,0|Said: Xdfr	
+[8/20/22 02:47PM]  [ Adam ] DEFAULT|2712,5727,0|Said: Cf	
+[8/20/22 02:48PM]  [ Adam ] DEFAULT|2710,5727,0|Said: Xdddddddddddddddd	
+[8/20/22 02:48PM]  [ Lithe ] DEFAULT|2710,5730,0|Said: Aef	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Welcome	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Men	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: To the server	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2706,5732,0|Said: Yo	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2709,5729,0|Said: Tf is that symbol next to your name	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Veteran	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Og	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2709,5729,0|Said: Lol	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2710,5729,0|Said: Were these bank booths in the map index file	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Ye	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2710,5729,0|Said: Or did you place them here	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: He needs delete them	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2710,5729,0|Said: Ahhhhh	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Theyre the wrong ones	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2710,5729,0|Said: That makes sense	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2710,5729,0|Said: Yeah	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: If he deletes em	
+[8/20/22 02:56PM]  [ Josh ] DEFAULT|2710,5729,0|Said: Thats why all the other bank booths are broken	
+[8/20/22 02:56PM]  [ Adam ] DEFAULT|2711,5728,0|Said: We can get the locs	
+[8/20/22 02:57PM]  [ Adam ] DEFAULT|2711,5728,0|Said: We doing a starter zone atm	
+[8/20/22 02:57PM]  [ Josh ] DEFAULT|2711,5729,0|Said: Can do ::npc and spawn them	
+[8/20/22 02:57PM]  [ Josh ] DEFAULT|2711,5729,0|Said: Ill come help in a second	
+[8/20/22 02:57PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Ye but wont save	
+[8/20/22 02:57PM]  [ Josh ] DEFAULT|2711,5729,0|Said: No	
+[8/20/22 02:57PM]  [ Josh ] DEFAULT|2711,5729,0|Said: But add them to the world npc file	
+[8/20/22 02:57PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Want em to save :d	
+[8/20/22 02:57PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Ye idk what im doin for that part ull have to show me quiick	
+[8/20/22 02:57PM]  [ Josh ] DEFAULT|2710,5728,0|Said: I can do it	
+[8/20/22 02:57PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Ok fairs	
+[8/20/22 02:58PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Anyway, ill be about 10-15 again	
+[8/20/22 02:58PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Btw	
+[8/20/22 02:58PM]  [ Adam ] DEFAULT|2711,5728,0|Said:  ::location	
+[8/20/22 02:58PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Nub	
+[8/20/22 02:58PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Whats that do	
+[8/20/22 02:58PM]  [ Adam ] DEFAULT|2711,5728,0|Said: In dev console	
+[8/20/22 02:58PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Its ur mypos	
+[8/20/22 02:58PM]  [ Adam ] DEFAULT|2711,5728,0|Said: :d	
+[8/20/22 02:58PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Yeah but mypos is easier to read	
+[8/20/22 02:58PM]  [ Adam ] DEFAULT|2711,5728,0|Said: True ye	
+[8/20/22 02:59PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Once hes done this starter zone	
+[8/20/22 02:59PM]  [ Adam ] DEFAULT|2711,5728,0|Said: We can um	
+[8/20/22 02:59PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Figure the npcs for it	
+[8/20/22 02:59PM]  [ Adam ] DEFAULT|2711,5728,0|Said: And some starter item models	
+[8/20/22 02:59PM]  [ Adam ] DEFAULT|2711,5728,0|Said: And then thats that part done pr emuch	
+[8/20/22 02:59PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Yeah, balance the progression too	
+[8/20/22 02:59PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Yea if we finish starter zone fully	
+[8/20/22 02:59PM]  [ Lithe ] DEFAULT|2709,5728,0|Said: We needa replace these ones	
+[8/20/22 02:59PM]  [ Lithe ] DEFAULT|2709,5728,0|Said: With the bank booths at the og home	
+[8/20/22 03:00PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Then thats the easy part done	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: True	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Then we gotta come up with a plan for the end game	
+[8/20/22 03:00PM]  [ Adam ] DEFAULT|2711,5728,0|Said: Ah my rank is my game mode	
+[8/20/22 03:00PM]  [ Adam ] DEFAULT|2711,5728,0|Said:  ::gamemode 4	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: I want a hardmode slayer type thing	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: To interact with bosses	
+[8/20/22 03:00PM]  [ Adam ] DEFAULT|2711,5728,0|Said: I like the blood slayer concept	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Like	
+[8/20/22 03:00PM]  [ Adam ] DEFAULT|2711,5728,0|Said: If we rename it etc	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Yeah	
+[8/20/22 03:00PM]  [ Adam ] DEFAULT|2711,5728,0|Said: And make it better	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: So like	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Have bosses drop loot, then send you on slayer tasks to get drops 	
+[8/20/22 03:00PM]  [ Josh ] DEFAULT|2710,5728,0|Said: To upgrade it	
+[8/20/22 03:01PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Etc	
+[8/20/22 03:01PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Like a default item from a boss	
+[8/20/22 03:01PM]  [ Josh ] DEFAULT|2710,5728,0|Said: Then you upgrade it with components through slayer	
+[8/20/22 03:02PM]  [ Lithe ] DEFAULT|2713,5726,0|Said: Smh no npc fix command	
+[8/20/22 03:02PM]  [ Lithe ] DEFAULT|2713,5726,0|Said: To reload them	
+[8/20/22 03:02PM]  [ Lithe ] DEFAULT|2713,5726,0|Said: Reload don't do it	
+[8/20/22 03:02PM]  [ Lithe ] DEFAULT|2713,5726,0|Said: Xd	
+[8/20/22 03:03PM]  [ Lithe ] DEFAULT|2712,5729,0|Said: Want those 2 there	
+[8/20/22 03:03PM]  [ Lithe ] DEFAULT|2712,5729,0|Said: :p	
+[8/20/22 03:03PM]  [ Adam ] DEFAULT|2710,5725,0|Said: Shops south slayer north	
+[8/20/22 03:03PM]  [ Lithe ] DEFAULT|2708,5719,0|Said: They can all be placed on the center of carpet as well	
+[8/20/22 05:29PM]  [ Josh ] DEFAULT|2075,4456,0|Said: Oh yeah	
+[8/20/22 05:29PM]  [ Josh ] DEFAULT|2075,4456,0|Said: Given yourself a found rank have you	

@@ -306,7 +306,6 @@ public class NPC extends Character {
         Nex.spawn();
         PuroPuro.spawn();
         DesoSpan.spawn();
-        KalphiteQueen.spawn(1158, new Position(3485, 9509));
     }
 
     public static NPC of(int id, Position position) {
