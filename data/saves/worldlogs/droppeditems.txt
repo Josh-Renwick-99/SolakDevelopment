@@ -1,1 +1,2 @@
 [8/18/22 10:36AM]  [ Test2 ] Player dropped item: Dharok's platelegs, id: 4722, amount: 1	
+[8/19/22 10:00AM]  [ Josh ] Player dropped item: Avatar titan boots, id: 19945, amount: 1	

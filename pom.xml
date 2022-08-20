@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>azura-server</module>
-        <module>azura-runelite</module>
     </modules>
     <repositories>
         <repository>

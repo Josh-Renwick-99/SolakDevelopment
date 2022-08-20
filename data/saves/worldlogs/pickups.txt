@@ -1,1 +1,6 @@
 [8/18/22 07:10PM]  [ Test2 ] Player picked up item: Solak Coins, id: 995, amount: 19363, owner: Test2	
+[8/19/22 10:00AM]  [ Josh ] Player picked up item: Avatar titan boots, id: 19945, amount: 1, owner: Josh	
+[8/19/22 10:06AM]  [ Josh ] Player picked up item: Solak Coins, id: 995, amount: 61098, owner: Josh	
+[8/19/22 10:22AM]  [ Josh ] Player picked up item: Solak Coins, id: 995, amount: 38021, owner: Josh	
+[8/19/22 12:36PM]  [ Josh ] Player picked up item: Weapon Box, id: 19114, amount: 1, owner: Josh	
+[8/19/22 01:32PM]  [ Josh ] Player picked up item: Solak Coins, id: 995, amount: 1495244, owner: Josh	

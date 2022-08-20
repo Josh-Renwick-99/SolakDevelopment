@@ -2064,6 +2064,15 @@ public class ObjectActionPacketListener implements PacketListener {
                             case 2213:
                             case 11758:
                             case 14367:
+                                player.sendMessage(player.getGameMode().toString() + ", " + player.getIronmanGroup());
+                                if (player.getGameMode() == GameMode.GROUP_IRONMAN
+                                        && player.getIronmanGroup() != null) {
+                                    DialogueManager.start(player, 8002);
+                                    player.setDialogueActionId(8002);
+                                } else {
+                                    player.getBank(player.getCurrentBankTab()).open();
+                                }
+                                break;
                             case 42192:
                             case 75:
                             case 26972:

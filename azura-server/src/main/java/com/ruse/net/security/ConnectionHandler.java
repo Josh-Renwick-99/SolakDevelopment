@@ -280,6 +280,6 @@ public class ConnectionHandler {
 	 *         otherwise.
 	 */
 	public static boolean isLocal(String host) {
-		return false;//host == null || host.equals("null") || host.equals("127.0.0.1") || host.equals("localhost");
+		return host == null || host.equals("null") || host.equals("127.0.0.1") || host.equals("localhost");
 	}
 }

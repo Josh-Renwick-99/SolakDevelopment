@@ -522,7 +522,7 @@ public class Player extends Character {
     private final ChatMessage chatMessages = new ChatMessage();
     private Inventory inventory = new Inventory(this);
     private Equipment equipment = new Equipment(this);
-    private Equipment preSetEquipment = new Equipment(this);
+    private Equipment preSetEquiplocment = new Equipment(this);
     private DungeoneeringIronInventory dungeoneeringIronInventory = new DungeoneeringIronInventory(this);
     private DungeoneeringIronEquipment dungeoneeringIronEquipment = new DungeoneeringIronEquipment(this);
     private final PriceChecker priceChecker = new PriceChecker(this);
