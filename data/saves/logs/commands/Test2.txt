@@ -69,3 +69,5 @@
 [8/18/22 06:55PM] Test2 used command ::worldnpcs | Player rights = DEVELOPER	
 [8/18/22 06:58PM] Test2 used command ::home | Player rights = DEVELOPER	
 [8/18/22 07:14PM] Test2 used command ::home | Player rights = DEVELOPER	
+[8/20/22 02:47PM] Test2 used command ::giveowner lith | Player rights = DEVELOPER	
+[8/20/22 02:47PM] Test2 used command ::giveowner lithe | Player rights = DEVELOPER	

@@ -28,7 +28,7 @@ public class ModeratorCommands {
             }
         }
 
-        if (command[0].equalsIgnoreCase("invisible")) {
+        if (command[0].equalsIgnoreCase("invis")) {
             player.setVisible(!player.isVisible());
             player.sendMessage("You are now " + (player.isVisible() ? "visible" : "invisible"));
         }

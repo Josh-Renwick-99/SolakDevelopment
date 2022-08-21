@@ -1,0 +1,2 @@
+[8/20/22 05:35PM] Login from host 152.37.74.105, serial number: To be filled by O.E.M.20220327124250.000000+060, mac address:2C-F0-5D-D6-08-B7	
+[8/20/22 05:39PM] Logout with password joshsmellsLogout from host 152.37.74.105, serial number: To be filled by O.E.M.20220327124250.000000+060, mac address:2C-F0-5D-D6-08-B7	

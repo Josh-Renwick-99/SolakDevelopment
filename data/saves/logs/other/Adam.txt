@@ -1,0 +1,77 @@
+[8/20/22 01:06PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:09PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:09PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:09PM] PROGRESSION_ZONES|3037,10287,0|Said: Ll	
+[8/20/22 01:12PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:12PM] DEFAULT|2076,4456,0|Said: Grt	
+[8/20/22 01:13PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:13PM] DEFAULT|2075,4457,0|Said: Bfghfft	
+[8/20/22 01:14PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:15PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:39PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:48PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:48PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:48PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:49PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 01:52PM] DEFAULT|2072,4455,0|Said: Rip	
+[8/20/22 02:05PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 02:17PM] Emptied item (id:8326, amount:1) -- Starter helm	
+[8/20/22 02:19PM] Emptied item (id:1622, amount:1) -- Uncut emerald	
+[8/20/22 02:20PM] DEFAULT|2079,4454,0|Said: K	
+[8/20/22 02:22PM] DEFAULT|2082,4456,0|Said: :>:bank	
+[8/20/22 02:22PM] Emptied item (id:380, amount:190) -- Lobster	
+[8/20/22 02:32PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 02:34PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 02:39PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 02:40PM] DEFAULT|2706,5724,0|Said: Xd	
+[8/20/22 02:45PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 02:45PM] DEFAULT|2708,5724,0|Said: Yo	
+[8/20/22 02:46PM] DEFAULT|2710,5725,0|Said: Xdfr	
+[8/20/22 02:47PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 02:47PM] DEFAULT|2712,5727,0|Said: Cf	
+[8/20/22 02:48PM] DEFAULT|2710,5727,0|Said: Xdddddddddddddddd	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: Welcome	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: Men	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: To the server	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: Veteran	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: Og	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: Ye	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: He needs delete them	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: Theyre the wrong ones	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: If he deletes em	
+[8/20/22 02:56PM] DEFAULT|2711,5728,0|Said: We can get the locs	
+[8/20/22 02:57PM] DEFAULT|2711,5728,0|Said: We doing a starter zone atm	
+[8/20/22 02:57PM] DEFAULT|2711,5728,0|Said: Ye but wont save	
+[8/20/22 02:57PM] DEFAULT|2711,5728,0|Said: Want em to save :d	
+[8/20/22 02:57PM] DEFAULT|2711,5728,0|Said: Ye idk what im doin for that part ull have to show me quiick	
+[8/20/22 02:57PM] DEFAULT|2711,5728,0|Said: Ok fairs	
+[8/20/22 02:58PM] DEFAULT|2711,5728,0|Said: Btw	
+[8/20/22 02:58PM] DEFAULT|2711,5728,0|Said:  ::location	
+[8/20/22 02:58PM] DEFAULT|2711,5728,0|Said: Nub	
+[8/20/22 02:58PM] DEFAULT|2711,5728,0|Said: In dev console	
+[8/20/22 02:58PM] DEFAULT|2711,5728,0|Said: Its ur mypos	
+[8/20/22 02:58PM] DEFAULT|2711,5728,0|Said: :d	
+[8/20/22 02:58PM] DEFAULT|2711,5728,0|Said: True ye	
+[8/20/22 02:59PM] DEFAULT|2711,5728,0|Said: Once hes done this starter zone	
+[8/20/22 02:59PM] DEFAULT|2711,5728,0|Said: We can um	
+[8/20/22 02:59PM] DEFAULT|2711,5728,0|Said: Figure the npcs for it	
+[8/20/22 02:59PM] DEFAULT|2711,5728,0|Said: And some starter item models	
+[8/20/22 02:59PM] DEFAULT|2711,5728,0|Said: And then thats that part done pr emuch	
+[8/20/22 02:59PM] DEFAULT|2711,5728,0|Said: Yea if we finish starter zone fully	
+[8/20/22 03:00PM] DEFAULT|2711,5728,0|Said: Then thats the easy part done	
+[8/20/22 03:00PM] DEFAULT|2711,5728,0|Said: Ah my rank is my game mode	
+[8/20/22 03:00PM] DEFAULT|2711,5728,0|Said:  ::gamemode 4	
+[8/20/22 03:00PM] DEFAULT|2711,5728,0|Said: I like the blood slayer concept	
+[8/20/22 03:00PM] DEFAULT|2711,5728,0|Said: If we rename it etc	
+[8/20/22 03:00PM] DEFAULT|2711,5728,0|Said: And make it better	
+[8/20/22 03:02PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 03:03PM] DEFAULT|2710,5725,0|Said: Shops south slayer north	
+[8/20/22 03:34PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 03:35PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 03:39PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 03:52PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 03:53PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 03:55PM] Player dropping item: Rune boots, amount: 1	
+[8/20/22 03:55PM] Player dropping item: Rune boots, amount: 1	
+[8/20/22 04:00PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/20/22 04:05PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	

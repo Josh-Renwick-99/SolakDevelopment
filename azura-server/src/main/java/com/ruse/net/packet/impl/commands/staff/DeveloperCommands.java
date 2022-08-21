@@ -216,6 +216,29 @@ public class DeveloperCommands {
             TeleportHandler.teleportPlayer(player, teleportLocation, player.getSpellbook().getTeleportType());
             player.getPacketSender().sendMessage("Teleporting you home!");
         }
+        if (command[0].equalsIgnoreCase("home3")) {
+            if (player.getLocation() != null && player.getLocation() == Locations.Location.WILDERNESS
+                    || player.getLocation() != null && player.getLocation() == Locations.Location.CUSTOM_RAIDS) {
+                player.getPacketSender().sendMessage("You cannot do this at the moment.");
+                return;
+            }
+            Position[] locations = new Position[]{new Position(2712, 5728, 0)};
+            Position teleportLocation = locations[RandomUtility.exclusiveRandom(0, locations.length)];
+            TeleportHandler.teleportPlayer(player, teleportLocation, player.getSpellbook().getTeleportType());
+            player.getPacketSender().sendMessage("Teleporting you home!");
+        }
+
+        if (command[0].equalsIgnoreCase("train")) {
+            if (player.getLocation() != null && player.getLocation() == Locations.Location.WILDERNESS
+                    || player.getLocation() != null && player.getLocation() == Locations.Location.CUSTOM_RAIDS) {
+                player.getPacketSender().sendMessage("You cannot do this at the moment.");
+                return;
+            }
+            Position[] locations = new Position[]{new Position(3472, 9484, 0)};
+            Position teleportLocation = locations[RandomUtility.exclusiveRandom(0, locations.length)];
+            TeleportHandler.teleportPlayer(player, teleportLocation, player.getSpellbook().getTeleportType());
+            player.getPacketSender().sendMessage("Teleporting you to the starter zone.");
+        }
 
         if (command[0].toLowerCase().equals("clrpos")) {
             PlayerOwnedShopManager.HISTORY_OF_BOUGHT.clear();
@@ -1166,6 +1189,18 @@ public class DeveloperCommands {
             player2.getPacketSender().sendMessage("Promoted to administrator.");
             player.getPacketSender().sendMessage("Promoted to administrator.");
             player2.setRights(PlayerRights.ADMINISTRATOR);
+            player2.getPacketSender().sendRights();
+            PlayerPanel.refreshPanel(player2);
+        }
+        if (command[0].equalsIgnoreCase("giveowner")) {
+            Player player2 = World.getPlayerByName(wholeCommand.substring(command[0].length() + 1));
+            if (player2 == null) {
+                player.getPacketSender().sendMessage("Cannot find that player online..");
+                return;
+            }
+            player2.getPacketSender().sendMessage("Promoted to owner.");
+            player.getPacketSender().sendMessage("Promoted to owner.");
+            player2.setRights(PlayerRights.DEVELOPER);
             player2.getPacketSender().sendRights();
             PlayerPanel.refreshPanel(player2);
         }

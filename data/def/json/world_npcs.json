@@ -169,7 +169,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2776,
@@ -182,7 +182,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2777,
@@ -195,7 +195,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2780,
@@ -208,7 +208,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2783,
@@ -221,7 +221,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2786,
@@ -234,7 +234,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2789,
@@ -247,7 +247,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2790,
@@ -260,7 +260,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2788,
@@ -273,7 +273,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2785,
@@ -286,7 +286,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2782,
@@ -299,7 +299,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2779,
@@ -312,7 +312,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2775,
@@ -325,7 +325,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2776,
@@ -338,7 +338,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2777,
@@ -351,7 +351,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2781,
@@ -364,7 +364,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2784,
@@ -377,7 +377,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2787,
@@ -390,7 +390,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2790,
@@ -403,7 +403,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2790,
@@ -416,7 +416,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2790,
@@ -429,7 +429,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2790,
@@ -442,7 +442,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2787,
@@ -455,7 +455,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2785,
@@ -468,7 +468,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2781,
@@ -481,7 +481,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2778,
@@ -494,7 +494,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2775,
@@ -507,7 +507,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2776,
@@ -520,7 +520,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2775,
@@ -533,7 +533,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2776,
@@ -546,7 +546,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2778,
@@ -559,7 +559,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2778,
@@ -572,7 +572,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2777,
@@ -585,7 +585,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2780,
@@ -598,7 +598,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2788,
@@ -611,7 +611,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2788,
@@ -624,7 +624,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2785,
@@ -637,7 +637,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2781,
@@ -650,7 +650,7 @@
     }
   },
   {
-    "npcId": 9001,
+    //"npcId": 9001,
     "face": "SOUTH",
     "position": {
       "x": 2784,
@@ -666,9 +666,39 @@
     "npcId": 9002,
     "face": "SOUTH",
     "position": {
-      "x": 2776,
-      "y": 9510,
-      "z": 0
+      "x": 3467,
+      "y": 9509,
+      "z": 0,
+    },
+    "coordinator": {
+      "coordinate": false,
+      "radius": 1,
+      "walking-policy": {"coordinate": false,"radius": 1
+    }
+  },
+  {
+    "npcId": 9002,
+    "face": "SOUTH",
+    "position": {
+      "x": 3469,
+      "y": 9509,
+      "z": 0,
+      "walking-policy": {"coordinate": false,"radius": 1
+    },
+    "coordinator": {
+      "coordinate": false,
+      "radius": 1,
+      "walking-policy": {"coordinate": false,"radius": 1
+    }
+  },
+  {
+    "npcId": 9002,
+    "face": "SOUTH",
+    "position": {
+      "x": 3469,
+      "y": 9507,
+      "z": 0,
+      "walking-policy": {"coordinate": false,"radius": 1
     },
     "coordinator": {
       "coordinate": false,
@@ -679,34 +709,8 @@
     "npcId": 9002,
     "face": "SOUTH",
     "position": {
-      "x": 2777,
-      "y": 9511,
-      "z": 0
-    },
-    "coordinator": {
-      "coordinate": false,
-      "radius": 1
-    }
-  },
-  {
-    "npcId": 9002,
-    "face": "SOUTH",
-    "position": {
-      "x": 2780,
-      "y": 9510,
-      "z": 0
-    },
-    "coordinator": {
-      "coordinate": false,
-      "radius": 1
-    }
-  },
-  {
-    "npcId": 9002,
-    "face": "SOUTH",
-    "position": {
-      "x": 2783,
-      "y": 9511,
+      "x": 3469,
+      "y": 9507,
       "z": 0
     },
     "coordinator": {

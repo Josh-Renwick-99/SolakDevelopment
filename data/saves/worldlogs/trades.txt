@@ -1,0 +1,2 @@
+[8/20/22 05:36PM]  [ Qway ] Received item from Josh. Name: Owner's cape. Id: 7995, amount: 1	
+[8/20/22 05:36PM]  [ Josh ] Gave item to Qway. Name: Owner's cape. Id: 7995, amount: 1	

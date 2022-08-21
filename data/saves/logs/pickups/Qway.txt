@@ -1,0 +1,2 @@
+[8/20/22 05:36PM] Player picked up item: Solak Coins, id: 995, amount: 3088, owner: Qway	
+[8/20/22 05:36PM] Player picked up item: Dragon bones, id: 537, amount: 1, owner: Qway	

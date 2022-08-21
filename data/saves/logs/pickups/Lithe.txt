@@ -1,0 +1,6 @@
+[8/20/22 03:30PM] Player picked up item: Pet Kalphite queen, id: 11993, amount: 1, owner: Lithe	
+[8/20/22 03:30PM] Player picked up item: Legion scythe, id: 22091, amount: 1, owner: Lithe	
+[8/20/22 03:53PM] Player picked up item: Grimy torstol, id: 220, amount: 20, owner: Lithe	
+[8/20/22 03:57PM] Player picked up item: PVM ticket, id: 5022, amount: 17, owner: Lithe	
+[8/20/22 04:03PM] Player picked up item: Solak Coins, id: 995, amount: 25985, owner: Lithe	
+[8/20/22 04:03PM] Player picked up item: Solak Coins, id: 995, amount: 33709, owner: Lithe	
