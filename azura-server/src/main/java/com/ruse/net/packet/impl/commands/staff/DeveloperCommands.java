@@ -234,7 +234,7 @@ public class DeveloperCommands {
                 player.getPacketSender().sendMessage("You cannot do this at the moment.");
                 return;
             }
-            Position[] locations = new Position[]{new Position(1657, 4823, 0)};
+            Position[] locations = new Position[]{new Position(3472, 9484, 0)};
             Position teleportLocation = locations[RandomUtility.exclusiveRandom(0, locations.length)];
             TeleportHandler.teleportPlayer(player, teleportLocation, player.getSpellbook().getTeleportType());
             player.getPacketSender().sendMessage("Teleporting you to the starter zone.");

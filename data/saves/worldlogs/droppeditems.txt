@@ -2,3 +2,24 @@
 [8/19/22 10:00AM]  [ Josh ] Player dropped item: Avatar titan boots, id: 19945, amount: 1	
 [8/20/22 03:55PM]  [ Adam ] Player dropped item: Rune boots, id: 4131, amount: 1	
 [8/20/22 03:55PM]  [ Adam ] Player dropped item: Rune boots, id: 4131, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Avatar titan cape, id: 19944, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Avatar titan boots, id: 19945, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Avatar titan gloves, id: 19946, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Legion scythe, id: 22091, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Golem Pet, id: 23163, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: PVM ticket, id: 5022, amount: 17	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Grimy torstol, id: 220, amount: 20	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Super restore (4), id: 3025, amount: 100	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Fury shark, id: 17818, amount: 100	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter ring, id: 23091, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter whip, id: 4178, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter boots, id: 19938, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter Defender, id: 19914, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter helm, id: 8326, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter body, id: 8327, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter legs, id: 8328, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter cape, id: 15432, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter gloves, id: 19939, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter amulet, id: 23089, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter staff, id: 16995, amount: 1	
+[8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter blowpipe, id: 20553, amount: 1	

@@ -38,3 +38,40 @@
 [8/20/22 04:03PM] Picked up gr.Item Solak Coins, amount: 25985	
 [8/20/22 04:03PM] Picked up gr.Item Solak Coins, amount: 33709	
 [8/20/22 04:05PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:18PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:22PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:33PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:34PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:36PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:37PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:38PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:43PM] Player dropping item: Avatar titan cape, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Avatar titan boots, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Avatar titan gloves, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Legion scythe, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Golem Pet, amount: 1	
+[8/20/22 06:43PM] Player dropping item: PVM ticket, amount: 17	
+[8/20/22 06:43PM] Player dropping item: Grimy torstol, amount: 20	
+[8/20/22 06:43PM] Player dropping item: Super restore (4), amount: 100	
+[8/20/22 06:43PM] Player dropping item: Fury shark, amount: 100	
+[8/20/22 06:43PM] Player destroying item: -1, amount: 0	
+[8/20/22 06:43PM] Player dropping item: Starter ring, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter whip, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter boots, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter Defender, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter helm, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter body, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter legs, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter cape, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter gloves, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter amulet, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter staff, amount: 1	
+[8/20/22 06:43PM] Player dropping item: Starter blowpipe, amount: 1	
+[8/20/22 06:55PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:56PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:56PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 06:57PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 07:07PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 07:09PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 07:09PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/20/22 07:10PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	

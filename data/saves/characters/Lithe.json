@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 20817674,
+  "total-play-time-ms": 32688840,
   "username": "Lithe",
   "password": "1312",
   "email": "null",
@@ -8,15 +8,15 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 1657,
-    "y": 4823,
+    "x": 3469,
+    "y": 9523,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": true,
   "has-pin2": true,
   "saved-pin2": "1312",
-  "saved-ip": "170.103.38.101",
+  "saved-ip": "127.0.0.1",
   "donated": 24,
   "current-boss-task": 0,
   "current-boss-amount": 0,
@@ -46,7 +46,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661007944443,
+  "lastlogin": 1661037023542,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -60,7 +60,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": 185051286,
+  "total-gained-exp": -154683076,
   "barrows-points": 0,
   "donator-points": 24,
   "Skilling-points": 0,
@@ -81,7 +81,7 @@
     false
   ],
   "tasks-progress": [
-    27,
+    60,
     0,
     0,
     0,
@@ -139,7 +139,7 @@
   ],
   "total-prestiges": 0,
   "slayer-spree": 0,
-  "npc-killcount": 15027,
+  "npc-killcount": 15060,
   "spawn-killcount": 0,
   "lord-killcount": 0,
   "demon-killcount": 0,
@@ -174,8 +174,8 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 1661014157349,
-  "fight-type": "SCYTHE_REAP",
+  "last-veng": 30673998,
+  "fight-type": "LONGBOW_RAPID",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -199,7 +199,7 @@
     0
   ],
   "effigy": 0,
-  "summon-npc": 9821,
+  "summon-npc": -1,
   "summon-death": -1,
   "process-farming": false,
   "clanchat": "Help",
@@ -662,6 +662,26 @@
       "npcId": 1735,
       "item": 995,
       "amount": 25986
+    },
+    {
+      "npcId": 9001,
+      "item": 995,
+      "amount": 1133
+    },
+    {
+      "npcId": 9001,
+      "item": 537,
+      "amount": 12
+    },
+    {
+      "npcId": 9002,
+      "item": 995,
+      "amount": 2595
+    },
+    {
+      "npcId": 9002,
+      "item": 537,
+      "amount": 21
     }
   ],
   "holy-prayers-unlocked": [
@@ -709,13 +729,13 @@
   ],
   "skills": {
     "level": [
-      14822,
-      14822,
-      14822,
+      14677,
+      14677,
+      14677,
       150000,
-      14822,
+      14677,
       150000,
-      14822,
+      14677,
       1,
       1,
       1,
@@ -739,8 +759,8 @@
       118,
       1,
       1,
-      1170,
-      97,
+      1200,
+      120,
       10,
       1,
       1,
@@ -763,11 +783,11 @@
       1
     ],
     "experience": [
-      92689606,
+      92869050,
       0,
       0,
-      80954836,
-      11408028,
+      2000000000,
+      2000000000,
       0,
       0,
       0,
@@ -792,98 +812,98 @@
   },
   "inventory": [
     {
-      "id": 8326,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 8327,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 8328,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 19939,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 19938,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 19914,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 15432,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 23089,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 23091,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 4178,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 16995,
-      "amount": 1,
-      "slot": 0
-    },
-    {
       "id": 995,
-      "amount": 2159694,
+      "amount": 2169540,
       "slot": 0
     },
     {
-      "id": 3025,
-      "amount": 100,
-      "slot": 0
-    },
-    {
-      "id": 17818,
-      "amount": 100,
-      "slot": 0
-    },
-    {
-      "id": 11993,
+      "id": 703,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 20553,
+      "id": 704,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 220,
-      "amount": 20,
-      "slot": 0
-    },
-    {
-      "id": 5022,
-      "amount": 17,
-      "slot": 0
-    },
-    {
-      "id": 23163,
+      "id": 705,
       "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -939,8 +959,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 7995,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -949,7 +969,7 @@
       "slot": 0
     },
     {
-      "id": 22091,
+      "id": 5012,
       "amount": 1,
       "slot": 0
     },
@@ -1186,6 +1206,20 @@
       "npcName": "Sea creature",
       "amount": 2,
       "boss": false
+    },
+    {
+      "runningTotal": 12,
+      "npcId": 9001,
+      "npcName": "Sonic",
+      "amount": 12,
+      "boss": false
+    },
+    {
+      "runningTotal": 21,
+      "npcId": 9002,
+      "npcName": "Patrick",
+      "amount": 21,
+      "boss": false
     }
   ],
   "drops": [
@@ -1361,7 +1395,12 @@
     },
     {
       "item": 995,
-      "amount": 59694,
+      "amount": 158811,
+      "rareDrop": false
+    },
+    {
+      "item": 537,
+      "amount": 33,
       "rareDrop": false
     }
   ],
@@ -1760,7 +1799,7 @@
       0,
       0,
       0,
-      27,
+      60,
       0,
       0,
       0,
@@ -1862,7 +1901,7 @@
       0,
       0,
       0,
-      27,
+      60,
       0,
       0,
       0,
@@ -1965,7 +2004,7 @@
       0,
       0,
       0,
-      27,
+      60,
       0,
       0,
       0,
@@ -2564,15 +2603,15 @@
   ],
   "achievements-daily": 720,
   "progression-zones": [
-    0,
-    0,
+    12,
+    21,
     0,
     0,
     0
   ],
   "zones-complete": [
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false
