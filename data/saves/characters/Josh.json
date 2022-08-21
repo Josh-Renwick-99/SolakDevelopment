@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 5463171,
+  "total-play-time-ms": 6937620,
   "username": "Josh",
   "password": "123",
   "email": "null",
@@ -8,8 +8,8 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3044,
-    "y": 10286,
+    "x": 3473,
+    "y": 9486,
     "z": 0
   },
   "online-status": "ON",
@@ -46,7 +46,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661012804446,
+  "lastlogin": 1661118755632,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -60,7 +60,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": 4680238068,
+  "total-gained-exp": -1203587214,
   "barrows-points": 0,
   "donator-points": 0,
   "Skilling-points": 0,
@@ -81,7 +81,7 @@
     false
   ],
   "tasks-progress": [
-    9,
+    65,
     0,
     0,
     0,
@@ -139,7 +139,7 @@
   ],
   "total-prestiges": 0,
   "slayer-spree": 0,
-  "npc-killcount": 9,
+  "npc-killcount": 65,
   "spawn-killcount": 0,
   "lord-killcount": 0,
   "demon-killcount": 0,
@@ -174,7 +174,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1661009594828,
+  "last-veng": 108608740,
   "fight-type": "LONGBOW_ACCURATE",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -326,12 +326,32 @@
     {
       "npcId": 9001,
       "item": 995,
-      "amount": 3245
+      "amount": 3301
     },
     {
       "npcId": 9001,
       "item": 537,
-      "amount": 9
+      "amount": 65
+    },
+    {
+      "npcId": 9001,
+      "item": 703,
+      "amount": 1
+    },
+    {
+      "npcId": 9001,
+      "item": 19944,
+      "amount": 2
+    },
+    {
+      "npcId": 9001,
+      "item": 704,
+      "amount": 1
+    },
+    {
+      "npcId": 9001,
+      "item": 705,
+      "amount": 1
     }
   ],
   "holy-prayers-unlocked": [
@@ -382,7 +402,7 @@
       75,
       1,
       1,
-      160,
+      360,
       120,
       10,
       1,
@@ -437,7 +457,7 @@
       0,
       0,
       2000000000,
-      -1635168776,
+      1070940534,
       0,
       0,
       0,
@@ -538,12 +558,12 @@
     },
     {
       "id": 995,
-      "amount": 27518,
+      "amount": 197514,
       "slot": 0
     },
     {
       "id": 537,
-      "amount": 9,
+      "amount": 65,
       "slot": 0
     },
     {
@@ -795,10 +815,10 @@
       "boss": false
     },
     {
-      "runningTotal": 9,
+      "runningTotal": 65,
       "npcId": 9001,
       "npcName": "Sonic",
-      "amount": 9,
+      "amount": 65,
       "boss": false
     }
   ],
@@ -1198,7 +1218,7 @@
       0,
       0,
       0,
-      9,
+      65,
       0,
       0,
       0,
@@ -1300,7 +1320,7 @@
       0,
       0,
       0,
-      9,
+      65,
       0,
       0,
       0,
@@ -1403,7 +1423,7 @@
       0,
       0,
       0,
-      9,
+      65,
       0,
       0,
       0,
@@ -2000,16 +2020,16 @@
       false
     ]
   ],
-  "achievements-daily": 720,
+  "achievements-daily": 721,
   "progression-zones": [
-    9,
+    65,
     0,
     0,
     0,
     0
   ],
   "zones-complete": [
-    false,
+    true,
     false,
     false,
     false,

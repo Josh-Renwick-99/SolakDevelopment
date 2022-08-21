@@ -110,3 +110,12 @@
 [8/20/22 05:38PM] Josh used command ::giveitem 12283 1 qway | Player rights = DEVELOPER	
 [8/20/22 05:38PM] Josh used command ::giveitem 22113 1 qway | Player rights = DEVELOPER	
 [8/20/22 05:38PM] Josh used command ::item 22113 | Player rights = DEVELOPER	
+[8/21/22 10:30PM] Josh used command ::train | Player rights = DEVELOPER	
+[8/21/22 10:34PM] Josh used command ::mypos | Player rights = DEVELOPER	
+[8/22/22 12:26AM] Josh used command ::train 1 | Player rights = DEVELOPER	
+[8/22/22 12:26AM] Josh used command ::train 2 | Player rights = DEVELOPER	
+[8/22/22 12:26AM] Josh used command ::train 3 | Player rights = DEVELOPER	
+[8/22/22 12:26AM] Josh used command ::train 4 | Player rights = DEVELOPER	
+[8/22/22 12:26AM] Josh used command ::givedev adam | Player rights = DEVELOPER	
+[8/22/22 12:26AM] Josh used command ::givedeveloper adam | Player rights = DEVELOPER	
+[8/22/22 12:26AM] Josh used command ::giveowner adam | Player rights = DEVELOPER	

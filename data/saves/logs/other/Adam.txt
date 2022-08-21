@@ -75,3 +75,48 @@
 [8/20/22 03:55PM] Player dropping item: Rune boots, amount: 1	
 [8/20/22 04:00PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
 [8/20/22 04:05PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:04PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:05PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:09PM] Adam received x1 Demonic Sword from Sonic!	
+[8/21/22 10:23PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:34PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:36PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:38PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:43PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:44PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:45PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:47PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:49PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:51PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 10:52PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:04PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:15PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:15PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:17PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:19PM] KALPHITE_QUEEN|3498,9507,0|Said: Object 3	
+[8/21/22 11:27PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:28PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:29PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:45PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:52PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:56PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:56PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:56PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:57PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:57PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:57PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:58PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:59PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/21/22 11:59PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:01AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:01AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:03AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:04AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:05AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:06AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:17AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:23AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:24AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:24AM] Emptied item (id:22055, amount:1) -- Pet WildyWyrm	
+[8/22/22 12:24AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 12:24AM] DEFAULT|2463,5028,0|Said: Train	
