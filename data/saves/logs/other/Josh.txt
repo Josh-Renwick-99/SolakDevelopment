@@ -1,0 +1,24 @@
+[8/19/22 09:55AM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 09:55AM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 10:00AM] Player dropping item: Avatar titan boots, amount: 1	
+[8/19/22 10:00AM] Picked up gr.Item Avatar titan boots, amount: 1	
+[8/19/22 10:06AM] Picked up gr.Item Solak Coins, amount: 61098	
+[8/19/22 10:22AM] Picked up gr.Item Solak Coins, amount: 38021	
+[8/19/22 10:23AM] DEFAULT|2786,4451,0|Said: Lmfa::junk	
+[8/19/22 10:25AM] Opened Halls of Valor chest	
+[8/19/22 10:25AM] Opened Halls of Valor chest	
+[8/19/22 11:26AM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 11:29AM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 11:45AM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 11:45AM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 11:48AM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 12:36PM] Picked up gr.Item Weapon Box, amount: 1	
+[8/19/22 01:22PM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 01:27PM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 01:29PM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 01:30PM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 01:31PM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 01:32PM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/19/22 01:32PM] Picked up gr.Item Solak Coins, amount: 1495244	
+[8/20/22 01:49AM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/20/22 02:14PM] Login. ip: 127.0.0.1, mac: 18-CC-18-EC-E4-66, uuid: 	
