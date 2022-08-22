@@ -23,3 +23,11 @@
 [8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter amulet, id: 23089, amount: 1	
 [8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter staff, id: 16995, amount: 1	
 [8/20/22 06:43PM]  [ Lithe ] Player dropped item: Starter blowpipe, id: 20553, amount: 1	
+[8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan helm, id: 703, amount: 1	
+[8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan cape, id: 19944, amount: 1	
+[8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan cape, id: 19944, amount: 1	
+[8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan boots, id: 19945, amount: 1	
+[8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan cape, id: 19944, amount: 1	
+[8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan gloves, id: 19946, amount: 1	
+[8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan body, id: 704, amount: 1	
+[8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan legs, id: 705, amount: 1	

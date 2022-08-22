@@ -40,3 +40,24 @@
 [8/20/22 05:29PM] DEFAULT|2075,4456,0|Said: Oh yeah	
 [8/20/22 05:29PM] DEFAULT|2075,4456,0|Said: Given yourself a found rank have you	
 [8/20/22 05:36PM] Gave item in trade to Qway. Id: 7995, amount: 1	
+[8/21/22 10:30PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:32PM] Player dropping item: Avatar titan helm, amount: 1	
+[8/21/22 10:32PM] Player dropping item: Avatar titan cape, amount: 1	
+[8/21/22 10:32PM] Player dropping item: Avatar titan cape, amount: 1	
+[8/21/22 10:32PM] Player dropping item: Avatar titan boots, amount: 1	
+[8/21/22 10:32PM] Player dropping item: Avatar titan cape, amount: 1	
+[8/21/22 10:32PM] Player dropping item: Avatar titan gloves, amount: 1	
+[8/21/22 10:32PM] Player dropping item: Avatar titan body, amount: 1	
+[8/21/22 10:32PM] Player dropping item: Avatar titan legs, amount: 1	
+[8/21/22 10:34PM] KALPHITE_QUEEN|3469,9489,0|Said: 3469 9489	
+[8/21/22 10:34PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:36PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:38PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:43PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:44PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:45PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:47PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:49PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:51PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/21/22 10:52PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/22/22 12:26AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	

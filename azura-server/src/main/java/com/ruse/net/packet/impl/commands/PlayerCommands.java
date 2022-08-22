@@ -6,6 +6,7 @@ import com.ruse.model.input.impl.ChangePassword;
 import com.ruse.model.input.impl.EnterReferral;
 import com.ruse.model.input.impl.SetPinPacketListener;
 import com.ruse.util.Misc;
+import com.ruse.util.RandomUtility;
 import com.ruse.world.World;
 import com.ruse.world.content.*;
 import com.ruse.world.content.clan.ClanChatManager;
@@ -97,10 +98,6 @@ public class PlayerCommands {
             player.sendMessage("<shad=1>@yel@Sell your items to the junk shop!");
         }
 
-        if (command[0].equalsIgnoreCase("starterzones")) {
-            ProgressionZone.teleport(player);
-        }
-
         if (command[0].equalsIgnoreCase("claimdonation") || command[0].equalsIgnoreCase("claimdonate")
                 || command[0].equalsIgnoreCase("claim") || command[0].equalsIgnoreCase("donated")) {
             player.claimDonation(player, false);
@@ -116,16 +113,16 @@ public class PlayerCommands {
             return;
         }
 
-        if (command[0].equalsIgnoreCase("train") || command[0].equalsIgnoreCase("starter")
-                || command[0].equalsIgnoreCase("start") || command[0].equalsIgnoreCase(
-                "training")) {
-            ProgressionZone.teleport(player);
-        }
-
-        if (command[0].equalsIgnoreCase("train2") || command[0].equalsIgnoreCase("starter2")
-                || command[0].equalsIgnoreCase("start2") || command[0].equalsIgnoreCase(
-                "training")) {
-            ProgressionZone.teleport(player, true);
+        if (command[0].equalsIgnoreCase("train")) {
+            if (player.getLocation() != null && player.getLocation() == Locations.Location.WILDERNESS
+                    || player.getLocation() != null && player.getLocation() == Locations.Location.CUSTOM_RAIDS) {
+                player.getPacketSender().sendMessage("You cannot do this at the moment.");
+                return;
+            }
+            Position[] locations = new Position[]{new Position(3472, 9484, 0)};
+            Position teleportLocation = locations[RandomUtility.exclusiveRandom(0, locations.length)];
+            TeleportHandler.teleportPlayer(player, teleportLocation, player.getSpellbook().getTeleportType());
+            player.getPacketSender().sendMessage("Teleporting you to the starter zone.");
         }
 
         if (command[0].equalsIgnoreCase("donationdeals") || command[0].equalsIgnoreCase("deals")) {
@@ -212,9 +209,9 @@ public class PlayerCommands {
             player.getPacketSender().sendString(index++, color1 + "Main Commands:");
             player.getPacketSender().sendString(index++, color + "::home - Teleports you home");
             player.getPacketSender().sendString(index++, color + "::perks - Opens up the server perks interface");
-            player.getPacketSender().sendString(index++, color + "::gamble - Teleports you to the gambling area");
-            player.getPacketSender().sendString(index++, color + "::train/train2 - Teleports you to the starter areas");
-            player.getPacketSender().sendString(index++, color + "::checkdaily - Checks your daily dask");
+            // player.getPacketSender().sendString(index++, color + "::gamble - Teleports you to the gambling area");
+            player.getPacketSender().sendString(index++, color + "::train - Teleports you to the starter zone");
+            // player.getPacketSender().sendString(index++, color + "::checkdaily - Checks your daily dask");
             player.getPacketSender().sendString(index++, color + "::shops - Teleports you to all shops");
             player.getPacketSender().sendString(index++, color + "");
             player.getPacketSender().sendString(index++, color1 + "Interface Commands:");
@@ -360,23 +357,6 @@ public class PlayerCommands {
             player.getPacketSender().sendMessage("Teleporting you to global!");
         }
 
-        if (command[0].equalsIgnoreCase("gamble") || command[0].equalsIgnoreCase("dice")
-                || command[0].equalsIgnoreCase("dicezone")) {
-            if (player.getLocation() != null && player.getLocation() == Locations.Location.WILDERNESS
-                    || player.getLocation() != null && player.getLocation() == Locations.Location.CUSTOM_RAIDS) {
-                player.getPacketSender().sendMessage("You cannot do this at the moment.");
-                return;
-            }
-
-            if (player.isGambleBanned()) {
-                player.sendMessage("You are gamble banned and cannot do this.");
-                return;
-            }
-            Position position = new Position(2463, 5032, 0);
-            TeleportHandler.teleportPlayer(player, position, TeleportType.NORMAL);
-            player.getPacketSender().sendMessage("Teleporting you to the Gambling Area!");
-        }
-
         if (command[0].equalsIgnoreCase("vboss") || command[0].equalsIgnoreCase("voteboss")) {
             if (player.getLocation() != null && player.getLocation() == Locations.Location.WILDERNESS
                     || player.getLocation() != null && player.getLocation() == Locations.Location.CUSTOM_RAIDS) {
@@ -438,7 +418,7 @@ public class PlayerCommands {
         }
 
         if (command[0].equalsIgnoreCase("empty")) {
-            //   DialogueManager.editOptions(523, 1, "Are you sure you would like to empty your items?");
+            //   DialogueManager.editOptions(523, 1, "Click here to confirm empty");
             player.setDialogueActionId(523);
             DialogueManager.start(player, 523);
             return;

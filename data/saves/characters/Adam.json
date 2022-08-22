@@ -1,15 +1,15 @@
 {
-  "total-play-time-ms": 24017650,
+  "total-play-time-ms": 32157707,
   "username": "Adam",
   "password": "lol123",
   "email": "null",
-  "staff-rights": "DEVELOPER",
+  "staff-rights": "PLAYER",
   "game-mode": "VETERAN_MODE",
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2076,
-    "y": 4456,
+    "x": 2463,
+    "y": 5028,
     "z": 0
   },
   "online-status": "ON",
@@ -46,7 +46,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661007939941,
+  "lastlogin": 1661124241598,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -60,7 +60,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": -288970164,
+  "total-gained-exp": 1680825920,
   "barrows-points": 0,
   "donator-points": 0,
   "Skilling-points": 0,
@@ -81,7 +81,7 @@
     false
   ],
   "tasks-progress": [
-    3,
+    91,
     0,
     0,
     0,
@@ -139,7 +139,7 @@
   ],
   "total-prestiges": 0,
   "slayer-spree": 0,
-  "npc-killcount": 15003,
+  "npc-killcount": 15091,
   "spawn-killcount": 0,
   "lord-killcount": 0,
   "demon-killcount": 0,
@@ -174,8 +174,8 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 18421799,
-  "fight-type": "LONGSWORD_CHOP",
+  "last-veng": 22862459,
+  "fight-type": "LONGBOW_RAPID",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -322,7 +322,63 @@
     0,
     0
   ],
-  "collection-data": [],
+  "collection-data": [
+    {
+      "npcId": 9002,
+      "item": 995,
+      "amount": 2171
+    },
+    {
+      "npcId": 9002,
+      "item": 537,
+      "amount": 47
+    },
+    {
+      "npcId": 9001,
+      "item": 995,
+      "amount": 1703
+    },
+    {
+      "npcId": 9001,
+      "item": 537,
+      "amount": 38
+    },
+    {
+      "npcId": 9001,
+      "item": 19944,
+      "amount": 1
+    },
+    {
+      "npcId": 9001,
+      "item": 14915,
+      "amount": 1
+    },
+    {
+      "npcId": 9002,
+      "item": 19945,
+      "amount": 1
+    },
+    {
+      "npcId": 9002,
+      "item": 19944,
+      "amount": 1
+    },
+    {
+      "npcId": 9002,
+      "item": 705,
+      "amount": 1
+    },
+    {
+      "npcId": 9002,
+      "item": 703,
+      "amount": 1
+    },
+    {
+      "npcId": 12343,
+      "item": 5022,
+      "amount": 3
+    }
+  ],
   "holy-prayers-unlocked": [
     false,
     false,
@@ -368,13 +424,13 @@
   ],
   "skills": {
     "level": [
-      14820,
-      14820,
-      14820,
+      14731,
+      14731,
+      14731,
       149997,
-      14820,
+      14731,
       150000,
-      14820,
+      14731,
       120,
       120,
       120,
@@ -426,7 +482,7 @@
       104273167,
       104273167,
       2000000000,
-      104273167,
+      2000000000,
       13034431,
       104273167,
       104273167,
@@ -451,8 +507,8 @@
   },
   "inventory": [
     {
-      "id": 22055,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -461,13 +517,13 @@
       "slot": 0
     },
     {
-      "id": 19311,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 19314,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -608,7 +664,7 @@
       "slot": 0
     },
     {
-      "id": 19308,
+      "id": 22113,
       "amount": 1,
       "slot": 0
     },
@@ -809,14 +865,104 @@
       "boss": false
     },
     {
-      "runningTotal": 2,
+      "runningTotal": 3,
       "npcId": 8011,
       "npcName": "Event box",
+      "amount": 3,
+      "boss": false
+    },
+    {
+      "runningTotal": 44,
+      "npcId": 9002,
+      "npcName": "Patrick",
+      "amount": 44,
+      "boss": false
+    },
+    {
+      "runningTotal": 35,
+      "npcId": 9001,
+      "npcName": "Sonic",
+      "amount": 35,
+      "boss": false
+    },
+    {
+      "runningTotal": 2,
+      "npcId": 504,
+      "npcName": "Undead one",
       "amount": 2,
+      "boss": false
+    },
+    {
+      "runningTotal": 1,
+      "npcId": 12343,
+      "npcName": "Predator",
+      "amount": 1,
+      "boss": false
+    },
+    {
+      "runningTotal": 1,
+      "npcId": 2050,
+      "npcName": "Ezone Skeleton",
+      "amount": 1,
+      "boss": false
+    },
+    {
+      "runningTotal": 3,
+      "npcId": 2017,
+      "npcName": "Mummy",
+      "amount": 3,
+      "boss": false
+    },
+    {
+      "runningTotal": 1,
+      "npcId": 9030,
+      "npcName": "Great elf of Solak",
+      "amount": 1,
       "boss": false
     }
   ],
-  "drops": [],
+  "drops": [
+    {
+      "item": 995,
+      "amount": 262038,
+      "rareDrop": false
+    },
+    {
+      "item": 537,
+      "amount": 95,
+      "rareDrop": false
+    },
+    {
+      "item": 19944,
+      "amount": 2,
+      "rareDrop": false
+    },
+    {
+      "item": 14915,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 19945,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 705,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 703,
+      "amount": 1,
+      "rareDrop": false
+    },
+    {
+      "item": 5022,
+      "amount": 3,
+      "rareDrop": false
+    }
+  ],
   "achievements-completion": [],
   "achievements-progress": [
     0,
@@ -1212,7 +1358,7 @@
       0,
       0,
       0,
-      3,
+      91,
       0,
       0,
       0,
@@ -1314,7 +1460,7 @@
       0,
       0,
       0,
-      3,
+      91,
       0,
       0,
       0,
@@ -1417,7 +1563,7 @@
       0,
       0,
       0,
-      3,
+      91,
       0,
       0,
       0,
@@ -2014,17 +2160,17 @@
       false
     ]
   ],
-  "achievements-daily": 720,
+  "achievements-daily": 722,
   "progression-zones": [
-    0,
-    0,
+    35,
+    44,
     0,
     0,
     0
   ],
   "zones-complete": [
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false

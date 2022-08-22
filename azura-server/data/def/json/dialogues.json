@@ -2242,7 +2242,7 @@
         "id": 523,
         "type": "OPTION",
         "lines": 2,
-        "line1": "Are you sure you would like to empty your items?",
+        "line1": "Click here to empty your inventory",
         "line2": "Cancel",
         "next": -1,
         "npcId": -1

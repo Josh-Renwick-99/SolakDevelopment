@@ -44,3 +44,5 @@
 [8/20/22 03:00PM] DEFAULT|2711,5728,0|Said: If we rename it etc	
 [8/20/22 03:00PM] DEFAULT|2711,5728,0|Said: And make it better	
 [8/20/22 03:03PM] DEFAULT|2710,5725,0|Said: Shops south slayer north	
+[8/21/22 11:19PM] KALPHITE_QUEEN|3498,9507,0|Said: Object 3	
+[8/22/22 12:24AM] DEFAULT|2463,5028,0|Said: Train	

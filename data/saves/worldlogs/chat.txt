@@ -146,3 +146,6 @@
 [8/20/22 03:03PM]  [ Lithe ] DEFAULT|2708,5719,0|Said: They can all be placed on the center of carpet as well	
 [8/20/22 05:29PM]  [ Josh ] DEFAULT|2075,4456,0|Said: Oh yeah	
 [8/20/22 05:29PM]  [ Josh ] DEFAULT|2075,4456,0|Said: Given yourself a found rank have you	
+[8/21/22 10:34PM]  [ Josh ] KALPHITE_QUEEN|3469,9489,0|Said: 3469 9489	
+[8/21/22 11:19PM]  [ Adam ] KALPHITE_QUEEN|3498,9507,0|Said: Object 3	
+[8/22/22 12:24AM]  [ Adam ] DEFAULT|2463,5028,0|Said: Train	
