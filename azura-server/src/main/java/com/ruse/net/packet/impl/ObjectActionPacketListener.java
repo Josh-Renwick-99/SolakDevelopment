@@ -2668,6 +2668,7 @@ public class ObjectActionPacketListener implements PacketListener {
         if ((p.getPosition().getX() >= 3497 || p.getPosition().getX() <= 3500) && (p.getPosition().getY() <= 9520 && p.getPosition().getY() >= 9518)) {
             if (KillsTracker.getTotalKillsForNpc(9004, p) >= 100) {
                 pos.setY(9516);
+                pos.setX(3498);
             } else {
                 p.getPacketSender().sendMessage("@red@You must have the required 100 killcount for squirtle to pass into the next zone");
             }

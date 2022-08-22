@@ -11,8 +11,8 @@ import com.ruse.world.entity.impl.player.Player;
 public class ProgressionZone {
 
     public static ZoneData.Monsters getCurrentZone(Player player) {
-        if (player.getZonesComplete()[4] == true) {
-            return ZoneData.Monsters.values()[4];
+        if (player.getZonesComplete()[5]) {
+            return ZoneData.Monsters.values()[5];
         }
         for (int i = player.getZonesComplete().length - 1; i >= 0; i--) {
             if (player.getZonesComplete()[i] == true) {
@@ -55,7 +55,7 @@ public class ProgressionZone {
         }
 
         if (player.getProgressionZones()[monster.ordinal()] >= monster.getAmountToKill()
-                && player.getZonesComplete()[monster.ordinal()] == false) {
+                && !player.getZonesComplete()[monster.ordinal()]) {
             handleReward(player);
             player.getZonesComplete()[monster.ordinal()] = true;
         }

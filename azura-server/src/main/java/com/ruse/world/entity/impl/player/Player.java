@@ -288,10 +288,10 @@ public class Player extends Character {
 
     @Getter
     @Setter
-    private int[] progressionZones = new int[5];
+    private int[] progressionZones = {0, 0, 0, 0, 0, 0};
     @Getter
     @Setter
-    private boolean[] zonesComplete = new boolean[5];
+    private boolean[] zonesComplete = {false, false, false, false, false, false};
 
 
     private final CasketOpening casketOpening = new CasketOpening(this);
