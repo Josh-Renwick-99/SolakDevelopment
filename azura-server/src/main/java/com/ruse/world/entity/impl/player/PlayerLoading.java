@@ -420,6 +420,9 @@ public class PlayerLoading {
             if (reader.has("lucifer-killcount")) {
                 player.getPointsHandler().setLuciferkillcount(reader.get("lucifer-killcount").getAsInt());
             }
+            if (reader.has("sonic-killcount")){
+                player.getPointsHandler().setSonicKillCount(reader.get("sonic-killcount").getAsInt());
+            }
             if (reader.has("npc-killcount")) {
                 player.getPointsHandler().setNPCKILLCount(reader.get("npc-killcount").getAsInt(), false);
             }

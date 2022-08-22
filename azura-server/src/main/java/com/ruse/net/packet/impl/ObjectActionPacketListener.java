@@ -214,13 +214,7 @@ public class ObjectActionPacketListener implements PacketListener {
                                 }
                                 break;
                             case 5222:
-                                if (player.getLocation() == Location.KEEPERS_OF_LIGHT_LOBBY) {
-                                    if (player.getPosition().getY() < 5030) {
-                                        KeepersOfLight.insertWaiting(player);
-                                    } else {
-                                        KeepersOfLight.removeWaiting(player, true);
-                                    }
-                                }
+                                trainZoneMoveHandler(player);
                                 break;
 
                             case 41207:
@@ -231,6 +225,8 @@ public class ObjectActionPacketListener implements PacketListener {
                                     player.sendMessage("You don't have the Master Key.");
                                 }
                                 break;
+                                //3472 9498
+                                //3473 9487
 
                             case 22973:
                                 player.setPoisonDamage(0);
@@ -2618,6 +2614,81 @@ public class ObjectActionPacketListener implements PacketListener {
                         }
                     }
                 }));
+    }
+
+    private static void trainZoneMoveHandler(Player p){
+        Position pos = new Position(p.getPosition().getX(), p.getPosition().getY(), p.getPosition().getZ());
+        //sonics
+        if ((p.getPosition().getX() == 3472 || p.getPosition().getX() == 3473) && p.getPosition().getY() == 9491) {
+            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 10) {
+                pos.setY(9493);
+            } else {
+                p.getPacketSender().sendMessage("You must have the required 10 killcount for sonic to pass into the next zone");
+            }
+        } else if ((p.getPosition().getX() == 3472 || p.getPosition().getX() == 3473) && p.getPosition().getY() > 9491 && p.getPosition().getY() < 9498) {
+            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 10) {
+                pos.setY(9491);
+            } else {
+                p.getPacketSender().sendMessage("You must have the required 10 killcount for sonic to pass into the next zone");
+            }
+        }
+
+        //patricks
+        if ((p.getPosition().getX() == 3472 || p.getPosition().getX() == 3473) && p.getPosition().getY() == 9511) {
+            if (KillsTracker.getTotalKillsForNpc(9002, p) >= 25) {
+                pos.setY(9513);
+            } else {
+                p.getPacketSender().sendMessage("You must have the required 25 killcount for patrick to pass into the next zone");
+            }
+        } else if ((p.getPosition().getX() == 3472 || p.getPosition().getX() == 3473) && (p.getPosition().getY() >= 9513 && p.getPosition().getY() <= 9518)) {
+            if (KillsTracker.getTotalKillsForNpc(9002, p) >= 25) {
+                pos.setY(9510);
+            } else {
+                p.getPacketSender().sendMessage("You must have the required 25 killcount for patrick to pass into the next zone");
+            }
+        }
+
+        //mew two
+        if ((p.getPosition().getX() == 3480 || p.getPosition().getX() == 3479) && (p.getPosition().getY() >= 9523 || p.getPosition().getY() <= 9527)) {
+            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+                pos.setX(3481);
+                pos.setY(9525);
+            }
+        } else if ((p.getPosition().getX() >= 3481 ) && (p.getPosition().getY() == 9525 || p.getPosition().getY() == 9526)) {
+            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+                pos.setX(3479);
+            } else {
+                p.getPacketSender().sendMessage("You must have the required 50 killcount for mewtwo to pass into the next zone");
+            }
+        }
+
+        //4th zone
+        if ((p.getPosition().getX() >= 3497 || p.getPosition().getX() <= 3500) && (p.getPosition().getY() <= 9520 && p.getPosition().getY() >= 9518)) {
+            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+                pos.setY(9516);
+            }
+        } else if ((p.getPosition().getX() == 3999 || p.getPosition().getX() == 3498) && (p.getPosition().getY() <= 9517 && p.getPosition().getY() >= 9510)) {
+            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+                pos.setY(p.getPosition().getY() + 2);
+            } else {
+                p.getPacketSender().sendMessage("You must have the required 50 killcount for mewtwo to pass into the next zone");
+            }
+        }
+
+        //5th zone
+        if ((p.getPosition().getX() >= 3497 || p.getPosition().getX() <= 3500) && (p.getPosition().getY() == 9497 || p.getPosition().getY() == 9498)) {
+            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+                pos.setY(9495);
+            }
+        } else if ((p.getPosition().getX() == 3999 || p.getPosition().getX() == 3498) && (p.getPosition().getY() <= 9495 && p.getPosition().getY() >= 9490)) {
+            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+                pos.setY(p.getPosition().getY() + 2);
+            } else {
+                p.getPacketSender().sendMessage("You must have the required 50 killcount for mewtwo to pass into the next zone");
+            }
+        }
+        p.getSession().clearMessages();
+        p.moveTo(pos);
     }
 
     public static void resetInterface(Player player) {

@@ -146,6 +146,7 @@ public class PlayerSaving {
 			object.addProperty("zeus-killcount", new Integer(player.getPointsHandler().getZEUSKILLCount()));
 			object.addProperty("mini-lucifer-killcount", player.getPointsHandler().getMiniLuciferkillcount());
 			object.addProperty("lucifer-killcount", player.getPointsHandler().getLuciferkillcount());
+			object.addProperty("sonic-killcount", player.getPointsHandler().getSonicKillCount());
 
 			object.addProperty("event-points", new Integer(player.getPointsHandler().getEventPoints()));
 			object.addProperty("boss-points", new Integer(player.getPointsHandler().getBossPoints()));

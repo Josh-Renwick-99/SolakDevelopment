@@ -5,6 +5,7 @@ import com.ruse.engine.task.TaskManager;
 import com.ruse.engine.task.impl.globalevents.GlobalEventBossTask;
 import com.ruse.model.Animation;
 import com.ruse.model.DamageDealer;
+import com.ruse.model.Locations;
 import com.ruse.model.Locations.Location;
 import com.ruse.model.definitions.NPCDrops;
 import com.ruse.util.RandomUtility;
@@ -156,6 +157,12 @@ public class NPCDeathTask extends Task {
                                 killer.sendMessage("@blu@You have reached 10,000 kills and received a St. Patrick's Box.");
                                 killer.getInventory().add(13802, 1);
                                 //return;
+                            }
+                        }
+                        if (npc.getId() == 9001){
+                            int total = KillsTracker.getTotalKillsForNpc(npc.getId(), killer);
+                            if (total >= 10){
+                                killer.sendMessage("@red@You have reached the 10 kills required to progress to the next zone");
                             }
                         }
 

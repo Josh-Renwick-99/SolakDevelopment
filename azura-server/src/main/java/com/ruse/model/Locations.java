@@ -137,7 +137,7 @@ public class Locations {
 		LUCIFER(new int[] { 2301, 2367}, new int[] { 3970, 4024},
 				false, true, true, false, false, true) {},
 
-		PROGRESSION_ZONES(new int[] { 3016, 3071}, new int[] { 10244, 10297},
+		PROGRESSION_ZONES(new int[] { 3465, 3506}, new int[] { 9478, 9531},
 				false, true, true, false, false, true) {
 			@Override
 			public void process(Player player) {

@@ -253,6 +253,13 @@ public class DeveloperCommands {
                     player.getPosition().getZ() - 1));
         }
 
+        if (command[0].toLowerCase().equals("kcnpc")){
+            int killcount = KillsTracker.getTotalKillsForNpc(Integer.parseInt(command[1]), player);
+            if (killcount > 1) {
+                player.getPacketSender().sendMessage("killcount for npc: " + killcount);
+            }
+        }
+
         if (command[0].equalsIgnoreCase("vdaynpcs")) {
             int x = 3021;
             int y = 2826;

@@ -76,6 +76,7 @@ public class PointsHandler {
 	private int zeuskillcount;
 	private int miniLuciferkillcount;
 	private int luciferkillcount;
+	private int sonicKillCount;
 	private int shillingrate;
 	private int npckillcount;
 	private int totalprestiges;
@@ -741,5 +742,13 @@ private int pengRate;
 
 	public void setLuciferkillcount(int luciferkillcount) {
 		this.luciferkillcount = luciferkillcount;
+	}
+
+	public int getSonicKillCount(){
+		return sonicKillCount;
+	}
+
+	public void setSonicKillCount(int sonicKillCount){
+		this.sonicKillCount = sonicKillCount;
 	}
 }
