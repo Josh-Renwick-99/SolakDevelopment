@@ -82,8 +82,12 @@ public class ProgressionZone {
 
 
         int amount = player.getProgressionZones()[monster.ordinal()];
-        if (amount >= 100)
-            amount = 100;
+        if (monster.getName().equalsIgnoreCase("mewtwo") && amount > 175){
+            amount = 175;
+        } else if (monster.getName().equalsIgnoreCase("bowser") && amount > 225){
+            amount = 225;
+        }
+
         player.getPacketSender().sendString(112005, (int) percentage + "% (" + amount + "/" + monster.getAmountToKill() + ")");
 
         player.getPacketSender().sendWalkableInterface(112000, true);
