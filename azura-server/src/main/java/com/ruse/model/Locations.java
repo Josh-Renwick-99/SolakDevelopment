@@ -137,8 +137,9 @@ public class Locations {
 		LUCIFER(new int[] { 2301, 2367}, new int[] { 3970, 4024},
 				false, true, true, false, false, true) {},
 
+		//TODO Change multi back to false
 		PROGRESSION_ZONES(new int[] { 3465, 3506}, new int[] { 9478, 9531},
-				false, true, true, false, false, true) {
+				true, true, true, false, false, true) {
 			@Override
 			public void process(Player player) {
 				if (player.getWalkableInterfaceId() != 112000)

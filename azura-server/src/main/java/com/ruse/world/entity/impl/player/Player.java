@@ -7,6 +7,7 @@ import com.ruse.engine.task.TaskManager;
 import com.ruse.engine.task.impl.PlayerDeathTask;
 import com.ruse.engine.task.impl.WalkToTask;
 import com.ruse.model.*;
+import com.ruse.model.PlayerRelations;
 import com.ruse.model.container.impl.*;
 import com.ruse.model.container.impl.Bank.BankSearchAttributes;
 import com.ruse.model.definitions.ItemDefinition;

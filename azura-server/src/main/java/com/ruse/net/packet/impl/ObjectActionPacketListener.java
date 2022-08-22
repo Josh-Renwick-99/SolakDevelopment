@@ -2650,38 +2650,44 @@ public class ObjectActionPacketListener implements PacketListener {
 
         //mew two
         if ((p.getPosition().getX() == 3480 || p.getPosition().getX() == 3479) && (p.getPosition().getY() >= 9523 || p.getPosition().getY() <= 9527)) {
-            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+            if (KillsTracker.getTotalKillsForNpc(9003, p) >= 50) {
                 pos.setX(3481);
                 pos.setY(9525);
+            } else {
+                p.getPacketSender().sendMessage("@red@You must have the required 50 killcount for luigi to pass into the next zone");
             }
         } else if ((p.getPosition().getX() >= 3481 ) && (p.getPosition().getY() == 9525 || p.getPosition().getY() == 9526)) {
-            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+            if (KillsTracker.getTotalKillsForNpc(9003, p) >= 50) {
                 pos.setX(3479);
             } else {
-                p.getPacketSender().sendMessage("You must have the required 50 killcount for mewtwo to pass into the next zone");
+                p.getPacketSender().sendMessage("@red@You must have the required 50 killcount for luigi to pass into the next zone");
             }
         }
 
         //4th zone
         if ((p.getPosition().getX() >= 3497 || p.getPosition().getX() <= 3500) && (p.getPosition().getY() <= 9520 && p.getPosition().getY() >= 9518)) {
-            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+            if (KillsTracker.getTotalKillsForNpc(9004, p) >= 100) {
                 pos.setY(9516);
+            } else {
+                p.getPacketSender().sendMessage("@red@You must have the required 100 killcount for squirtle to pass into the next zone");
             }
         } else if ((p.getPosition().getX() == 3999 || p.getPosition().getX() == 3498) && (p.getPosition().getY() <= 9517 && p.getPosition().getY() >= 9510)) {
-            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+            if (KillsTracker.getTotalKillsForNpc(9004, p) >= 100) {
                 pos.setY(p.getPosition().getY() + 2);
             } else {
-                p.getPacketSender().sendMessage("You must have the required 50 killcount for mewtwo to pass into the next zone");
+                p.getPacketSender().sendMessage("@red@You must have the required 100 killcount for squirtle to pass into the next zone");
             }
         }
 
         //5th zone
         if ((p.getPosition().getX() >= 3497 || p.getPosition().getX() <= 3500) && (p.getPosition().getY() == 9497 || p.getPosition().getY() == 9498)) {
-            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+            if (KillsTracker.getTotalKillsForNpc(9005, p) >= 175) {
                 pos.setY(9495);
+            } else {
+                p.getPacketSender().sendMessage("@red@You must have the required 175 killcount for mewtwo to pass into the next zone");
             }
         } else if ((p.getPosition().getX() == 3999 || p.getPosition().getX() == 3498) && (p.getPosition().getY() <= 9495 && p.getPosition().getY() >= 9490)) {
-            if (KillsTracker.getTotalKillsForNpc(9001, p) >= 50) {
+            if (KillsTracker.getTotalKillsForNpc(9005, p) >= 175) {
                 pos.setY(p.getPosition().getY() + 2);
             } else {
                 p.getPacketSender().sendMessage("You must have the required 50 killcount for mewtwo to pass into the next zone");
