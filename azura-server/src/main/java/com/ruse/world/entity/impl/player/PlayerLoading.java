@@ -222,6 +222,11 @@ public class PlayerLoading {
                 player.setRights(PlayerRights.valueOf(rights));
             }
 
+            if (reader.has("donator-rank")){
+                String rank = reader.get("donator-rank").getAsString();
+                player.setDonatorRank(DonatorRank.valueOf(rank));
+            }
+
             if (reader.has("game-mode")) {
                 if (reader.get("game-mode").getAsString().equalsIgnoreCase("HARDCORE_IRONMAN")) {
                     player.setGameMode(GameMode.ULTIMATE_IRONMAN);

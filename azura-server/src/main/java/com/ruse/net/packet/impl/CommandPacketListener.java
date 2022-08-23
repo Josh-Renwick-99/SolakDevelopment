@@ -99,7 +99,7 @@ public class CommandPacketListener implements PacketListener {
                     BanCommands.handleBanCommands(player, parts, command);
                     ModeratorCommands.handleModeratorCommands(player, parts, command);
                     PlayerCommands.handlePlayerCommands(player, parts, command);
-                   HelperCommands.handleHelperCommands(player, parts, command);
+                    HelperCommands.handleHelperCommands(player, parts, command);
                    break;
                 case DEVELOPER:
                     SetRankCommands.handleSetRankCommands(player, parts, command);
@@ -115,32 +115,6 @@ public class CommandPacketListener implements PacketListener {
                     HelperCommands.handleHelperCommands(player, parts, command);
                     PlayerCommands.handlePlayerCommands(player, parts, command);
                     break;
-                case SAPPHIRE_DONATOR:
-                    SapphireDonatorCommands.sapphireCommands(player, parts, command);
-                    PlayerCommands.handlePlayerCommands(player, parts, command);
-                    break;
-                case EMERALD_DONATOR:
-                    EmeraldDonatorCommands.emeraldCommands(player, parts, command);
-                    PlayerCommands.handlePlayerCommands(player, parts, command);
-                    break;
-                case ZENYTE_DONATOR:
-                    ZenyteDonatorCommands.zenyteCommands(player, parts, command);
-                    PlayerCommands.handlePlayerCommands(player, parts, command);
-                    break;
-                case ONYX_DONATOR:
-                    OnyxDonatorCommands.onyxCommands(player, parts, command);
-                    PlayerCommands.handlePlayerCommands(player, parts, command);
-                    break;
-                case DIAMOND_DONATOR:
-                    DiamondDonatorCommands.diamondCommands(player, parts, command);
-                    PlayerCommands.handlePlayerCommands(player, parts, command);
-                    break;
-                case RUBY_DONATOR:
-                    RubyDonatorCommands.rubyCommands(player, parts, command);
-                    PlayerCommands.handlePlayerCommands(player, parts, command);
-                    break;
-                default:
-                    break;
             }
         } catch (Exception exception) {
             exception.printStackTrace();
@@ -152,6 +126,38 @@ public class CommandPacketListener implements PacketListener {
                 player.getPacketSender().sendMessage("Error executing that command.");
             }
 
+        }
+        try {
+            switch (player.getDonatorRank()){
+                case SAPPHIRE:
+                    SapphireDonatorCommands.sapphireCommands(player, parts, command);
+                    PlayerCommands.handlePlayerCommands(player, parts, command);
+                    break;
+                case EMERALD:
+                    EmeraldDonatorCommands.emeraldCommands(player, parts, command);
+                    PlayerCommands.handlePlayerCommands(player, parts, command);
+                    break;
+                case ZENYTE:
+                    ZenyteDonatorCommands.zenyteCommands(player, parts, command);
+                    PlayerCommands.handlePlayerCommands(player, parts, command);
+                    break;
+                case ONYX:
+                    OnyxDonatorCommands.onyxCommands(player, parts, command);
+                    PlayerCommands.handlePlayerCommands(player, parts, command);
+                    break;
+                case DIAMOND:
+                    DiamondDonatorCommands.diamondCommands(player, parts, command);
+                    PlayerCommands.handlePlayerCommands(player, parts, command);
+                    break;
+                case RUBY:
+                    RubyDonatorCommands.rubyCommands(player, parts, command);
+                    PlayerCommands.handlePlayerCommands(player, parts, command);
+                    break;
+                default:
+                    break;
+            }
+        } catch (Exception e){
+            e.printStackTrace();
         }
     }
 }

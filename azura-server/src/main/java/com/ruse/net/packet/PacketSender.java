@@ -1024,6 +1024,13 @@ public class PacketSender {
         return this;
     }
 
+    public PacketSender sendDonatorRank(){
+        PacketBuilder out = new PacketBuilder(129);
+        out.put(player.getDonatorRank().ordinal());
+        player.getSession().queueMessage(out);
+        return this;
+    }
+
     /**
      * Sends a hint to specified position.
      *

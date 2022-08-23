@@ -518,6 +518,9 @@ public class Player extends Character {
     private final PlayerSession session;
     private CharacterAnimations characterAnimations = new CharacterAnimations();
     private PlayerRights rights = PlayerRights.PLAYER;
+    @Getter
+    @Setter
+    private DonatorRank donatorRank = DonatorRank.NONE;
     private final SkillManager skillManager = new SkillManager(this);
     private final PlayerRelations relations = new PlayerRelations(this);
     private final ChatMessage chatMessages = new ChatMessage();

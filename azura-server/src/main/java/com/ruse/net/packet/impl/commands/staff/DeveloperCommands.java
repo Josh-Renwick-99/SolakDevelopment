@@ -1219,8 +1219,8 @@ public class DeveloperCommands {
             }
             player2.getPacketSender().sendMessage("Promoted to Diamond Donator.");
             player.getPacketSender().sendMessage("Promoted to Diamond Donator.");
-            player2.setRights(PlayerRights.ONYX_DONATOR);
-            player2.getPacketSender().sendRights();
+            player2.setDonatorRank(DonatorRank.DIAMOND);
+            player2.getPacketSender().sendDonatorRank();
             PlayerPanel.refreshPanel(player2);
         }
         if (command[0].equalsIgnoreCase("giveyt")) {
@@ -1230,8 +1230,8 @@ public class DeveloperCommands {
                 return;
             }
             player2.getPacketSender().sendMessage("Promoted to youtuber.");
-            player.getPacketSender().sendMessage("Promoted to youtubers.");
-            player2.setRights(PlayerRights.YOUTUBER);
+            player.getPacketSender().sendMessage("Promoted to youtuber.");
+            player2.setDonatorRank(DonatorRank.YOUTUBER);
             player2.getPacketSender().sendRights();
             PlayerPanel.refreshPanel(player2);
         }
@@ -1255,7 +1255,7 @@ public class DeveloperCommands {
             }
             player2.getPacketSender().sendMessage("You have been given donator.");
             player.getPacketSender().sendMessage("donator.");
-            player2.setRights(PlayerRights.SAPPHIRE_DONATOR);
+            player2.setDonatorRank(DonatorRank.SAPPHIRE);
             player2.getPacketSender().sendRights();
             PlayerPanel.refreshPanel(player2);
         }
@@ -1267,7 +1267,7 @@ public class DeveloperCommands {
             }
             player2.getPacketSender().sendMessage("You have been given super.");
             player.getPacketSender().sendMessage("super.");
-            player2.setRights(PlayerRights.EMERALD_DONATOR);
+            player2.setDonatorRank(DonatorRank.EMERALD);
             player2.getPacketSender().sendRights();
             PlayerPanel.refreshPanel(player2);
         }
@@ -1279,7 +1279,7 @@ public class DeveloperCommands {
             }
             player2.getPacketSender().sendMessage("You have been given exreme.");
             player.getPacketSender().sendMessage("extreme.");
-            player2.setRights(PlayerRights.RUBY_DONATOR);
+            player2.setDonatorRank(DonatorRank.RUBY);
             player2.getPacketSender().sendRights();
             PlayerPanel.refreshPanel(player2);
         }
@@ -1291,7 +1291,7 @@ public class DeveloperCommands {
             }
             player2.getPacketSender().sendMessage("You have been given sponsor.");
             player.getPacketSender().sendMessage("sponsor.");
-            player2.setRights(PlayerRights.DIAMOND_DONATOR);
+            player2.setDonatorRank(DonatorRank.DIAMOND);
             player2.getPacketSender().sendRights();
             PlayerPanel.refreshPanel(player2);
         }

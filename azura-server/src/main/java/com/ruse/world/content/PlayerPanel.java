@@ -56,16 +56,20 @@ public class PlayerPanel {
 
 
         interfaceID = 111401;
+        String rankMessage;
+        if (player.getRights().isStaff()){
+            rankMessage = "Staff Rank: @whi@" + Misc.formatText(player.getRights().toString().toLowerCase());
+        } else {
+            rankMessage = "Donator Rank: @whi@" + Misc.formatText(player.getDonatorRank().toString().toLowerCase());
+        }
 
         Messages = new String[]{"Main",
                 "Time Played: @whi@"
                         + Misc.getHoursPlayed((player.getTotalPlayTime() + player.getRecordedLogin().elapsed())),
                 "Username: @whi@" + player.getUsername(),
                 "Total Donated: @whi@$" + player.getAmountDonated(),
-                "Mode: @whi@"
-                        + Misc.capitalizeString(player.getGameMode().toString().toLowerCase().replace("_", " ")),
-                "Rank: @whi@" + Misc.formatText(player.getRights().toString().toLowerCase()),
-
+                "Mode: @whi@" + Misc.capitalizeString(player.getGameMode().toString().toLowerCase().replace("_", " ")),
+                "Rank: @whi@" + rankMessage,
                 "Droprate bonus: @whi@" + CustomDropUtils.drBonus(player, player.getSlayer().getSlayerTask().getNpcId()) + "%",
                 "Double drop bonus: @whi@" + CustomDropUtils.getDoubleDropChance(player, player.getSlayer().getSlayerTask().getNpcId()) + "%",
                 //"Triple drop bonus: @whi@" + CustomDropUtils.getTripleDropChance(player) + "%",

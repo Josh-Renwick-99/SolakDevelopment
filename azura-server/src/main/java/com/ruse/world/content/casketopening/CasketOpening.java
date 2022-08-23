@@ -289,6 +289,7 @@ public class CasketOpening {
 
     public enum Caskets {
 
+        LAUNCH_BOX(20489, LaunchBox.loot),
         RARE_BOX(23171, RareBox.loot),
         DEF_BOX(23172, DefBox.loot),
         OFF_BOX(23173, OffBox.loot),

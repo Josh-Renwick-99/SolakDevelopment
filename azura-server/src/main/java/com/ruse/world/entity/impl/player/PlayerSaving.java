@@ -51,7 +51,8 @@ public class PlayerSaving {
 			}
 
 			object.addProperty("email", player.getEmailAddress() == null ? "null" : player.getEmailAddress().trim());
-			object.addProperty("staff-rights", player.getRights().name());			
+			object.addProperty("staff-rights", player.getRights().name());
+			object.addProperty("donator-rank", player.getDonatorRank().name());
 			object.addProperty("game-mode", player.getGameMode().name());
 			object.addProperty("loyalty-title", player.getLoyaltyTitle().name());
 			
