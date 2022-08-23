@@ -31,3 +31,79 @@
 [8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan gloves, id: 19946, amount: 1	
 [8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan body, id: 704, amount: 1	
 [8/21/22 10:32PM]  [ Josh ] Player dropped item: Avatar titan legs, id: 705, amount: 1	
+[8/22/22 12:31AM]  [ Adam ] Player dropped item: Execution chainmace, id: 9940, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter helm, id: 8326, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter boots, id: 19938, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Demonic Sword, id: 14915, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter Defender, id: 19914, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter legs, id: 8328, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter cape, id: 15432, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter gloves, id: 19939, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter amulet, id: 23089, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter blowpipe, id: 20553, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter staff, id: 16995, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter whip, id: 4178, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Starter ring, id: 23091, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Demonic Sword, id: 14915, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Avatar titan legs, id: 705, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Avatar titan body, id: 704, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Avatar titan gloves, id: 19946, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Avatar titan boots, id: 19945, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Player dropped item: Avatar titan helm, id: 703, amount: 1	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Yogi helm, id: 3740, amount: 1	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Yogi body, id: 3741, amount: 1	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Yogi's picnic basket, id: 9253, amount: 1	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Yogi Sword, id: 3743, amount: 1	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: lightsaber, id: 21057, amount: 1	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Juju teleport spiritbag, id: 19968, amount: 1	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Barbarian snowman hat, id: 11955, amount: 1	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Super restore (4), id: 3025, amount: 100	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Dragon bones, id: 537, amount: 127	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Fury shark, id: 17818, amount: 100	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Solak Tokens, id: 10835, amount: 1364	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Solak Coins, id: 995, amount: 123760	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Adamantite ore, id: 450, amount: 8	
+[8/23/22 01:31PM]  [ Josh ] Player dropped item: Weapon Box, id: 19114, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Divine spirit shield, id: 13740, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Wrath Hammer Offhand, id: 17700, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Supreme spirit shield, id: 19810, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Riddler's Offhand, id: 4558, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Fiya Shield+, id: 21049, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Victory Hammer Offhand, id: 17696, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: saggy offhand glaive, id: 20505, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: dualsaber, id: 21058, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: swag chest, id: 22057, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Divine spirit shield, id: 13741, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: dualsaber, id: 21058, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Starlight sword, id: 22075, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: dualsaber, id: 21058, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Moonlight spirit shield, id: 20057, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Hellfire Santa hat, id: 18412, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Owner's cape, id: 7995, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Hellfire Santa hat, id: 18412, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Darkrealm body, id: 17610, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Creator's scythe, id: 23132, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Darkrealm helm, id: 17608, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Hellfire H'ween mask, id: 18407, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Yogi legs, id: 3742, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Hellfire spirit shield, id: 18754, amount: 1	
+[8/23/22 01:38PM]  [ Josh ] Player dropped item: Firehell Partyhat, id: 18417, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Light Twisted Bow, id: 5011, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Execution Twisted Bow, id: 5012, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Alex Solak bow, id: 14056, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Twisted Bow, id: 12283, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Rabies spreader (offhand), id: 20559, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Twisted Bow, id: 12283, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Bow Sword of 1k Truths, id: 6818, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Scythe of hercules, id: 12284, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Armadyl platebody, id: 19515, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Custom Extreme Aura, id: 15450, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Healing aura scroll, id: 12434, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Rainbow afro, id: 19747, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Judicator crossbow, id: 23198, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: SS Aura, id: 12608, amount: 1	
+[8/23/22 01:44PM]  [ Josh ] Player dropped item: Dark Twisted Bow, id: 22113, amount: 1	
+[8/23/22 02:42PM]  [ Lithe ] Player dropped item: Pet cat, id: 14090, amount: 1	
+[8/23/22 02:42PM]  [ Lithe ] Player dropped item: Overgrown cat, id: 14092, amount: 1	
+[8/23/22 02:42PM]  [ Lithe ] Player dropped item: Hellcat, id: 7582, amount: 1	
+[8/23/22 02:44PM]  [ Lithe ] Player dropped item: Pet kitten, id: 1555, amount: 1	

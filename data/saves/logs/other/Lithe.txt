@@ -75,3 +75,11 @@
 [8/20/22 07:09PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
 [8/20/22 07:09PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
 [8/20/22 07:10PM] Login. ip: 127.0.0.1, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 02:42PM] Player dropping item: Pet cat, amount: 1	
+[8/23/22 02:42PM] Picked up gr.Item Pet cat, amount: 1	
+[8/23/22 02:42PM] Emptied item (id:995, amount:2169540) -- Solak Coins	
+[8/23/22 02:42PM] Player dropping item: Overgrown cat, amount: 1	
+[8/23/22 02:42PM] Player dropping item: Hellcat, amount: 1	
+[8/23/22 02:43PM] Emptied item (id:6555, amount:1) -- Wily cat	
+[8/23/22 02:44PM] Player dropping item: Pet kitten, amount: 1	
+[8/23/22 02:57PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	

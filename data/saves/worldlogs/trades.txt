@@ -1,2 +1,12 @@
 [8/20/22 05:36PM]  [ Qway ] Received item from Josh. Name: Owner's cape. Id: 7995, amount: 1	
 [8/20/22 05:36PM]  [ Josh ] Gave item to Qway. Name: Owner's cape. Id: 7995, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Gave item to Adam. Name: Starter body. Id: 8327, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Received item from Adam. Name: Demonic Sword. Id: 14915, amount: 1	
+[8/23/22 01:12PM]  [ Josh ] Received item from Adam. Name: Weapon Box. Id: 19114, amount: 1	
+[8/23/22 01:12PM]  [ Adam ] Gave item to Josh. Name: Demonic Sword. Id: 14915, amount: 1	
+[8/23/22 01:12PM]  [ Adam ] Gave item to Josh. Name: Weapon Box. Id: 19114, amount: 1	
+[8/23/22 01:12PM]  [ Adam ] Received item from Josh. Name: Starter body. Id: 8327, amount: 1	
+[8/23/22 01:19PM]  [ Joshtest ] Received item from Josh. Name: $250 Bond. Id: 23060, amount: 1	
+[8/23/22 01:19PM]  [ Josh ] Gave item to Joshtest. Name: $250 Bond. Id: 23060, amount: 1	
+[8/23/22 01:25PM]  [ Josh ] Gave item to Adam. Name: Heimland games souvenir. Id: 20078, amount: 1	
+[8/23/22 01:25PM]  [ Adam ] Received item from Josh. Name: Heimland games souvenir. Id: 20078, amount: 1	

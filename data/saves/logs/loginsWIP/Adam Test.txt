@@ -1,0 +1,2 @@
+[8/22/22 01:59PM] Login from host 86.156.42.226, serial number: , mac address:18-C0-4D-26-CC-66	
+[8/22/22 02:07PM] Logout with password lol123Logout from host 86.156.42.226, serial number: , mac address:18-C0-4D-26-CC-66	

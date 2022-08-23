@@ -1,0 +1,4 @@
+[8/21/22 10:09PM] Player received drop: x1 Demonic Sword, id: 14915, amount: 1, from: Sonic	
+[8/22/22 02:03PM] Player received drop: x1 Icey staff of festive, id: 14924, amount: 1, from: Mewtwo	
+[8/22/22 02:03PM] Player received drop: x1 Demonic Sword, id: 14915, amount: 1, from: Mewtwo	
+[8/22/22 02:03PM] Player received drop: x1 Icey staff of festive, id: 14924, amount: 1, from: Mewtwo	

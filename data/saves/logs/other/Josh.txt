@@ -61,3 +61,86 @@
 [8/21/22 10:51PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
 [8/21/22 10:52PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
 [8/22/22 12:26AM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 02:08PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/22/22 03:36PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/22/22 03:37PM] Josh received x1 Demonic Sword from Patrick!	
+[8/23/22 01:10PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/23/22 01:12PM] Gave item in trade to Adam. Id: 8327, amount: 1	
+[8/23/22 01:12PM] Receiving item from trade with Adam Id: 14915, amount: 1	
+[8/23/22 01:12PM] Receiving item from trade with Adam Id: 19114, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter helm, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter boots, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Demonic Sword, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter Defender, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter legs, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter cape, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter gloves, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter amulet, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter blowpipe, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter staff, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter whip, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Starter ring, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Demonic Sword, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Avatar titan legs, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Avatar titan body, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Avatar titan gloves, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Avatar titan boots, amount: 1	
+[8/23/22 01:12PM] Player dropping item: Avatar titan helm, amount: 1	
+[8/23/22 01:19PM] Gave item in trade to Joshtest. Id: 23060, amount: 1	
+[8/23/22 01:19PM] Has just redeemed a $250 Bond successfully!	
+[8/23/22 01:19PM] DEFAULT|3034,10288,0|Said: Hi	
+[8/23/22 01:20PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	
+[8/23/22 01:25PM] Gave item in trade to Adam. Id: 20078, amount: 1	
+[8/23/22 01:31PM] Player dropping item: Yogi helm, amount: 1	
+[8/23/22 01:31PM] Player dropping item: Yogi body, amount: 1	
+[8/23/22 01:31PM] Player dropping item: Yogi's picnic basket, amount: 1	
+[8/23/22 01:31PM] Player dropping item: Yogi Sword, amount: 1	
+[8/23/22 01:31PM] Player dropping item: lightsaber, amount: 1	
+[8/23/22 01:31PM] Player dropping item: Juju teleport spiritbag, amount: 1	
+[8/23/22 01:31PM] Player dropping item: Barbarian snowman hat, amount: 1	
+[8/23/22 01:31PM] Player dropping item: Super restore (4), amount: 100	
+[8/23/22 01:31PM] Player dropping item: Dragon bones, amount: 127	
+[8/23/22 01:31PM] Player dropping item: Fury shark, amount: 100	
+[8/23/22 01:31PM] Player dropping item: Solak Tokens, amount: 1364	
+[8/23/22 01:31PM] Player dropping item: Solak Coins, amount: 123760	
+[8/23/22 01:31PM] Player dropping item: Adamantite ore, amount: 8	
+[8/23/22 01:31PM] Player dropping item: Weapon Box, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Divine spirit shield, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Wrath Hammer Offhand, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Supreme spirit shield, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Riddler's Offhand, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Fiya Shield+, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Victory Hammer Offhand, amount: 1	
+[8/23/22 01:38PM] Player dropping item: saggy offhand glaive, amount: 1	
+[8/23/22 01:38PM] Player dropping item: dualsaber, amount: 1	
+[8/23/22 01:38PM] Player dropping item: swag chest, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Divine spirit shield, amount: 1	
+[8/23/22 01:38PM] Player dropping item: dualsaber, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Starlight sword, amount: 1	
+[8/23/22 01:38PM] Player dropping item: dualsaber, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Moonlight spirit shield, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Hellfire Santa hat, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Owner's cape, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Hellfire Santa hat, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Darkrealm body, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Creator's scythe, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Darkrealm helm, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Hellfire H'ween mask, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Yogi legs, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Hellfire spirit shield, amount: 1	
+[8/23/22 01:38PM] Player dropping item: Firehell Partyhat, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Light Twisted Bow, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Execution Twisted Bow, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Alex Solak bow, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Twisted Bow, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Rabies spreader (offhand), amount: 1	
+[8/23/22 01:44PM] Player dropping item: Twisted Bow, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Bow Sword of 1k Truths, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Scythe of hercules, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Armadyl platebody, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Custom Extreme Aura, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Healing aura scroll, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Rainbow afro, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Judicator crossbow, amount: 1	
+[8/23/22 01:44PM] Player dropping item: SS Aura, amount: 1	
+[8/23/22 01:44PM] Player dropping item: Dark Twisted Bow, amount: 1	

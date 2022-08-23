@@ -228,18 +228,6 @@ public class DeveloperCommands {
             player.getPacketSender().sendMessage("Teleporting you home!");
         }
 
-        if (command[0].equalsIgnoreCase("train")) {
-            if (player.getLocation() != null && player.getLocation() == Locations.Location.WILDERNESS
-                    || player.getLocation() != null && player.getLocation() == Locations.Location.CUSTOM_RAIDS) {
-                player.getPacketSender().sendMessage("You cannot do this at the moment.");
-                return;
-            }
-            Position[] locations = new Position[]{new Position(3472, 9484, 0)};
-            Position teleportLocation = locations[RandomUtility.exclusiveRandom(0, locations.length)];
-            TeleportHandler.teleportPlayer(player, teleportLocation, player.getSpellbook().getTeleportType());
-            player.getPacketSender().sendMessage("Teleporting you to the starter zone.");
-        }
-
         if (command[0].toLowerCase().equals("clrpos")) {
             PlayerOwnedShopManager.HISTORY_OF_BOUGHT.clear();
         }
