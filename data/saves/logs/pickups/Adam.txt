@@ -1,0 +1,1 @@
+[8/23/22 05:26PM] Player picked up item: Vault token, id: 12852, amount: 10, owner: Adam	

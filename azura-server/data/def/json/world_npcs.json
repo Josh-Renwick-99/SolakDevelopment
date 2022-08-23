@@ -535,13 +535,6 @@
   {
     "npc-id": 9003,
     "face": "SOUTH",
-    "position": { "x": 3469, "y": 9500, "z": 0 },
-    "walking-policy": {"coordinate": false,"radius": 1
-    }
-  },
-  {
-    "npc-id": 9003,
-    "face": "SOUTH",
     "position": { "x": 3476, "y": 9520, "z": 0 },
     "walking-policy": {"coordinate": false,"radius": 1
     }

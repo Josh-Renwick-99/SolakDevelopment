@@ -83,3 +83,37 @@
 [8/23/22 02:43PM] Emptied item (id:6555, amount:1) -- Wily cat	
 [8/23/22 02:44PM] Player dropping item: Pet kitten, amount: 1	
 [8/23/22 02:57PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 03:49PM] Picked up gr.Item Solak Coins, amount: 2432678	
+[8/23/22 03:49PM] Picked up gr.Item Dragon bones, amount: 25	
+[8/23/22 04:01PM] PROGRESSION_ZONES|3472,9486,0|Said: Asdfasfd	
+[8/23/22 04:10PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:12PM] Lithe received x1 Nature crossbow from Mewtwo!	
+[8/23/22 04:13PM] Lithe received x1 Icey staff of festive from Mewtwo!	
+[8/23/22 04:13PM] Lithe received x1 Nature crossbow from Mewtwo!	
+[8/23/22 04:14PM] Lithe received x1 Nature crossbow from Mewtwo!	
+[8/23/22 04:15PM] Player dropping item: Coal, amount: 101	
+[8/23/22 04:15PM] Player dropping item: Raw fury shark, amount: 24	
+[8/23/22 04:15PM] Player dropping item: Grimy toadflax, amount: 10	
+[8/23/22 04:15PM] Player dropping item: Yew logs, amount: 51	
+[8/23/22 04:15PM] Player dropping item: Raw tuna, amount: 66	
+[8/23/22 04:15PM] Player dropping item: Antique lamp, amount: 9	
+[8/23/22 04:15PM] Player dropping item: Snapdragon seed, amount: 2	
+[8/23/22 04:26PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:29PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:30PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:30PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:30PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:30PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:31PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:38PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:38PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:41PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:42PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:42PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:44PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:49PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 04:58PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 05:13PM] Login. ip: 170.103.38.101, mac: 84-1B-77-E4-97-D3, uuid: To be filled by O.E.M.20220118174108.000000-300	
+[8/23/22 05:25PM] Picked up gr.Item Vault token, amount: 10	
+[8/23/22 05:26PM] Picked up gr.Item War gauntlets (T1), amount: 1	
+[8/23/22 05:27PM] Picked up gr.Item War gauntlets (T2), amount: 1	

@@ -162,3 +162,38 @@
 [8/23/22 01:25PM] Receiving item from trade with Josh Id: 20078, amount: 1	
 [8/23/22 01:30PM] Emptied item (id:995, amount:602926) -- Solak Coins	
 [8/23/22 01:31PM] Emptied item (id:19317, amount:1) -- Third-age druidic robe top	
+[8/23/22 03:40PM] Emptied item (id:21018, amount:1) -- Supreme bow	
+[8/23/22 04:06PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:10PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:21PM] Attempted to redeem a Sponsor Rank Ticket, but was a staff member! (Unsuccessful)	
+[8/23/22 04:21PM] Attempted to redeem a Sponsor Rank Ticket, but was a staff member! (Unsuccessful)	
+[8/23/22 04:21PM] Attempted to redeem a Sponsor Rank Ticket, but was a staff member! (Unsuccessful)	
+[8/23/22 04:21PM] Attempted to redeem a Sponsor Rank Ticket, but was a staff member! (Unsuccessful)	
+[8/23/22 04:21PM] Attempted to redeem a Sponsor Rank Ticket, but was a staff member! (Unsuccessful)	
+[8/23/22 04:26PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:29PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:29PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:30PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:30PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:31PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:38PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:38PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:41PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:42PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:42PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:44PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:49PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:55PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 04:58PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 05:02PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 05:02PM] Adam just kicked Lithe1!	
+[8/23/22 05:02PM] Adam just kicked Lithe1!	
+[8/23/22 05:09PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 05:11PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 05:13PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 05:26PM] Attempted to redeem a Sponsor Rank Ticket, but was a staff member! (Unsuccessful)	
+[8/23/22 05:26PM] Attempted to redeem a Sponsor Rank Ticket, but was a staff member! (Unsuccessful)	
+[8/23/22 05:26PM] Attempted to redeem a Sponsor Rank Ticket, but was a staff member! (Unsuccessful)	
+[8/23/22 05:26PM] Picked up gr.Item Vault token, amount: 10	
+[8/23/22 09:06PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/23/22 09:31PM] Player dropping item: None, amount: 1	

@@ -1,0 +1,4 @@
+[8/23/22 04:12PM] Player received drop: x1 Nature crossbow, id: 14919, amount: 1, from: Mewtwo	
+[8/23/22 04:13PM] Player received drop: x1 Icey staff of festive, id: 14924, amount: 1, from: Mewtwo	
+[8/23/22 04:13PM] Player received drop: x1 Nature crossbow, id: 14919, amount: 1, from: Mewtwo	
+[8/23/22 04:14PM] Player received drop: x1 Nature crossbow, id: 14919, amount: 1, from: Mewtwo	
