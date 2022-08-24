@@ -1,0 +1,8 @@
+[8/24/22 01:04PM] Adam Test1 used command ::train | Player rights = PLAYER	
+[8/24/22 01:04PM] Adam Test1 used command ::Master | Player rights = DEVELOPER	
+[8/24/22 01:14PM] Adam Test1 used command ::bank | Player rights = DEVELOPER	
+[8/24/22 01:44PM] Adam Test1 used command ::noclip | Player rights = DEVELOPER	
+[8/24/22 01:47PM] Adam Test1 used command ::curses | Player rights = DEVELOPER	
+[8/24/22 01:48PM] Adam Test1 used command ::noclip | Player rights = DEVELOPER	
+[8/24/22 01:53PM] Adam Test1 used command ::noclip | Player rights = DEVELOPER	
+[8/24/22 02:09PM] Adam Test1 used command ::bank | Player rights = DEVELOPER	

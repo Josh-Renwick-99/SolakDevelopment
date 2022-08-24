@@ -1,16 +1,16 @@
 {
-  "total-play-time-ms": 322194,
+  "total-play-time-ms": 428403,
   "username": "Joshtest",
   "password": "123",
   "email": "null",
-  "staff-rights": "RUBY_DONATOR",
+  "staff-rights": "DEVELOPER",
   "donator-rank": "YOUTUBER",
   "game-mode": "NORMAL",
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3037,
-    "y": 10289,
+    "x": 3471,
+    "y": 9488,
     "z": 0
   },
   "online-status": "ON",
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661256884019,
+  "lastlogin": 1661344848808,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -61,7 +61,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": 0,
+  "total-gained-exp": 226,
   "barrows-points": 0,
   "donator-points": 250,
   "Skilling-points": 0,
@@ -176,7 +176,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1661257206216,
+  "last-veng": 87748803,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -370,10 +370,10 @@
   ],
   "skills": {
     "level": [
+      2,
       1,
       1,
-      1,
-      100,
+      80,
       1,
       10,
       1,
@@ -397,7 +397,7 @@
       1
     ],
     "maxLevel": [
-      1,
+      2,
       1,
       1,
       100,
@@ -424,10 +424,10 @@
       1
     ],
     "experience": [
+      113,
       0,
       0,
-      0,
-      1184,
+      1297,
       0,
       0,
       0,
@@ -1984,7 +1984,7 @@
       false
     ]
   ],
-  "achievements-daily": 723,
+  "achievements-daily": 724,
   "progression-zones": [
     0,
     0,

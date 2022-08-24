@@ -603,3 +603,9 @@
 [8/23/22 09:39PM] Adam used command ::int 112 | Player rights = DEVELOPER	
 [8/23/22 09:39PM] Adam used command ::obj 112 | Player rights = DEVELOPER	
 [8/23/22 09:40PM] Adam used command ::shops | Player rights = DEVELOPER	
+[8/24/22 12:56PM] Adam used command ::train | Player rights = DEVELOPER	
+[8/24/22 01:02PM] Adam used command ::item 21814 50 | Player rights = DEVELOPER	
+[8/24/22 01:03PM] Adam used command ::item 21815 50 | Player rights = DEVELOPER	
+[8/24/22 01:03PM] Adam used command ::item 21816 50 | Player rights = DEVELOPER	
+[8/24/22 01:03PM] Adam used command ::teleto adam test | Player rights = DEVELOPER	
+[8/24/22 01:04PM] Adam used command ::giveowner adam test1 | Player rights = DEVELOPER	

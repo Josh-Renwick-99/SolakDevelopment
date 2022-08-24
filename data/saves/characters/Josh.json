@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 11765485,
+  "total-play-time-ms": 12072088,
   "username": "Josh",
   "password": "123",
   "email": "null",
@@ -9,8 +9,8 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2020,
-    "y": 4767,
+    "x": 3471,
+    "y": 9482,
     "z": 0
   },
   "online-status": "ON",
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661257256612,
+  "lastlogin": 1661344910610,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -61,7 +61,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": -219548071,
+  "total-gained-exp": -216423508,
   "barrows-points": 0,
   "donator-points": 250,
   "Skilling-points": 0,
@@ -82,7 +82,7 @@
     false
   ],
   "tasks-progress": [
-    132,
+    141,
     0,
     0,
     0,
@@ -176,7 +176,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 1661025335451,
+  "last-veng": 319367576,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -510,10 +510,10 @@
       1
     ],
     "experience": [
+      106031108,
       104273167,
       104273167,
-      104273167,
-      13034431,
+      14401053,
       104273167,
       13034431,
       104273167,
@@ -883,24 +883,24 @@
       "boss": false
     },
     {
-      "runningTotal": 65,
+      "runningTotal": 68,
       "npcId": 9001,
       "npcName": "Sonic",
-      "amount": 65,
+      "amount": 68,
       "boss": false
     },
     {
-      "runningTotal": 30,
+      "runningTotal": 31,
       "npcId": 9002,
       "npcName": "Patrick",
-      "amount": 30,
+      "amount": 31,
       "boss": false
     },
     {
-      "runningTotal": 29,
+      "runningTotal": 32,
       "npcId": 9003,
       "npcName": "Luigi",
-      "amount": 29,
+      "amount": 32,
       "boss": false
     },
     {
@@ -922,6 +922,13 @@
       "npcId": 1715,
       "npcName": "Native Demon",
       "amount": 4,
+      "boss": false
+    },
+    {
+      "runningTotal": 2,
+      "npcId": 9004,
+      "npcName": "Squirtle",
+      "amount": 2,
       "boss": false
     }
   ],
@@ -1321,7 +1328,7 @@
       0,
       0,
       0,
-      132,
+      141,
       0,
       0,
       0,
@@ -1423,7 +1430,7 @@
       0,
       0,
       0,
-      132,
+      141,
       0,
       0,
       0,
@@ -1526,7 +1533,7 @@
       0,
       0,
       0,
-      132,
+      141,
       0,
       0,
       0,
@@ -2123,12 +2130,12 @@
       false
     ]
   ],
-  "achievements-daily": 723,
+  "achievements-daily": 724,
   "progression-zones": [
-    65,
-    30,
-    29,
-    0,
+    68,
+    31,
+    32,
+    2,
     3
   ],
   "zones-complete": [

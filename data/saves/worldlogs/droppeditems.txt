@@ -115,3 +115,6 @@
 [8/23/22 04:15PM]  [ Lithe ] Player dropped item: Antique lamp, id: 11137, amount: 9	
 [8/23/22 04:15PM]  [ Lithe ] Player dropped item: Snapdragon seed, id: 5300, amount: 2	
 [8/23/22 09:31PM]  [ Adam ] Player dropped item: None, id: 21841, amount: 1	
+[8/24/22 01:11PM]  [ Adam Test1 ] Player dropped item: Solak Coins, id: 995, amount: 1000207	
+[8/24/22 01:11PM]  [ Adam Test1 ] Player dropped item: Fury shark, id: 17818, amount: 100	
+[8/24/22 01:11PM]  [ Adam Test1 ] Player dropped item: Super restore (4), id: 3025, amount: 100	
