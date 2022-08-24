@@ -221,6 +221,15 @@ public class Player extends Character {
     public int lastTGloveIndex = -1;
     private final WheelOfFortune wheelOfFortune = new WheelOfFortune(this);
 
+    private Position previousPosition;
+
+    public Position getPreviousPosition() {
+        return previousPosition;
+    }
+
+    public void setPreviousPosition(Position previousPosition) {
+        this.previousPosition = previousPosition;
+    }
     public WheelOfFortune getWheelOfFortune() {
         return wheelOfFortune;
     }

@@ -13,6 +13,7 @@ import com.ruse.world.clip.region.DirectionFace;
 import com.ruse.world.clip.region.RegionClipping;
 import com.ruse.world.content.EnergyHandler;
 import com.ruse.world.content.combat.CombatFactory;
+import com.ruse.world.content.combat.CombatType;
 import com.ruse.world.entity.impl.Character;
 import com.ruse.world.entity.impl.npc.NPC;
 import com.ruse.world.entity.impl.player.Player;
@@ -98,7 +99,7 @@ public final class MovementQueue {
 	 */
 	public void setFollowCharacter(Character followCharacter) {
 		this.followCharacter = followCharacter;
-		startFollow();
+		//startFollow();
 	}
 
 	public Character getFollowCharacter() {
@@ -272,6 +273,7 @@ public final class MovementQueue {
 			Point runPoint = null;
 
 			walkPoint = points.poll();
+			runPoint = walkPoint;
 			if (isRunToggled()) {
 				runPoint = points.poll();
 			}
@@ -296,7 +298,13 @@ public final class MovementQueue {
 						}
 					}
 				}
-
+				if (!canWalk(character.getPosition(), walkPoint.position, character.getSize())) {
+					return;
+				} else if (runPoint != null){
+				 	if (!canWalk(character.getPosition(), runPoint.position, character.getSize())) {
+						return;
+					}
+				}
 				if (!isPlayer && !character.getCombatBuilder().isAttacking()) {
 					if (((NPC) character).isSummoningNpc() && !((NPC) character).summoningCombat()) {
 						if (!canWalk(character.getPosition(), walkPoint.position, character.getSize())) {
@@ -321,7 +329,7 @@ public final class MovementQueue {
 				character.setPosition(runPoint.position);
 				character.setSecondaryDirection(runPoint.direction);
 				character.setLastDirection(runPoint.direction);
-				//checkmap here?
+				character.checkMap();
 			}
 		}
 		character.checkMap();
@@ -338,101 +346,103 @@ public final class MovementQueue {
 
 	public void startFollow() {
 
-		if (followCharacter == null && (followTask == null || !followTask.isRunning()))
+		if (followCharacter == null || followCharacter.getConstitution() <= 0 || !followCharacter.isRegistered()
+				|| character.getConstitution() <= 0 || !character.isRegistered()) {
+			character.setEntityInteraction(null);
+			followCharacter = null;
 			return;
+		}
 
-		if (followTask == null || !followTask.isRunning()) {
+		if (!Location.ignoreFollowDistance(character)) {
+			boolean summNpc = followCharacter.isPlayer() && character.isNpc() && ((NPC) character).isSummoningNpc();
+			if (!character.getPosition().isWithinDistance(followCharacter.getPosition(), summNpc ? 10 : 20)) {
+				character.setEntityInteraction(null);
+				if (summNpc) {
+					((Player) followCharacter).getSummoning().moveFollower(true);
+				}
+				return;
+			}
+		}
 
-			// Build the task that will be scheduled when following.
-			followTask = new Task(1, character, true) {
-				@Override
-				public void execute() {
+		// Update entity interaction
+		character.setEntityInteraction(followCharacter);
 
-					// Check if we can still follow the leader.
-					if (followCharacter == null || followCharacter.getConstitution() <= 0
-							|| !followCharacter.isRegistered() || character.getConstitution() <= 0
-							|| !character.isRegistered()) {
-						character.setEntityInteraction(null);
-						this.stop();
+		// Block if our movement is locked.
+		if (character.getMovementQueue().isLockMovement() || character.isFrozen()) {
+			return;
+		}
+
+		// If we are on the same position as the leader then move
+		// away.
+		if (character.getPosition().equals(followCharacter.getPosition())) {
+			character.getMovementQueue().reset();
+			if (followCharacter.getMovementQueue().isMovementDone()) {
+				MovementQueue.stepAway(character);
+			}
+			return;
+		}
+
+		if (character.getCombatBuilder().getStrategy() == null) {
+			character.getCombatBuilder().determineStrategy();
+		}
+
+		// Are we following in combat?
+		boolean combatFollow = character.getCombatBuilder().isAttacking();
+
+		// The amount of distance between us and the other character.
+		int distance = character.getPosition().getDistance(followCharacter.getPosition());
+
+		// Reset movement if we're in character size range.
+		if (distance >= 50) {
+			character.setEntityInteraction(null);
+			followCharacter = null;
+			reset();
+			return;
+		}
+
+		if (combatFollow) {
+			if (character.getSize() == 1 && character.getCombatBuilder().getStrategy().getCombatType() == CombatType.MELEE) {
+				if (character.getPosition().equals(followCharacter.getPosition())
+						|| PathFinder.isInDiagonalBlock(character, followCharacter)) {
+					if (isMovementDone() && followCharacter.getMovementQueue().isMovementDone()) {
+						PathFinder.solveDiagonalBlock(character, followCharacter);
 						return;
-					}
-
-					boolean combatFollowing = character.getCombatBuilder().isAttacking();
-					if (!Location.ignoreFollowDistance(character)) {
-						boolean summNpc = followCharacter.isPlayer() && character.isNpc()
-								&& ((NPC) character).isSummoningNpc();
-						if (!character.getPosition().isWithinDistance(followCharacter.getPosition(),
-								summNpc ? 10 : combatFollowing ? 40 : 20)) {
-							character.setEntityInteraction(null);
-							this.stop();
-							if (summNpc)
-								((Player) followCharacter).getSummoning().moveFollower(true);
-							return;
-						}
-					}
-
-					// Block if our movement is locked.
-					if (character.getMovementQueue().isLockMovement() || character.isFrozen()
-							|| character.isStunned()) {
-						return;
-					}
-
-					// If we are on the same position as the leader then move
-					// away.
-
-					// If combat follow, let the combat factory handle it
-
-					if (character.getPosition().equals(followCharacter.getPosition())) {
-						character.getMovementQueue().reset();
-						if (followCharacter.getMovementQueue().isMovementDone())
-							MovementQueue.stepAway(character);
-						return;
-					}
-
-					// Check if we are within distance to attack for combat.
-					if (combatFollowing) {
-						// if (character.isPlayer()) {
-						if (character.getCombatBuilder().getStrategy() == null) {
-							character.getCombatBuilder().determineStrategy();
-						}
-						if (CombatFactory.checkAttackDistance(character.getCombatBuilder())) {
-							return;
-							// }
-						}
-					} else {
-						if (character.getInteractingEntity() != followCharacter) {
-							character.setEntityInteraction(followCharacter);
-						}
-					}
-
-					// If we are within 1 square we don't need to move.
-					if (Locations.goodDistance(character.getPosition(), followCharacter.getPosition(), 1)) {
-						return;
-					}
-
-					if (character.isNpc() && ((NPC) character).isSummoningNpc()
-							&& (followCharacter.getLocation() == Location.HOME_BANK
-									|| followCharacter.getLocation() == Location.EDGEVILLE
-									|| followCharacter.getLocation() == Location.VARROCK)) {
-						character.getMovementQueue().walkStep(
-								getMove(character.getPosition().getX(), followCharacter.getPosition().getX(), 1),
-								getMove(character.getPosition().getY() - 1, followCharacter.getPosition().getY(), 1));
-					} else {
-						PathFinder.findPath(character, followCharacter.getPosition().getX(),
-								followCharacter.getPosition().getY() - character.getSize(), true, character.getSize(),
-								character.getSize());
 					}
 				}
+			}
 
-				@Override
-				public void stop() {
-					setEventRunning(false);
-					followTask = null;
+			if (CombatFactory.checkAttackDistance(character.getCombatBuilder())) {
+				// reset();
+				return;
+			}
+		}
+
+		Position destination = null;
+
+		// Dancing
+		if (!combatFollow) {
+			if (character.isPlayer() && followCharacter.isPlayer()) {
+				Player p = (Player) followCharacter;
+				if (p.getPreviousPosition() != null) {
+					destination = p.getPreviousPosition();
+					p.setPreviousPosition(null);
 				}
-			};
+			}
+		}
 
-			// Then submit the actual task.
-			TaskManager.submit(followTask);
+		if (destination == null) {
+			destination = combatFollow ? PathGenerator.getCombatPath(character, followCharacter)
+					: PathGenerator.getBasicPath(character, followCharacter);
+		}
+
+		// Summoning following
+		/*
+		 * if (character.isNpc()) { NPC npc = (NPC)character; if (npc.isSummoningNpc()
+		 * && followCharacter.getLocation() == Location.BANK) { reset(); return; } }
+		 */
+
+		if (destination != null) {
+			PathFinder.findPath(character, destination.getX(), destination.getY(), false, 16, 16);
 		}
 	}
 

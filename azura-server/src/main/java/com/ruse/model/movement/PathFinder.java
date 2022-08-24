@@ -1,6 +1,8 @@
 package com.ruse.model.movement;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 import com.ruse.model.Position;
 import com.ruse.world.clip.region.RegionClipping;
@@ -201,5 +203,178 @@ public class PathFinder {
 			gc.getMovementQueue().setFollowCharacter(null);
 			gc.getMovementQueue().reset();
 		}
+	}
+
+	public final static boolean isInDiagonalBlock(Character attacker, Character attacked) {
+		return attacked.getPosition().getX() - 1 == attacker.getPosition()
+				.getX()
+				&& attacked.getPosition().getY() + 1 == attacker.getPosition()
+				.getY()
+				|| attacker.getPosition().getX() - 1 == attacked.getPosition()
+				.getX()
+				&& attacker.getPosition().getY() + 1 == attacked.getPosition()
+				.getY()
+				|| attacked.getPosition().getX() + 1 == attacker.getPosition()
+				.getX()
+				&& attacked.getPosition().getY() - 1 == attacker.getPosition()
+				.getY()
+				|| attacker.getPosition().getX() + 1 == attacked.getPosition()
+				.getX()
+				&& attacker.getPosition().getY() - 1 == attacked.getPosition()
+				.getY()
+				|| attacked.getPosition().getX() + 1 == attacker.getPosition()
+				.getX()
+				&& attacked.getPosition().getY() + 1 == attacker.getPosition()
+				.getY()
+				|| attacker.getPosition().getX() + 1 == attacked.getPosition()
+				.getX()
+				&& attacker.getPosition().getY() + 1 == attacked.getPosition()
+				.getY();
+	}
+
+	public static void solveDiagonalBlock(Character attacker, Character target) {
+		int aX = attacker.getPosition().getX();
+		int aY = attacker.getPosition().getY();
+
+		int vX = target.getPosition().getX();
+		int vY = target.getPosition().getY();
+
+		int stepX = 0;
+		int stepY = 0;
+
+		if(aX > vX) {
+			stepX = 1;
+		} else if(vX > aX) {
+			stepX = -1;
+		} else if(aY > vY) {
+			stepY = 1;
+		} else if(vY > aY) {
+			stepY = -1;
+		} else if(aX == vX && aY == vY) {
+			stepY = -1;
+		}
+
+		findPath(attacker, target.getPosition().getX() + stepX, target.getPosition().getY() + stepY, false, 8, 8);
+	}
+
+	public static boolean accessable(int x, int y, int z, int destX, int destY) {
+		final int DEFAULT_PATH_LENGTH = 4000;
+		Position p = new Position(x, y, z);
+		if (destX == p.getLocalX() && destY == p.getLocalY()) {
+			return false;
+		}
+
+		int[][] via = new int[104][104];
+		int[][] cost = new int[104][104];
+
+		List<Integer> tileQueueX = new ArrayList<Integer>(10000);
+		List<Integer> tileQueueY = new ArrayList<Integer>(10000);
+
+		int curX = p.getLocalX();
+		int curY = p.getLocalY();
+		via[curX][curY] = 99;
+		cost[curX][curY] = 1;
+		int tail = 0;
+		tileQueueX.add(curX);
+		tileQueueY.add(curY);
+
+		final int regionX = p.getRegionX() << 3;
+		final int regionY = p.getRegionY() << 3;
+
+		destX = destX - regionX;
+		destY = destY - regionY;
+
+		while (tail != tileQueueX.size()
+				&& tileQueueX.size() < DEFAULT_PATH_LENGTH) {
+
+			curX = tileQueueX.get(tail);
+			curY = tileQueueY.get(tail);
+
+			int curAbsX = regionX + curX;
+			int curAbsY = regionY + curY;
+
+			if (curX == destX && curY == destY) {
+				return true;
+			}
+
+			tail = (tail + 1) % DEFAULT_PATH_LENGTH;
+
+			int thisCost = cost[curX][curY] + 1 + 1;
+
+			if (curY > 0 && via[curX][curY - 1] == 0
+					&& (RegionClipping.getClipping(curAbsX, curAbsY - 1, z) & 0x1280102) == 0) {
+				tileQueueX.add(curX);
+				tileQueueY.add(curY - 1);
+				via[curX][curY - 1] = 1;
+				cost[curX][curY - 1] = thisCost;
+			}
+
+			if (curX > 0 && via[curX - 1][curY] == 0
+					&& (RegionClipping.getClipping(curAbsX - 1, curAbsY, z) & 0x1280108) == 0) {
+				tileQueueX.add(curX - 1);
+				tileQueueY.add(curY);
+				via[curX - 1][curY] = 2;
+				cost[curX - 1][curY] = thisCost;
+			}
+
+			if (curY < 104 - 1 && via[curX][curY + 1] == 0
+					&& (RegionClipping.getClipping(curAbsX, curAbsY + 1, z) & 0x1280120) == 0) {
+				tileQueueX.add(curX);
+				tileQueueY.add(curY + 1);
+				via[curX][curY + 1] = 4;
+				cost[curX][curY + 1] = thisCost;
+			}
+
+			if (curX < 104 - 1 && via[curX + 1][curY] == 0
+					&& (RegionClipping.getClipping(curAbsX + 1, curAbsY, z) & 0x1280180) == 0) {
+				tileQueueX.add(curX + 1);
+				tileQueueY.add(curY);
+				via[curX + 1][curY] = 8;
+				cost[curX + 1][curY] = thisCost;
+			}
+
+			if (curX > 0 && curY > 0 && via[curX - 1][curY - 1] == 0
+					&& (RegionClipping.getClipping(curAbsX - 1, curAbsY - 1, z) & 0x128010e) == 0
+					&& (RegionClipping.getClipping(curAbsX - 1, curAbsY, z) & 0x1280108) == 0
+					&& (RegionClipping.getClipping(curAbsX, curAbsY - 1, z) & 0x1280102) == 0) {
+				tileQueueX.add(curX - 1);
+				tileQueueY.add(curY - 1);
+				via[curX - 1][curY - 1] = 3;
+				cost[curX - 1][curY - 1] = thisCost;
+			}
+
+			if (curX > 0 && curY < 104 - 1 && via[curX - 1][curY + 1] == 0
+					&& (RegionClipping.getClipping(curAbsX - 1, curAbsY + 1, z) & 0x1280138) == 0
+					&& (RegionClipping.getClipping(curAbsX - 1, curAbsY, z) & 0x1280108) == 0
+					&& (RegionClipping.getClipping(curAbsX, curAbsY + 1, z) & 0x1280120) == 0) {
+				tileQueueX.add(curX - 1);
+				tileQueueY.add(curY + 1);
+				via[curX - 1][curY + 1] = 6;
+				cost[curX - 1][curY + 1] = thisCost;
+			}
+
+			if (curX < 104 - 1 && curY > 0 && via[curX + 1][curY - 1] == 0
+					&& (RegionClipping.getClipping(curAbsX + 1, curAbsY - 1, z) & 0x1280183) == 0
+					&& (RegionClipping.getClipping(curAbsX + 1, curAbsY, z) & 0x1280180) == 0
+					&& (RegionClipping.getClipping(curAbsX, curAbsY - 1, z) & 0x1280102) == 0) {
+				tileQueueX.add(curX + 1);
+				tileQueueY.add(curY - 1);
+				via[curX + 1][curY - 1] = 9;
+				cost[curX + 1][curY - 1] = thisCost;
+			}
+
+			if (curX < 104 - 1 && curY < 104 - 1
+					&& via[curX + 1][curY + 1] == 0
+					&& (RegionClipping.getClipping(curAbsX + 1, curAbsY + 1, z) & 0x12801e0) == 0
+					&& (RegionClipping.getClipping(curAbsX + 1, curAbsY, z) & 0x1280180) == 0
+					&& (RegionClipping.getClipping(curAbsX, curAbsY + 1, z) & 0x1280120) == 0) {
+				tileQueueX.add(curX + 1);
+				tileQueueY.add(curY + 1);
+				via[curX + 1][curY + 1] = 12;
+				cost[curX + 1][curY + 1] = thisCost;
+			}
+		}
+
+		return false;
 	}
 }

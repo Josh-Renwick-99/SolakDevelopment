@@ -814,6 +814,27 @@ public final class RegionClipping {
 		return canMove(start.getX(), start.getY(), end.getX(), end.getY(), start.getZ(), xLength, yLength);
 	}
 
+	public static boolean canMove(Position pos, int direction) {
+		if (direction == 0) {
+			return !blockedNorthWest(pos) && !blockedNorth(pos) && !blockedWest(pos);
+		} else if (direction == 1) {
+			return !blockedNorth(pos);
+		} else if (direction == 2) {
+			return !blockedNorthEast(pos) && !blockedNorth(pos) && !blockedEast(pos);
+		} else if (direction == 3) {
+			return !blockedWest(pos);
+		} else if (direction == 4) {
+			return !blockedEast(pos);
+		} else if (direction == 5) {
+			return !blockedSouthWest(pos) && !blockedSouth(pos) && !blockedWest(pos);
+		} else if (direction == 6) {
+			return !blockedSouth(pos);
+		} else if (direction == 7) {
+			return !blockedSouthEast(pos) && !blockedSouth(pos) && !blockedEast(pos);
+		}
+		return false;
+	}
+
 	public static boolean blockedProjectile(Position position) {
 		return (getClipping(position.getX(), position.getY(), position.getZ()) & 0x20000) == 0;
 	}

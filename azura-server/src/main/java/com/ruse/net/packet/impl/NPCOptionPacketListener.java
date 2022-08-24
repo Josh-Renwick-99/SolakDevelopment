@@ -8,6 +8,7 @@ import com.ruse.model.Locations.Location;
 import com.ruse.model.container.impl.Shop.ShopManager;
 import com.ruse.model.definitions.NPCDrops;
 import com.ruse.model.definitions.NpcDefinition;
+import com.ruse.model.movement.MovementQueue;
 import com.ruse.net.packet.Packet;
 import com.ruse.net.packet.PacketListener;
 import com.ruse.world.World;
@@ -692,7 +693,6 @@ public class NPCOptionPacketListener implements PacketListener {
             interact.setConstitution(10);
         }*/
 
-
         if (interact.getConstitution() <= 0 && !interact.isDying()){
         //    player.sendMessage("This npc was glitched");
             interact.setConstitution(interact.getDefinition().getHitpoints());
@@ -789,7 +789,7 @@ public class NPCOptionPacketListener implements PacketListener {
                if (interact.getId() == req.getNpcId()) {
                    if (req.getKillCount() > 0) {
                        if (player.getPointsHandler().getNPCKILLCount() < req.getKillCount()) {
-                           player.sendMessage("You need at least " + req.getKillCount() + "NPC kills to attack this. (" + player.getPointsHandler().getNPCKILLCount() + "/"
+                           player.sendMessage("You need atleast " + req.getKillCount() + "NPC kills to attack this. (" + player.getPointsHandler().getNPCKILLCount() + "/"
                                    + req.getKillCount() + ")");
                            return;
                        }
@@ -797,7 +797,7 @@ public class NPCOptionPacketListener implements PacketListener {
                        int npc = req.getRequireNpcId();
                        int total = KillsTracker.getTotalKillsForNpc(npc, player);
                        if (total < req.getAmountRequired()) {
-                           player.sendMessage("You need at least " + req.getAmountRequired() + " "
+                           player.sendMessage("You need atleast " + req.getAmountRequired() + " "
                                    + NpcDefinition.forId(npc).getName() + " kills to attack this. (" + total + "/"
                                    + req.getAmountRequired() + ")");
                            return;
@@ -808,11 +808,10 @@ public class NPCOptionPacketListener implements PacketListener {
            }
        }
 
-
         player.getCombatBuilder().attack(interact);
-        if (player.getMiniPManager().getMiniPlayer() != null)
-			player.getMiniPManager().getMiniPlayer().getCombatBuilder().attack(interact);
-
+        if (player.getMiniPManager().getMiniPlayer() != null) {
+            player.getMiniPManager().getMiniPlayer().getCombatBuilder().attack(interact);
+        }
     }
 
     public void handleSecondClick(Player player, Packet packet) {
