@@ -82347,7 +82347,7 @@ name: Demon Pet
 modelID: 100237
 
 Item Id: 23162
-name: Dragon Pet
+name: FE is wrong
 modelID: 100238
 
 Item Id: 23163

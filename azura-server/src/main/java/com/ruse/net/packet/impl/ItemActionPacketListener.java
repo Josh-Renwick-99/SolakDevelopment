@@ -5,6 +5,7 @@ import com.ruse.engine.task.impl.*;
 import com.ruse.model.*;
 import com.ruse.model.Locations.Location;
 import com.ruse.model.container.impl.Bank;
+import com.ruse.model.container.impl.Shop;
 import com.ruse.model.definitions.ItemDefinition;
 import com.ruse.net.packet.Packet;
 import com.ruse.net.packet.PacketListener;
@@ -1023,6 +1024,15 @@ public class ItemActionPacketListener implements PacketListener {
                 break;
             case 15106:
                 player.getPacketSender().sendMessage("This came from the KBD, kill Goblins for another.");
+                break;
+            case 21816:
+                Shop.ShopManager.getShops().get(301).open(player);
+                break;
+            case 21815:
+                Shop.ShopManager.getShops().get(302).open(player);
+                break;
+            case 21814:
+                Shop.ShopManager.getShops().get(303).open(player);
                 break;
             /*
              * player.getPacketSender().

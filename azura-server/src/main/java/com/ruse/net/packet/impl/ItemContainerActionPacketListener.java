@@ -53,7 +53,15 @@ public class ItemContainerActionPacketListener implements PacketListener {
 			case 31510:
 				player.getEventBossManager().removeNpcDropReward(id, 1);
 				break;
-
+			case 3900:
+				if (item.getId() == 14910 || item.getId() == 14911 || item.getId() == 14912 || item.getId() == 14913|| item.getId() == 14915 || item.getId() == 20000) {
+					ShopManager.getShops().get(301).checkValue(player, slot, false);
+				} else if (item.getId() == 14919 || item.getId() == 14916 || item.getId() == 14917 || item.getId() == 14918 || item.getId() == 14920 || item.getId() == 20001) {
+					ShopManager.getShops().get(302).checkValue(player, slot, false);
+				} else if (item.getId() == 14921 || item.getId() == 14922 || item.getId() == 14923 || item.getId() == 14924 || item.getId() == 14925|| item.getId() == 20002) {
+					ShopManager.getShops().get(303).checkValue(player, slot, false);
+				}
+				break;
 			case 2900:
 				player.getEventBossManager().addNpcDropReward(id, 1, slot);
 				break;
@@ -207,7 +215,6 @@ public class ItemContainerActionPacketListener implements PacketListener {
 					player.getInventory().switchItem(player.getBank(player.getCurrentBankTab()), item, slot, false, true);
 				}
 				break;
-			case Shop.ITEM_CHILD_ID:
 			case DonatorShop.ITEM_CHILD_ID_CLICK:
 			case PetShop.ITEM_CHILD_ID_CLICK:
 				if (player.getShop() != null)

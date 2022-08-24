@@ -107,6 +107,12 @@ public class Shop extends ItemContainer {
     private static final int BARROWS_STORE = 79;
     private static final int MEMBERS_STORE_I = 24;
     private static final int MEMBERS_STORE_II = 25;
+
+    private static final int WARRIOR_STORE = 301;
+
+    private static final int ARCHER_STORE = 302;
+
+    private static final int MAGE_STORE = 303;
     private static final int DONATOR_STORE_1 = DonatorShop.DonatorShopType.WEAPON.getShopId();
     private static final int DONATOR_STORE_2 = DonatorShop.DonatorShopType.ARMOUR.getShopId();
     private static final int DONATOR_STORE_3 = DonatorShop.DonatorShopType.ACCESSORY.getShopId();

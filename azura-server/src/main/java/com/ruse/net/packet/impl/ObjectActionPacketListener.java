@@ -8,6 +8,7 @@ import com.ruse.engine.task.impl.WalkToTask.FinalizedMovementTask;
 import com.ruse.model.*;
 import com.ruse.model.Locations.Location;
 import com.ruse.model.container.impl.Equipment;
+import com.ruse.model.container.impl.Shop;
 import com.ruse.model.definitions.GameObjectDefinition;
 import com.ruse.model.definitions.ItemDefinition;
 import com.ruse.model.input.impl.DonateToWell;
@@ -336,7 +337,6 @@ public class ObjectActionPacketListener implements PacketListener {
                             case 16150:
                                 player.moveTo(new Position(1913, 5225, 0));
                                 break;
-
                             // RAID CHEST REWARDS
                             // ARLO
                            /* case 59731:
