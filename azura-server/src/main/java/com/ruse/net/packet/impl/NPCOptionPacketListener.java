@@ -784,29 +784,29 @@ public class NPCOptionPacketListener implements PacketListener {
             }
         }
 
-       /* if (player.getRights() != PlayerRights.DEVELOPER) {
-            for (NpcRequirements req : NpcRequirements.values()) {
-                if (interact.getId() == req.getNpcId()) {
-                    if (req.getKillCount() > 0){
-                        if (player.getPointsHandler().getNPCKILLCount() < req.getKillCount()) {
-                            player.sendMessage("You need atleast " + req.getKillCount() + "NPC kills to attack this. (" + player.getPointsHandler().getNPCKILLCount() + "/"
-                                    + req.getKillCount() + ")");
-                            return;
-                        }
-                    }else {
-                        int npc = req.getRequireNpcId();
-                        int total = KillsTracker.getTotalKillsForNpc(npc, player);
-                        if (total < req.getAmountRequired()) {
-                            player.sendMessage("You need atleast " + req.getAmountRequired() + " "
-                                    + NpcDefinition.forId(npc).getName() + " kills to attack this. (" + total + "/"
-                                    + req.getAmountRequired() + ")");
-                            return;
-                        }
-                    }
-                    break;
-                }
-            }
-       }*/
+       if (player.getRights() != PlayerRights.DEVELOPER) {
+           for (NpcRequirements req : NpcRequirements.values()) {
+               if (interact.getId() == req.getNpcId()) {
+                   if (req.getKillCount() > 0) {
+                       if (player.getPointsHandler().getNPCKILLCount() < req.getKillCount()) {
+                           player.sendMessage("You need atleast " + req.getKillCount() + "NPC kills to attack this. (" + player.getPointsHandler().getNPCKILLCount() + "/"
+                                   + req.getKillCount() + ")");
+                           return;
+                       }
+                   } else {
+                       int npc = req.getRequireNpcId();
+                       int total = KillsTracker.getTotalKillsForNpc(npc, player);
+                       if (total < req.getAmountRequired()) {
+                           player.sendMessage("You need atleast " + req.getAmountRequired() + " "
+                                   + NpcDefinition.forId(npc).getName() + " kills to attack this. (" + total + "/"
+                                   + req.getAmountRequired() + ")");
+                           return;
+                       }
+                   }
+                   break;
+               }
+           }
+       }
 
 
         player.getCombatBuilder().attack(interact);

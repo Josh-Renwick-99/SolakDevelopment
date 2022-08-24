@@ -2,6 +2,7 @@ package com.ruse.world.content;
 
 public enum NpcRequirements {
 /*
+
     MEGAAVATAR(4540, 500000),
 
 
@@ -20,7 +21,12 @@ public enum NpcRequirements {
 
     VASA(1120, 202, 50000),
     GROUDON(8010, 203, 15000),*/
-    ;
+    SONIC(9001, 10),
+    PATRICK(9002, 25),
+    LUIGI(9003, 50),
+    SQUIRTLE(9004, 75),
+    MEWTWO(9005, 100),
+    BOWSER(9006, 150);
 
     private int npcId;
     private int requireNpcId;
