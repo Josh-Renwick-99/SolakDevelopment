@@ -185,9 +185,9 @@ public class Shop extends ItemContainer {
             return true;
         if (shopId == DUNGEONEERING_STORE || shopId == DUNGEONEERING_STORE_NEW || shopId == KOL_STORE || shopId == PKING_REWARDS_STORE || shopId == BOSS_SHOP
                 || shopId == EVENT_SHOP
-                || shopId == TRAIN_MELEE
-                || shopId == TRAIN_RANGED
-                || shopId == TRAIN_MAGIC
+                || shopId == WARRIOR_STORE
+                || shopId == ARCHER_STORE
+                || shopId == MAGE_STORE
                 || shopId == STARDUST_EXCHANGE_STORE || shopId == SHILLINGS
                 || shopId == VOTE_STORE || shopId == RECIPE_FOR_DISASTER_STORE || shopId == EVENT_SHOP
                 || shopId == BOSS_SHOP || shopId == ENERGY_FRAGMENT_STORE || shopId == AGILITY_TICKET_STORE
