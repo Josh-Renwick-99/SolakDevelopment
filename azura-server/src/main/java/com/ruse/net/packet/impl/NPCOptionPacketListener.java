@@ -789,7 +789,7 @@ public class NPCOptionPacketListener implements PacketListener {
                if (interact.getId() == req.getNpcId()) {
                    if (req.getKillCount() > 0) {
                        if (player.getPointsHandler().getNPCKILLCount() < req.getKillCount()) {
-                           player.sendMessage("You need atleast " + req.getKillCount() + "NPC kills to attack this. (" + player.getPointsHandler().getNPCKILLCount() + "/"
+                           player.sendMessage("You need at least " + req.getKillCount() + "NPC kills to attack this. (" + player.getPointsHandler().getNPCKILLCount() + "/"
                                    + req.getKillCount() + ")");
                            return;
                        }
@@ -797,7 +797,7 @@ public class NPCOptionPacketListener implements PacketListener {
                        int npc = req.getRequireNpcId();
                        int total = KillsTracker.getTotalKillsForNpc(npc, player);
                        if (total < req.getAmountRequired()) {
-                           player.sendMessage("You need atleast " + req.getAmountRequired() + " "
+                           player.sendMessage("You need at least " + req.getAmountRequired() + " "
                                    + NpcDefinition.forId(npc).getName() + " kills to attack this. (" + total + "/"
                                    + req.getAmountRequired() + ")");
                            return;
