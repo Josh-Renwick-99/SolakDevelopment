@@ -118,3 +118,6 @@
 [8/24/22 01:11PM]  [ Adam Test1 ] Player dropped item: Solak Coins, id: 995, amount: 1000207	
 [8/24/22 01:11PM]  [ Adam Test1 ] Player dropped item: Fury shark, id: 17818, amount: 100	
 [8/24/22 01:11PM]  [ Adam Test1 ] Player dropped item: Super restore (4), id: 3025, amount: 100	
+[8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight robebottom, id: 18623, amount: 1	
+[8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight robetop, id: 18637, amount: 1	
+[8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight hood, id: 18631, amount: 1	

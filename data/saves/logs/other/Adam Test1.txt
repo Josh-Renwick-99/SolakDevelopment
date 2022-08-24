@@ -36,3 +36,12 @@
 [8/24/22 02:12PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
 [8/24/22 02:13PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
 [8/24/22 02:13PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 02:33PM] DEFAULT|1996,4777,0|Said: Npc 17256	
+[8/24/22 02:39PM] DEFAULT|2071,4449,0|Said: Npc 1735	
+[8/24/22 02:44PM] Emptied item (id:20002, amount:1) -- Ragefire boots	
+[8/24/22 02:50PM] Player dropping item: Corrupt moonlight robebottom, amount: 1	
+[8/24/22 02:50PM] Player dropping item: Corrupt moonlight robetop, amount: 1	
+[8/24/22 02:50PM] Player dropping item: Corrupt moonlight hood, amount: 1	
+[8/24/22 02:54PM] Emptied item (id:17011, amount:1) -- Sanguinesti Execution Staff	
+[8/24/22 02:58PM] Emptied item (id:20591, amount:1) -- Crystalized cape	
+[8/24/22 03:05PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
