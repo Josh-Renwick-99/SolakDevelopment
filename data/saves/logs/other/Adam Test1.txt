@@ -1,0 +1,47 @@
+[8/24/22 01:04PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14916, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14917, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14918, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14920, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 20001, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14919, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14921, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14922, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14923, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14925, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 20002, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14924, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14910, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14911, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14912, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 20000, amount: 1	
+[8/24/22 01:05PM] Receiving item from trade with Adam Id: 14915, amount: 1	
+[8/24/22 01:11PM] Player dropping item: Solak Coins, amount: 1000207	
+[8/24/22 01:11PM] Player dropping item: Fury shark, amount: 100	
+[8/24/22 01:11PM] Player dropping item: Super restore (4), amount: 100	
+[8/24/22 01:17PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:18PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:19PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:26PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:26PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:32PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:32PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:36PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:36PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:46PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:52PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:54PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 01:55PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 02:09PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 02:12PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 02:13PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 02:13PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[8/24/22 02:33PM] DEFAULT|1996,4777,0|Said: Npc 17256	
+[8/24/22 02:39PM] DEFAULT|2071,4449,0|Said: Npc 1735	
+[8/24/22 02:44PM] Emptied item (id:20002, amount:1) -- Ragefire boots	
+[8/24/22 02:50PM] Player dropping item: Corrupt moonlight robebottom, amount: 1	
+[8/24/22 02:50PM] Player dropping item: Corrupt moonlight robetop, amount: 1	
+[8/24/22 02:50PM] Player dropping item: Corrupt moonlight hood, amount: 1	
+[8/24/22 02:54PM] Emptied item (id:17011, amount:1) -- Sanguinesti Execution Staff	
+[8/24/22 02:58PM] Emptied item (id:20591, amount:1) -- Crystalized cape	
+[8/24/22 03:05PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
