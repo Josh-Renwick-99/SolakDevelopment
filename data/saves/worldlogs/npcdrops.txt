@@ -1,3 +1,10 @@
-[8/22/22 11:48AM]  [ Josh ] Player received drop: x1 Demonic Sword, id: 14915, amount: 1, from: Patrick	
-[8/22/22 02:09PM]  [ Josh ] Player received drop: x1 Nature crossbow, id: 14919, amount: 1, from: Mewtwo	
-[8/22/22 02:10PM]  [ Josh ] Player received drop: x1 Icey staff of festive, id: 14924, amount: 1, from: Mewtwo	
+[8/21/22 10:09PM]  [ Adam ] Player received drop: x1 Demonic Sword, id: 14915, amount: 1, from: Sonic	
+[8/22/22 02:03PM]  [ Adam ] Player received drop: x1 Icey staff of festive, id: 14924, amount: 1, from: Mewtwo	
+[8/22/22 02:03PM]  [ Adam ] Player received drop: x1 Demonic Sword, id: 14915, amount: 1, from: Mewtwo	
+[8/22/22 02:03PM]  [ Adam ] Player received drop: x1 Icey staff of festive, id: 14924, amount: 1, from: Mewtwo	
+[8/22/22 03:37PM]  [ Josh ] Player received drop: x1 Demonic Sword, id: 14915, amount: 1, from: Patrick	
+[8/22/22 03:37PM]  [ Qway ] Player received drop: x1 Icey staff of festive, id: 14924, amount: 1, from: Luigi	
+[8/23/22 04:12PM]  [ Lithe ] Player received drop: x1 Nature crossbow, id: 14919, amount: 1, from: Mewtwo	
+[8/23/22 04:13PM]  [ Lithe ] Player received drop: x1 Icey staff of festive, id: 14924, amount: 1, from: Mewtwo	
+[8/23/22 04:13PM]  [ Lithe ] Player received drop: x1 Nature crossbow, id: 14919, amount: 1, from: Mewtwo	
+[8/23/22 04:14PM]  [ Lithe ] Player received drop: x1 Nature crossbow, id: 14919, amount: 1, from: Mewtwo	

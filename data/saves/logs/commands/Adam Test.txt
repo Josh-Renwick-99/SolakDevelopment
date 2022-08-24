@@ -1,0 +1,4 @@
+[8/22/22 02:05PM] Adam Test used command ::train | Player rights = PLAYER	
+[8/22/22 02:07PM] Adam Test used command ::train | Player rights = PLAYER	
+[8/22/22 02:07PM] Adam Test used command ::train | Player rights = PLAYER	
+[8/22/22 02:07PM] Adam Test used command ::mypos | Player rights = PLAYER	

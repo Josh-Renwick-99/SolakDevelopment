@@ -4,3 +4,9 @@
 [8/20/22 03:57PM] Player picked up item: PVM ticket, id: 5022, amount: 17, owner: Lithe	
 [8/20/22 04:03PM] Player picked up item: Solak Coins, id: 995, amount: 25985, owner: Lithe	
 [8/20/22 04:03PM] Player picked up item: Solak Coins, id: 995, amount: 33709, owner: Lithe	
+[8/23/22 02:42PM] Player picked up item: Pet cat, id: 14090, amount: 1, owner: Lithe	
+[8/23/22 03:49PM] Player picked up item: Solak Coins, id: 995, amount: 2432678, owner: Lithe	
+[8/23/22 03:49PM] Player picked up item: Dragon bones, id: 537, amount: 25, owner: Lithe	
+[8/23/22 05:25PM] Player picked up item: Vault token, id: 12852, amount: 10, owner: Lithe	
+[8/23/22 05:26PM] Player picked up item: War gauntlets (T1), id: 23099, amount: 1, owner: Lithe	
+[8/23/22 05:27PM] Player picked up item: War gauntlets (T2), id: 23100, amount: 1, owner: Lithe	

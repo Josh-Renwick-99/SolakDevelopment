@@ -1,0 +1,13 @@
+[8/23/22 04:59PM] Lithe1 used command ::train | Player rights = DEVELOPER	
+[8/23/22 04:59PM] Lithe1 used command ::find twisted bow | Player rights = DEVELOPER	
+[8/23/22 04:59PM] Lithe1 used command ::item 5102 | Player rights = DEVELOPER	
+[8/23/22 05:00PM] Lithe1 used command ::item 5012 | Player rights = DEVELOPER	
+[8/23/22 05:00PM] Lithe1 used command ::find owner's | Player rights = DEVELOPER	
+[8/23/22 05:00PM] Lithe1 used command ::item 7995 | Player rights = DEVELOPER	
+[8/23/22 05:00PM] Lithe1 used command ::mypos | Player rights = DEVELOPER	
+[8/23/22 05:05PM] Lithe1 used command ::tele 3484 9527 | Player rights = DEVELOPER	
+[8/23/22 05:05PM] Lithe1 used command ::tele 3469 9528 | Player rights = DEVELOPER	
+[8/23/22 05:05PM] Lithe1 used command ::tele 3471 9517 | Player rights = DEVELOPER	
+[8/23/22 05:05PM] Lithe1 used command ::tele 3472 9513 | Player rights = DEVELOPER	
+[8/23/22 05:05PM] Lithe1 used command ::tele 3474 9502 | Player rights = DEVELOPER	
+[8/23/22 05:05PM] Lithe1 used command ::tele 3477 9487 | Player rights = DEVELOPER	

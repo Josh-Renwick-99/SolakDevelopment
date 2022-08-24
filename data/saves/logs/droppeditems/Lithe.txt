@@ -1,0 +1,11 @@
+[8/23/22 02:42PM] Player dropped item: Pet cat, id: 14090, amount: 1	
+[8/23/22 02:42PM] Player dropped item: Overgrown cat, id: 14092, amount: 1	
+[8/23/22 02:42PM] Player dropped item: Hellcat, id: 7582, amount: 1	
+[8/23/22 02:44PM] Player dropped item: Pet kitten, id: 1555, amount: 1	
+[8/23/22 04:15PM] Player dropped item: Coal, id: 454, amount: 101	
+[8/23/22 04:15PM] Player dropped item: Raw fury shark, id: 17816, amount: 24	
+[8/23/22 04:15PM] Player dropped item: Grimy toadflax, id: 3050, amount: 10	
+[8/23/22 04:15PM] Player dropped item: Yew logs, id: 1516, amount: 51	
+[8/23/22 04:15PM] Player dropped item: Raw tuna, id: 360, amount: 66	
+[8/23/22 04:15PM] Player dropped item: Antique lamp, id: 11137, amount: 9	
+[8/23/22 04:15PM] Player dropped item: Snapdragon seed, id: 5300, amount: 2	

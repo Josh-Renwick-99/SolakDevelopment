@@ -1,0 +1,4 @@
+[8/23/22 01:12PM] Gave item to Josh. Name: Demonic Sword. Id: 14915, amount: 1	
+[8/23/22 01:12PM] Gave item to Josh. Name: Weapon Box. Id: 19114, amount: 1	
+[8/23/22 01:12PM] Received item from Josh. Name: Starter body. Id: 8327, amount: 1	
+[8/23/22 01:25PM] Received item from Josh. Name: Heimland games souvenir. Id: 20078, amount: 1	
