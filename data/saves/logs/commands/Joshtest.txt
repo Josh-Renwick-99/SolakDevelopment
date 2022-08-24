@@ -1,0 +1,4 @@
+[8/24/22 01:40PM] Joshtest used command ::train | Player rights = RUBY_DONATOR	
+[8/24/22 01:40PM] Joshtest used command ::train | Player rights = RUBY_DONATOR	
+[8/24/22 01:41PM] Joshtest used command ::Starter | Player rights = RUBY_DONATOR	
+[8/24/22 01:41PM] Joshtest used command ::train | Player rights = RUBY_DONATOR	

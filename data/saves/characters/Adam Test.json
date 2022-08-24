@@ -1,15 +1,16 @@
 {
-  "total-play-time-ms": 521398,
+  "total-play-time-ms": 534604,
   "username": "Adam Test",
   "password": "lol123",
   "email": "null",
   "staff-rights": "PLAYER",
+  "donator-rank": "NONE",
   "game-mode": "NORMAL",
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3472,
-    "y": 9484,
+    "x": 3473,
+    "y": 9485,
     "z": 0
   },
   "online-status": "ON",
@@ -46,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661173156840,
+  "lastlogin": 1661342625109,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -175,7 +176,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1661173678239,
+  "last-veng": 168960077,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -1983,7 +1984,7 @@
       false
     ]
   ],
-  "achievements-daily": 722,
+  "achievements-daily": 724,
   "progression-zones": [
     0,
     0,

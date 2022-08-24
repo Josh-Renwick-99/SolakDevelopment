@@ -144,3 +144,4 @@
 [8/23/22 01:44PM] Player dropping item: Judicator crossbow, amount: 1	
 [8/23/22 01:44PM] Player dropping item: SS Aura, amount: 1	
 [8/23/22 01:44PM] Player dropping item: Dark Twisted Bow, amount: 1	
+[8/24/22 01:37PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	

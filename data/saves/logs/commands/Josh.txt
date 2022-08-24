@@ -247,3 +247,11 @@
 [8/23/22 01:43PM] Josh used command ::item 12283 | Player rights = DEVELOPER	
 [8/23/22 01:43PM] Josh used command ::item 12284 | Player rights = DEVELOPER	
 [8/23/22 01:44PM] Josh used command ::item 14056 | Player rights = DEVELOPER	
+[8/24/22 01:37PM] Josh used command ::train | Player rights = DEVELOPER	
+[8/24/22 01:38PM] Josh used command ::noclip | Player rights = DEVELOPER	
+[8/24/22 01:38PM] Josh used command ::clicktele | Player rights = DEVELOPER	
+[8/24/22 01:41PM] Josh used command ::train | Player rights = DEVELOPER	
+[8/24/22 01:41PM] Josh used command ::teleto joshtest | Player rights = DEVELOPER	
+[8/24/22 01:41PM] Josh used command ::train | Player rights = DEVELOPER	
+[8/24/22 01:41PM] Josh used command ::teletome joshtest | Player rights = DEVELOPER	
+[8/24/22 01:42PM] Josh used command ::giveowner joshtest | Player rights = DEVELOPER	

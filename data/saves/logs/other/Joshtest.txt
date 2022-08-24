@@ -3,3 +3,4 @@
 [8/23/22 01:19PM] Receiving item from trade with Josh Id: 23060, amount: 1	
 [8/23/22 01:19PM] Has just redeemed a $250 Bond successfully!	
 [8/23/22 01:19PM] DEFAULT|3037,10289,0|Said: Hi	
+[8/24/22 01:40PM] Login. ip: 80.195.183.129, mac: 18-CC-18-EC-E4-66, uuid: 	

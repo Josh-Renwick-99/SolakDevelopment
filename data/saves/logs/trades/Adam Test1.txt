@@ -1,0 +1,17 @@
+[8/24/22 01:05PM] Received item from Adam. Name: Nature pernix cowl. Id: 14916, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Nature pernix body. Id: 14917, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Nature pernix chaps. Id: 14918, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Nature cape. Id: 14920, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Glaiven boots. Id: 20001, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Nature crossbow. Id: 14919, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Icey virtus mask. Id: 14921, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Icey virtus robe top. Id: 14922, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Icey virtus legs. Id: 14923, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Icey shield. Id: 14925, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Ragefire boots. Id: 20002, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Icey staff of festive. Id: 14924, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Demonic Torva full helm. Id: 14910, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Demonic Torva platebody. Id: 14911, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Demonic Torva platelegs. Id: 14912, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Steadfast boots. Id: 20000, amount: 1	
+[8/24/22 01:05PM] Received item from Adam. Name: Demonic Sword. Id: 14915, amount: 1	

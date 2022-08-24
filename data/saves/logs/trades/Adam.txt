@@ -2,3 +2,20 @@
 [8/23/22 01:12PM] Gave item to Josh. Name: Weapon Box. Id: 19114, amount: 1	
 [8/23/22 01:12PM] Received item from Josh. Name: Starter body. Id: 8327, amount: 1	
 [8/23/22 01:25PM] Received item from Josh. Name: Heimland games souvenir. Id: 20078, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Nature pernix cowl. Id: 14916, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Nature pernix body. Id: 14917, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Nature pernix chaps. Id: 14918, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Nature cape. Id: 14920, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Glaiven boots. Id: 20001, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Nature crossbow. Id: 14919, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Icey virtus mask. Id: 14921, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Icey virtus robe top. Id: 14922, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Icey virtus legs. Id: 14923, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Icey shield. Id: 14925, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Ragefire boots. Id: 20002, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Icey staff of festive. Id: 14924, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Demonic Torva full helm. Id: 14910, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Demonic Torva platebody. Id: 14911, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Demonic Torva platelegs. Id: 14912, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Steadfast boots. Id: 20000, amount: 1	
+[8/24/22 01:05PM] Gave item to Adam Test1. Name: Demonic Sword. Id: 14915, amount: 1	
