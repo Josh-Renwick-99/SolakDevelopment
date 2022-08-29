@@ -121,3 +121,5 @@
 [8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight robebottom, id: 18623, amount: 1	
 [8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight robetop, id: 18637, amount: 1	
 [8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight hood, id: 18631, amount: 1	
+[8/27/22 11:46PM]  [ Josh ] Player dropped item: Elite Winged Aura, id: 4373, amount: 1	
+[8/27/22 11:46PM]  [ Josh ] Player dropped item: Elite Winged Aura, id: 4373, amount: 1	

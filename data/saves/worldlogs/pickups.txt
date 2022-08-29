@@ -19,3 +19,5 @@
 [8/23/22 05:26PM]  [ Lithe ] Player picked up item: War gauntlets (T1), id: 23099, amount: 1, owner: Lithe	
 [8/23/22 05:26PM]  [ Adam ] Player picked up item: Vault token, id: 12852, amount: 10, owner: Adam	
 [8/23/22 05:27PM]  [ Lithe ] Player picked up item: War gauntlets (T2), id: 23100, amount: 1, owner: Lithe	
+[8/27/22 11:46PM]  [ Josh ] Player picked up item: Elite Winged Aura, id: 4373, amount: 1, owner: Josh	
+[8/27/22 11:46PM]  [ Josh ] Player picked up item: Elite Winged Aura, id: 4373, amount: 1, owner: Josh	

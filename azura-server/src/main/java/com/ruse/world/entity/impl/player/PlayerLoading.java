@@ -7,6 +7,8 @@ import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
 import com.ruse.engine.task.impl.FamiliarSpawnTask;
 import com.ruse.model.*;
+import com.ruse.model.Augment.AugmentHandler;
+import com.ruse.model.Augment.ItemAugment;
 import com.ruse.model.PlayerRelations.PrivateChatStatus;
 import com.ruse.model.container.impl.Bank;
 import com.ruse.net.login.LoginResponses;
@@ -35,10 +37,7 @@ import java.io.FileReader;
 import java.lang.reflect.Type;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class PlayerLoading {
 
@@ -1121,6 +1120,16 @@ public class PlayerLoading {
 
             if (reader.has("dailies-received-times")) {
                 player.setTaskReceivedTimes(builder.fromJson(reader.get("dailies-received-times").getAsJsonArray(), long[].class));
+            }
+
+            if (reader.has("item-augments")){
+                AugmentHandler augmentHandler = new AugmentHandler();
+                augmentHandler.setAugments(Arrays.asList(builder.fromJson(reader.get("item-augments").getAsJsonArray(), ItemAugment[].class)));
+                player.setAugmentHandler(augmentHandler);
+            }
+
+            if(reader.has("current-augment")){
+                player.setCurrentAugment(reader.get("current-augment").getAsInt());
             }
             /*if (reader.has("favorite-teleports")) {
                 TeleportInterface.Teleport[] data = builder.fromJson(reader.get("favorite-teleports").getAsJsonArray(), TeleportInterface.Teleport[].class);
