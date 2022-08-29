@@ -646,7 +646,8 @@ public class PacketSender {
         sendTabInterface(GameSettings.OPTIONS_TAB, 904);
         sendTabInterface(GameSettings.EMOTES_TAB, 147);
         sendTabInterface(GameSettings.SUMMONING_TAB, 54017);
-        sendTabInterface(GameSettings.STAFF_TAB, 33112);
+        player.getAugmentHandler().updateInterface(player.getCurrentAugment(), player);
+        //sendTabInterface(GameSettings.STAFF_TAB, 46343);
         return this;
     }
 
