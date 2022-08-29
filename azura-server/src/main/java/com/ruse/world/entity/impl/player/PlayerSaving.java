@@ -352,6 +352,8 @@ public class PlayerSaving {
 
 			object.add("obtained-pets", builder.toJsonTree(player.getObtainedPets()));
 
+			object.add("current-augment", builder.toJsonTree(player.getCurrentAugment()));
+			object.add("item-augments", builder.toJsonTree(player.getAugmentHandler().getAugments()));
 			writer.write(builder.toJson(object));
 			writer.close();
 

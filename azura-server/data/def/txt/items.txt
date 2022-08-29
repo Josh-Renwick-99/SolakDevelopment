@@ -1,7 +1,7 @@
 
 Item Id: 0
 Name: Dwarf remains
-Examine: The body of a Dwarf savaged by Goblins.
+Examine: A HP Boosting Augment
 Value: 0
 Stackable: false
 Noted: false
@@ -12,7 +12,7 @@ finish
 
 Item Id: 1
 Name: Toolkit
-Examine: Good for repairing a broken cannon.
+Examine: A damage boosting augment
 Value: 0
 Stackable: false
 Noted: false
@@ -34,7 +34,7 @@ finish
 
 Item Id: 3
 Name: Nulodion's notes
-Examine: Construction notes for Dwarf cannon ammo.
+Examine: A HP boosting augment
 Value: 0
 Stackable: false
 Noted: false

@@ -1,12 +1,12 @@
 package com.ruse.net.packet.impl.commands.staff;
 
-import com.ruse.GameServer;
 import com.ruse.GameSettings;
-import com.ruse.engine.task.Task;
 import com.ruse.engine.task.TaskManager;
 import com.ruse.engine.task.impl.globalevents.*;
 import com.ruse.model.*;
-import com.ruse.model.container.impl.Bank;
+import com.ruse.model.Augment.Augment;
+import com.ruse.model.Augment.AugmentHandler;
+import com.ruse.model.Augment.ItemAugment;
 import com.ruse.model.container.impl.Equipment;
 import com.ruse.model.container.impl.Shop;
 import com.ruse.model.definitions.*;
@@ -22,18 +22,14 @@ import com.ruse.world.content.clan.ClanChat;
 import com.ruse.world.content.clan.ClanChatManager;
 import com.ruse.world.content.cluescrolls.OLD_ClueScrolls;
 import com.ruse.world.content.combat.CombatFactory;
-import com.ruse.world.content.combat.weapon.CombatSpecial;
 import com.ruse.world.content.dailytasks_new.DailyTasks;
-import com.ruse.world.content.grandexchange.GrandExchangeOffers;
 import com.ruse.world.content.groupironman.GroupManager;
 import com.ruse.world.content.minigames.impl.dungeoneering.Dungeoneering;
 import com.ruse.world.content.minigames.impl.dungeoneering.DungeoneeringParty;
 import com.ruse.world.content.pos.PlayerOwnedShopManager;
 import com.ruse.world.content.randomevents.EvilTree;
 import com.ruse.world.content.randomevents.ShootingStar;
-import com.ruse.world.content.serverperks.ServerPerks;
 import com.ruse.world.content.skeletalhorror.SkeletalHorror;
-import com.ruse.world.content.skill.SkillManager;
 import com.ruse.world.content.skill.impl.construction.Construction;
 import com.ruse.world.content.skill.impl.fletching.BoltData;
 import com.ruse.world.content.summer_event.SummerEventHandler;
@@ -54,11 +50,29 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.List;
 
 public class DeveloperCommands {
 
     public static void handleDeveloperCommands(Player player, String[] command, String wholeCommand) {
+
+        if (command[0].equalsIgnoreCase("openaugment")){
+            player.getAugmentHandler().openInterface(player);
+        }
+
+        /*
+        if (command[0].equalsIgnoreCase("giveaugment")){
+            if (player.getAugmentHandler() == null){
+                player.setAugmentHandler(new AugmentHandler());
+            }
+            player.getAugmentHandler().getAugments().add(augment);
+            player.getAugmentHandler().getAugments();
+        }
+
+         */
+
+        if (command[0].equalsIgnoreCase("getaugments")){
+            player.getAugmentHandler().getAugments();
+        }
 
         if (command[0].equalsIgnoreCase("tele")) {
             int x = Integer.valueOf(command[1]), y = Integer.valueOf(command[2]);

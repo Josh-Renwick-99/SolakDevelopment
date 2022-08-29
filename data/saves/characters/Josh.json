@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 12072088,
+  "total-play-time-ms": 25043655,
   "username": "Josh",
   "password": "123",
   "email": "null",
@@ -9,15 +9,15 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3471,
-    "y": 9482,
+    "x": 3473,
+    "y": 9483,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": true,
   "has-pin2": true,
   "saved-pin2": "1234",
-  "saved-ip": "80.195.183.129",
+  "saved-ip": "127.0.0.1",
   "donated": 250,
   "current-boss-task": 0,
   "current-boss-amount": 0,
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661344910610,
+  "lastlogin": 1661778034246,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -176,7 +176,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 319367576,
+  "last-veng": 422563813,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -544,7 +544,7 @@
       "slot": 0
     },
     {
-      "id": 5497,
+      "id": 22076,
       "amount": 1,
       "slot": 0
     },
@@ -554,68 +554,18 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 5497,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 1,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
+      "id": 3,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -631,6 +581,56 @@
     {
       "id": 13074,
       "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -696,8 +696,8 @@
       "slot": 0
     },
     {
-      "id": 22076,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -2130,7 +2130,7 @@
       false
     ]
   ],
-  "achievements-daily": 724,
+  "achievements-daily": 729,
   "progression-zones": [
     68,
     31,
@@ -2174,5 +2174,36 @@
     -1
   ],
   "favorite-teleports": [],
-  "obtained-pets": []
+  "obtained-pets": [],
+  "current-augment": 4373,
+  "item-augments": [
+    {
+      "itemId": 22076,
+      "firstAugment": "DAMAGE_BOOST_1",
+      "secondAugment": "HP_BOOST_1",
+      "thirdAugment": "DAMAGE_BOOST_1"
+    },
+    {
+      "itemId": 23133,
+      "firstAugment": "DAMAGE_BOOST_1",
+      "secondAugment": "HP_BOOST_1",
+      "thirdAugment": "HP_BOOST_1"
+    },
+    {
+      "itemId": 23127,
+      "firstAugment": "DAMAGE_BOOST_1",
+      "secondAugment": "DAMAGE_BOOST_1"
+    },
+    {
+      "itemId": 13074,
+      "firstAugment": "DAMAGE_BOOST_1",
+      "secondAugment": "DAMAGE_BOOST_1"
+    },
+    {
+      "itemId": 4373,
+      "firstAugment": "DAMAGE_BOOST_1",
+      "secondAugment": "DAMAGE_BOOST_1",
+      "thirdAugment": "DAMAGE_BOOST_1"
+    }
+  ]
 }

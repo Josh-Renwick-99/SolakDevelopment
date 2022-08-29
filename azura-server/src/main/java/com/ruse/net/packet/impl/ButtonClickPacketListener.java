@@ -151,6 +151,15 @@ public class ButtonClickPacketListener implements PacketListener {
         new WellForGlobalBossesInterface(player).button(id);
 
         switch (id) {
+            case -19191:
+                player.getAugmentHandler().remove(1, player);
+                break;
+            case -19189:
+                player.getAugmentHandler().remove(2, player);
+                break;
+            case -19187:
+                player.getAugmentHandler().remove(3, player);
+                break;
             case 26070:
                 player.levelNotifications = !player.levelNotifications;
                 player.getPacketSender().sendMessage("Level-up notifications toggled: "+(player.levelNotifications ? "on" : "off")+".");
@@ -852,7 +861,7 @@ public class ButtonClickPacketListener implements PacketListener {
                 break;
             case -26386:
                 player.getPacketSender().sendTabInterface(GameSettings.STAFF_TAB, 46343);
-                StaffList.updateInterface(player);
+                player.getAugmentHandler().updateInterface(player.getCurrentAugment(), player);
                 break;
             case 30362:
                 player.setInputHandling(new SearchForCollectionNpc());
