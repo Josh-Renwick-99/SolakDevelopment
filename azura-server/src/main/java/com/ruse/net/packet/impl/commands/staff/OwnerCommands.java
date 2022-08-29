@@ -529,6 +529,19 @@ public class OwnerCommands {
             PrayerHandler.deactivateAll(player);
             CurseHandler.deactivateAll(player);
         }
+        if (command[0].equalsIgnoreCase("holy")) {
+            player.performAnimation(new Animation(645));
+            if (player.getPrayerbook() == Prayerbook.NORMAL) {
+                player.getPacketSender().sendMessage("You sense a surge of power flow through your body!");
+                player.setPrayerbook(Prayerbook.HOLY);
+            } else {
+                player.getPacketSender().sendMessage("You sense a surge of purity flow through your body!");
+                player.setPrayerbook(Prayerbook.NORMAL);
+            }
+            player.getPacketSender().sendTabInterface(GameSettings.PRAYER_TAB, player.getPrayerbook().getInterfaceId());
+            PrayerHandler.deactivateAll(player);
+            CurseHandler.deactivateAll(player);
+        }
         if (command[0].equalsIgnoreCase("dropi")) {
             // String search = wholeCommand.substring(command[0].length()+1);
             DropsInterface.open(player);

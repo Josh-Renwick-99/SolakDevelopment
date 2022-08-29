@@ -121,3 +121,19 @@
 [8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight robebottom, id: 18623, amount: 1	
 [8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight robetop, id: 18637, amount: 1	
 [8/24/22 02:50PM]  [ Adam Test1 ] Player dropped item: Corrupt moonlight hood, id: 18631, amount: 1	
+[8/29/22 02:47PM]  [ Adam Test1 ] Player dropped item: Iron bar, id: 2352, amount: 6	
+[8/29/22 02:47PM]  [ Adam Test1 ] Player dropped item: Copper ore, id: 437, amount: 29	
+[8/29/22 02:51PM]  [ Adam Test1 ] Player dropped item: Nymora helm, id: 23061, amount: 1	
+[8/29/22 02:51PM]  [ Adam Test1 ] Player dropped item: None, id: 22127, amount: 1	
+[8/29/22 02:53PM]  [ Adam Test1 ] Player dropped item: Collectors necklace, id: 23087, amount: 1	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: None, id: 22127, amount: 1	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Monkioh helm, id: 23134, amount: 1	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Creator's helm, id: 23127, amount: 1	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Creator's body, id: 23128, amount: 1	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Creator's legs, id: 23129, amount: 1	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Solak Coins, id: 995, amount: 150594	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Creator's scythe, id: 23132, amount: 1	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Copper ore, id: 437, amount: 42	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Creator's wings, id: 23133, amount: 1	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Iron bar, id: 2352, amount: 17	
+[8/29/22 02:57PM]  [ Adam Test1 ] Player dropped item: Grimy guam, id: 200, amount: 10	
