@@ -154,36 +154,40 @@ public class AugmentHandler {
     }
 
     public void viewNextAugment(Player player){
-        Integer currentAugmentId = player.getCurrentAugment();
-        Integer augmentIndex = null;
-        for (ItemAugment aug : augments){
-            if (aug.getItemId().equals(currentAugmentId)){
-                augmentIndex = augments.indexOf(aug);
-                augmentIndex++;
+        if (augments.size() > 1) {
+            Integer currentAugmentId = player.getCurrentAugment();
+            Integer augmentIndex = null;
+            for (ItemAugment aug : augments) {
+                if (aug.getItemId().equals(currentAugmentId)) {
+                    augmentIndex = augments.indexOf(aug);
+                    augmentIndex++;
+                }
             }
+            if (augmentIndex < augments.size()) {
+                player.setCurrentAugment(augments.get(augmentIndex).getItemId());
+            } else {
+                player.setCurrentAugment(augments.get(0).getItemId());
+            }
+            updateInterface(player.getCurrentAugment(), player);
         }
-        if (augmentIndex < augments.size()){
-            player.setCurrentAugment(augments.get(augmentIndex).getItemId());
-        } else {
-            player.setCurrentAugment(augments.get(0).getItemId());
-        }
-        updateInterface(player.getCurrentAugment(), player);
     }
 
     public void viewPreviousAugment(Player player){
-        Integer currentAugmentId = player.getCurrentAugment();
-        Integer augmentIndex = null;
-        for (ItemAugment aug : augments){
-            if (aug.getItemId().equals(currentAugmentId)){
-                augmentIndex = augments.indexOf(aug);
+        if (augments.size() > 1) {
+            Integer currentAugmentId = player.getCurrentAugment();
+            Integer augmentIndex = null;
+            for (ItemAugment aug : augments) {
+                if (aug.getItemId().equals(currentAugmentId)) {
+                    augmentIndex = augments.indexOf(aug);
+                }
             }
+            if (augmentIndex > 0) {
+                player.setCurrentAugment(augments.get(augmentIndex - 1).getItemId());
+            } else {
+                player.setCurrentAugment(augments.get(augments.size() - 1).getItemId());
+            }
+            updateInterface(player.getCurrentAugment(), player);
         }
-        if (augmentIndex > 0){
-            player.setCurrentAugment(augments.get(augmentIndex - 1).getItemId());
-        } else {
-            player.setCurrentAugment(augments.get(augments.size() - 1).getItemId());
-        }
-        updateInterface(player.getCurrentAugment(), player);
     }
 
     private boolean containsAugment(Integer augmentItemId){
