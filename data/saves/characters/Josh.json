@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 28344530,
+  "total-play-time-ms": 3323927374245,
   "username": "Josh",
   "password": "123",
   "email": "null",
@@ -9,8 +9,8 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 1815,
-    "y": 4911,
+    "x": 1816,
+    "y": 4907,
     "z": 0
   },
   "online-status": "ON",
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661781675573,
+  "lastlogin": 1661950003706,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -169,14 +169,14 @@
   "gender": "MALE",
   "spell-book": "NORMAL",
   "prayer-book": "NORMAL",
-  "running": true,
+  "running": false,
   "run-energy": 100,
   "music": false,
   "sounds": false,
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 425352490,
+  "last-veng": 1661522574452,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -2168,7 +2168,7 @@
       false
     ]
   ],
-  "achievements-daily": 729,
+  "achievements-daily": 731,
   "progression-zones": [
     69,
     31,
@@ -2221,8 +2221,11 @@
     },
     {
       "itemId": 22076,
-      "firstAugment": "DAMAGE_BOOST_1",
-      "secondAugment": "DAMAGE_BOOST_1"
+      "firstAugment": "DAMAGE_BOOST_1"
+    },
+    {
+      "itemId": 23087,
+      "firstAugment": "DAMAGE_BOOST_1"
     }
   ]
 }
