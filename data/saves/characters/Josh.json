@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 3323927374245,
+  "total-play-time-ms": 3323927715472,
   "username": "Josh",
   "password": "123",
   "email": "null",
@@ -9,8 +9,8 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 1816,
-    "y": 4907,
+    "x": 3471,
+    "y": 9482,
     "z": 0
   },
   "online-status": "ON",
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661950003706,
+  "lastlogin": 1661974093218,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -61,7 +61,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": -212483821,
+  "total-gained-exp": -1970080865,
   "barrows-points": 0,
   "donator-points": 250,
   "Skilling-points": 0,
@@ -82,7 +82,7 @@
     false
   ],
   "tasks-progress": [
-    147,
+    149,
     0,
     0,
     0,
@@ -140,7 +140,7 @@
   ],
   "total-prestiges": 0,
   "slayer-spree": 0,
-  "npc-killcount": 136,
+  "npc-killcount": 137,
   "spawn-killcount": 0,
   "lord-killcount": 0,
   "demon-killcount": 0,
@@ -176,7 +176,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 1661522574452,
+  "last-veng": 1661524391694,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -413,7 +413,7 @@
     {
       "npcId": 1703,
       "item": 995,
-      "amount": 12539
+      "amount": 12541
     },
     {
       "npcId": 1703,
@@ -429,6 +429,11 @@
       "npcId": 1703,
       "item": 200,
       "amount": 8
+    },
+    {
+      "npcId": 1703,
+      "item": 202,
+      "amount": 9
     }
   ],
   "holy-prayers-unlocked": [
@@ -530,10 +535,10 @@
       1
     ],
     "experience": [
-      108222291,
+      1535493199,
       104273167,
       104273167,
-      16103963,
+      1126203307,
       104273167,
       13034431,
       104273167,
@@ -570,7 +575,7 @@
     },
     {
       "id": 995,
-      "amount": 130341,
+      "amount": 165523,
       "slot": 0
     },
     {
@@ -609,13 +614,13 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 202,
+      "amount": 9,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 22076,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -716,8 +721,8 @@
       "slot": 0
     },
     {
-      "id": 22076,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -903,10 +908,10 @@
       "boss": false
     },
     {
-      "runningTotal": 69,
+      "runningTotal": 70,
       "npcId": 9001,
       "npcName": "Sonic",
-      "amount": 69,
+      "amount": 70,
       "boss": false
     },
     {
@@ -952,17 +957,17 @@
       "boss": false
     },
     {
-      "runningTotal": 5,
+      "runningTotal": 6,
       "npcId": 1703,
       "npcName": "Vampyre Hand",
-      "amount": 5,
+      "amount": 6,
       "boss": false
     }
   ],
   "drops": [
     {
       "item": 995,
-      "amount": 94620,
+      "amount": 129802,
       "rareDrop": false
     },
     {
@@ -1366,7 +1371,7 @@
       0,
       0,
       0,
-      147,
+      149,
       0,
       0,
       0,
@@ -1468,7 +1473,7 @@
       0,
       0,
       0,
-      147,
+      149,
       0,
       0,
       0,
@@ -1571,7 +1576,7 @@
       0,
       0,
       0,
-      147,
+      149,
       0,
       0,
       0,
@@ -2170,7 +2175,7 @@
   ],
   "achievements-daily": 731,
   "progression-zones": [
-    69,
+    70,
     31,
     32,
     2,
@@ -2213,16 +2218,8 @@
   ],
   "favorite-teleports": [],
   "obtained-pets": [],
-  "current-augment": 22076,
+  "current-augment": 23087,
   "item-augments": [
-    {
-      "itemId": 4373,
-      "firstAugment": "DAMAGE_BOOST_1"
-    },
-    {
-      "itemId": 22076,
-      "firstAugment": "DAMAGE_BOOST_1"
-    },
     {
       "itemId": 23087,
       "firstAugment": "DAMAGE_BOOST_1"

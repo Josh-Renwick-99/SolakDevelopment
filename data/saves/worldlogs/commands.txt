@@ -2782,3 +2782,4 @@
 [8/29/22 03:02PM]  [ Josh ] Josh used command ::interface 29753 | Player rights = DEVELOPER	
 [8/29/22 03:02PM]  [ Josh ] Josh used command ::interface 29753 | Player rights = DEVELOPER	
 [8/29/22 03:04PM]  [ Josh ] Josh used command ::object 13192 | Player rights = DEVELOPER	
+[8/31/22 07:58PM]  [ Josh ] Josh used command ::train | Player rights = DEVELOPER	
