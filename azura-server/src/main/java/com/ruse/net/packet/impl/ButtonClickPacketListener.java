@@ -160,6 +160,12 @@ public class ButtonClickPacketListener implements PacketListener {
             case -19187:
                 player.getAugmentHandler().remove(3, player);
                 break;
+            case -19175:
+                player.getAugmentHandler().viewPreviousAugment(player);
+                break;
+            case -19173:
+                player.getAugmentHandler().viewNextAugment(player);
+                break;
             case 26070:
                 player.levelNotifications = !player.levelNotifications;
                 player.getPacketSender().sendMessage("Level-up notifications toggled: "+(player.levelNotifications ? "on" : "off")+".");
