@@ -170,6 +170,11 @@ public class ItemContainerActionPacketListener implements PacketListener {
 					}
 					player.getEquipment().refreshItems();
 					player.getInventory().refreshItems();
+					player.getAugmentHandler().getAugments().stream().filter(aug -> aug.getItemId().equals(id)).forEach(aug -> {
+						if (aug.isEquipped()) {
+							player.getAugmentHandler().unequipAugment(id);
+						}
+					});
 					player.getUpdateFlag().flag(Flag.APPEARANCE);
 				} else {
 					player.getInventory().full();
