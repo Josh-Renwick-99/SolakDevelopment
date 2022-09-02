@@ -11,6 +11,7 @@ public class ItemAugment {
     private Augment firstAugment;
     private Augment secondAugment;
     private Augment thirdAugment;
+    private boolean equipped;
 
     public double getDamageBonus(){
         double bonus = 0.0;

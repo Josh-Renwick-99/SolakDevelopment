@@ -213,6 +213,14 @@ public class AugmentHandler {
         return false;
     }
 
+    public void equipAugment(Integer augmentItemId){
+        this.augments.stream().filter(aug -> aug.getItemId().equals(augmentItemId)).forEach(aug -> aug.setEquipped(true));
+    }
+
+    public void unequipAugment(Integer augmentItemId){
+        this.augments.stream().filter(aug -> aug.getItemId().equals(augmentItemId)).forEach(aug -> aug.setEquipped(false));
+    }
+
     public AugmentHandler(){
         if(this.augments == null){
             this.augments = new ArrayList<>();

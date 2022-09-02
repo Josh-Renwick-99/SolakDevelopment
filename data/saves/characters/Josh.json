@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 3323927715472,
+  "total-play-time-ms": 3323932124748,
   "username": "Josh",
   "password": "123",
   "email": "null",
@@ -9,8 +9,8 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3471,
-    "y": 9482,
+    "x": 2072,
+    "y": 4457,
     "z": 0
   },
   "online-status": "ON",
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661974093218,
+  "lastlogin": 1662126484187,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -61,7 +61,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": -1970080865,
+  "total-gained-exp": -788711404,
   "barrows-points": 0,
   "donator-points": 250,
   "Skilling-points": 0,
@@ -82,7 +82,7 @@
     false
   ],
   "tasks-progress": [
-    149,
+    151,
     0,
     0,
     0,
@@ -176,7 +176,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 1661524391694,
+  "last-veng": 453168905,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -535,10 +535,10 @@
       1
     ],
     "experience": [
-      1535493199,
+      -2094953754,
       104273167,
       104273167,
-      1126203307,
+      1643052425,
       104273167,
       13034431,
       104273167,
@@ -564,7 +564,7 @@
   },
   "inventory": [
     {
-      "id": 4373,
+      "id": 23127,
       "amount": 1,
       "slot": 0
     },
@@ -624,53 +624,53 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23201,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23021,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23201,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23201,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23201,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23198,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23202,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23202,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23201,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23087,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -706,8 +706,8 @@
   ],
   "equipment": [
     {
-      "id": 23127,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -716,8 +716,8 @@
       "slot": 0
     },
     {
-      "id": 23087,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -736,8 +736,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 4373,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -908,17 +908,17 @@
       "boss": false
     },
     {
-      "runningTotal": 70,
+      "runningTotal": 71,
       "npcId": 9001,
       "npcName": "Sonic",
-      "amount": 70,
+      "amount": 71,
       "boss": false
     },
     {
-      "runningTotal": 31,
+      "runningTotal": 32,
       "npcId": 9002,
       "npcName": "Patrick",
-      "amount": 31,
+      "amount": 32,
       "boss": false
     },
     {
@@ -1371,7 +1371,7 @@
       0,
       0,
       0,
-      149,
+      151,
       0,
       0,
       0,
@@ -1473,7 +1473,7 @@
       0,
       0,
       0,
-      149,
+      151,
       0,
       0,
       0,
@@ -1576,7 +1576,7 @@
       0,
       0,
       0,
-      149,
+      151,
       0,
       0,
       0,
@@ -2173,10 +2173,10 @@
       false
     ]
   ],
-  "achievements-daily": 731,
+  "achievements-daily": 802,
   "progression-zones": [
-    70,
-    31,
+    71,
+    32,
     32,
     2,
     3
@@ -2222,7 +2222,8 @@
   "item-augments": [
     {
       "itemId": 23087,
-      "firstAugment": "DAMAGE_BOOST_1"
+      "firstAugment": "DAMAGE_BOOST_1",
+      "equipped": false
     }
   ]
 }

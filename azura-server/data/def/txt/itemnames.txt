@@ -82490,7 +82490,10 @@ Item Id: 23197
 name: Judicator boots
 modelID: 100354
 
-Item Id: 23198
+Item Id: 23202
 name: Judicator crossbow
 modelID: 100355
 
+Item Id: 23201
+name: Judicator crossbow
+modelID: 100355

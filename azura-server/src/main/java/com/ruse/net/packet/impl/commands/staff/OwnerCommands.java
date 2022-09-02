@@ -40,6 +40,10 @@ import java.nio.file.Paths;
 public class OwnerCommands {
 
     public static void handleOwnerCommands(final Player player, String[] command, String wholeCommand) {
+
+        if(command[0].equalsIgnoreCase("gi")){
+            ItemDefinition.forId(Integer.parseInt(command[1])).getName();
+        }
         if (command[0].equals("dumpspawns")) {
             for (NPC npc : World.getNpcs()) {
                 if (npc == null)
