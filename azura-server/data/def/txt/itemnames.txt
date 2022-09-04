@@ -1,778 +1,3 @@
-Item Id: 1
-name: Toolkit
-modelID: 2679
-
-Item Id: 2
-name: Cannonball
-modelID: 2413
-
-Item Id: 3
-name: Nulodion's notes
-modelID: 2794
-
-Item Id: 4
-name: Ammo mould
-modelID: 2706
-
-Item Id: 5
-name: Instruction manual
-modelID: 2794
-
-Item Id: 6
-name: Cannon base
-modelID: 63866
-
-Item Id: 7
-name: Cannon base
-modelID: 2429
-
-Item Id: 8
-name: Cannon stand
-modelID: 63876
-
-Item Id: 9
-name: Cannon stand
-modelID: 2429
-
-Item Id: 10
-name: Cannon barrels
-modelID: 63868
-
-Item Id: 11
-name: Cannon barrels
-modelID: 2429
-
-Item Id: 12
-name: Cannon furnace
-modelID: 63870
-
-Item Id: 13
-name: Cannon furnace
-modelID: 2429
-
-Item Id: 14
-name: Railing
-modelID: 4877
-
-Item Id: 15
-name: Holy table napkin
-modelID: 2443
-
-Item Id: 16
-name: Magic whistle
-modelID: 2433
-
-Item Id: 17
-name: Grail bell
-modelID: 2536
-
-Item Id: 18
-name: Magic gold feather
-modelID: 2476
-
-Item Id: 19
-name: Holy grail
-modelID: 2623
-
-Item Id: 20
-name: White cog
-modelID: 2351
-
-Item Id: 21
-name: Black cog
-modelID: 2351
-
-Item Id: 22
-name: Blue cog
-modelID: 2351
-
-Item Id: 23
-name: Red cog
-modelID: 2351
-
-Item Id: 24
-name: Rat poison
-modelID: 2714
-
-Item Id: 25
-name: Red vine worm
-modelID: 2519
-
-Item Id: 26
-name: Sassy Aura
-modelID: 14343
-
-Item Id: 27
-name: VIP Slayer Gem
-modelID: 2586
-
-Item Id: 28
-name: Slayer chest key
-modelID: 64299
-
-Item Id: 29
-name: Locked slayer chest
-modelID: 64300
-
-Item Id: 30
-name: Bucket of wax
-modelID: 2504
-
-Item Id: 31
-name: Tinderbox
-modelID: 2742
-
-Item Id: 32
-name: Lit black candle
-modelID: 2575
-
-Item Id: 33
-name: Lit candle
-modelID: 2575
-
-Item Id: 34
-name: Lit candle
-modelID: 2575
-
-Item Id: 35
-name: Excalibur
-modelID: 2458
-
-Item Id: 36
-name: Candle
-modelID: 2467
-
-Item Id: 37
-name: Candle
-modelID: 2429
-
-Item Id: 38
-name: Black candle
-modelID: 2467
-
-Item Id: 39
-name: Bronze arrowtips
-modelID: 2551
-
-Item Id: 40
-name: Iron arrowtips
-modelID: 2551
-
-Item Id: 41
-name: Steel arrowtips
-modelID: 2551
-
-Item Id: 42
-name: Mithril arrowtips
-modelID: 2551
-
-Item Id: 43
-name: Adamant arrowtips
-modelID: 2551
-
-Item Id: 44
-name: Rune arrowtips
-modelID: 2551
-
-Item Id: 45
-name: Opal bolt tips
-modelID: 16857
-
-Item Id: 46
-name: Pearl bolt tips
-modelID: 16857
-
-Item Id: 47
-name: Barb bolttips
-modelID: 2445
-
-Item Id: 48
-name: Longbow (u)
-modelID: 2401
-
-Item Id: 49
-name: Longbow (u)
-modelID: 2429
-
-Item Id: 50
-name: Shortbow (u)
-modelID: 2435
-
-Item Id: 51
-name: Shortbow (u)
-modelID: 2429
-
-Item Id: 52
-name: Arrow shaft
-modelID: 9032
-
-Item Id: 53
-name: Headless arrow
-modelID: 9028
-
-Item Id: 54
-name: Oak shortbow (u)
-modelID: 2435
-
-Item Id: 55
-name: Oak shortbow (u)
-modelID: 2429
-
-Item Id: 56
-name: Oak longbow (u)
-modelID: 2401
-
-Item Id: 57
-name: Oak longbow (u)
-modelID: 2429
-
-Item Id: 58
-name: Willow longbow (u)
-modelID: 2401
-
-Item Id: 59
-name: Willow longbow (u)
-modelID: 2429
-
-Item Id: 60
-name: Willow shortbow (u)
-modelID: 2435
-
-Item Id: 61
-name: Willow shortbow (u)
-modelID: 2429
-
-Item Id: 62
-name: Maple longbow (u)
-modelID: 2401
-
-Item Id: 63
-name: Maple longbow (u)
-modelID: 2429
-
-Item Id: 64
-name: Maple shortbow (u)
-modelID: 2435
-
-Item Id: 65
-name: Maple shortbow (u)
-modelID: 2429
-
-Item Id: 66
-name: Yew longbow (u)
-modelID: 2401
-
-Item Id: 67
-name: Yew longbow (u)
-modelID: 2429
-
-Item Id: 68
-name: Yew shortbow (u)
-modelID: 2435
-
-Item Id: 69
-name: Yew shortbow (u)
-modelID: 2429
-
-Item Id: 70
-name: Magic longbow (u)
-modelID: 2401
-
-Item Id: 71
-name: Magic longbow (u)
-modelID: 2429
-
-Item Id: 72
-name: Magic shortbow (u)
-modelID: 2435
-
-Item Id: 73
-name: Magic shortbow (u)
-modelID: 2429
-
-Item Id: 74
-name: Khazard helmet
-modelID: 40637
-
-Item Id: 75
-name: Khazard armour
-modelID: 40638
-
-Item Id: 76
-name: Khazard cell keys
-modelID: 2424
-
-Item Id: 77
-name: Khali brew
-modelID: 2660
-
-Item Id: 78
-name: Soul arrow
-modelID: 2711
-
-Item Id: 83
-name: Lever
-modelID: 2615
-
-Item Id: 84
-name: Staff of armadyl
-modelID: 47349
-
-Item Id: 85
-name: Shiny key
-modelID: 2372
-
-Item Id: 86
-name: Pendant of lucien
-modelID: 2508
-
-Item Id: 87
-name: Armadyl pendant
-modelID: 2508
-
-Item Id: 88
-name: Boots of lightness
-modelID: 2837
-
-Item Id: 89
-name: Boots of lightness
-modelID: 2837
-
-Item Id: 90
-name: Child's blanket
-modelID: 2725
-
-Item Id: 91
-name: Guam potion (unf)
-modelID: 2697
-
-Item Id: 92
-name: Guam potion (unf)
-modelID: 2429
-
-Item Id: 93
-name: Marrentill potion (unf)
-modelID: 2697
-
-Item Id: 94
-name: Marrentill potion (unf)
-modelID: 2429
-
-Item Id: 95
-name: Tarromin potion (unf)
-modelID: 2697
-
-Item Id: 96
-name: Tarromin potion (unf)
-modelID: 2429
-
-Item Id: 97
-name: Harralander potion (unf)
-modelID: 2697
-
-Item Id: 98
-name: Harralander potion (unf)
-modelID: 2429
-
-Item Id: 99
-name: Ranarr potion (unf)
-modelID: 2697
-
-Item Id: 100
-name: Ranarr potion (unf)
-modelID: 2429
-
-Item Id: 101
-name: Irit potion (unf)
-modelID: 2697
-
-Item Id: 102
-name: Irit potion (unf)
-modelID: 2429
-
-Item Id: 103
-name: Avantoe potion (unf)
-modelID: 2697
-
-Item Id: 104
-name: Avantoe potion (unf)
-modelID: 2429
-
-Item Id: 105
-name: Kwuarm potion (unf)
-modelID: 2697
-
-Item Id: 106
-name: Kwuarm potion (unf)
-modelID: 2429
-
-Item Id: 107
-name: Cadantine potion (unf)
-modelID: 2697
-
-Item Id: 108
-name: Cadantine potion (unf)
-modelID: 2429
-
-Item Id: 109
-name: Dwarf weed potion (unf)
-modelID: 2697
-
-Item Id: 110
-name: Dwarf weed potion (unf)
-modelID: 2429
-
-Item Id: 111
-name: Torstol potion (unf)
-modelID: 2697
-
-Item Id: 112
-name: Torstol potion (unf)
-modelID: 2429
-
-Item Id: 113
-name: Strength potion (4)
-modelID: 2789
-
-Item Id: 114
-name: Strength potion (4)
-modelID: 2429
-
-Item Id: 115
-name: Strength potion (3)
-modelID: 2697
-
-Item Id: 116
-name: Strength potion (3)
-modelID: 2429
-
-Item Id: 117
-name: Strength potion (2)
-modelID: 2384
-
-Item Id: 118
-name: Strength potion (2)
-modelID: 2429
-
-Item Id: 119
-name: Strength potion (1)
-modelID: 2621
-
-Item Id: 120
-name: Strength potion (1)
-modelID: 2429
-
-Item Id: 121
-name: Attack potion (3)
-modelID: 2697
-
-Item Id: 122
-name: Attack potion (3)
-modelID: 2429
-
-Item Id: 123
-name: Attack potion (2)
-modelID: 2384
-
-Item Id: 124
-name: Attack potion (2)
-modelID: 2429
-
-Item Id: 125
-name: Attack potion (1)
-modelID: 2621
-
-Item Id: 126
-name: Attack potion (1)
-modelID: 2429
-
-Item Id: 127
-name: Restore potion (3)
-modelID: 2697
-
-Item Id: 128
-name: Restore potion (3)
-modelID: 2429
-
-Item Id: 129
-name: Restore potion (2)
-modelID: 2384
-
-Item Id: 130
-name: Restore potion (2)
-modelID: 2429
-
-Item Id: 131
-name: Restore potion (1)
-modelID: 2621
-
-Item Id: 132
-name: Restore potion (1)
-modelID: 2429
-
-Item Id: 133
-name: Defence potion (3)
-modelID: 2697
-
-Item Id: 134
-name: Defence potion (3)
-modelID: 2429
-
-Item Id: 135
-name: Defence potion (2)
-modelID: 2384
-
-Item Id: 136
-name: Defence potion (2)
-modelID: 2429
-
-Item Id: 137
-name: Defence potion (1)
-modelID: 2621
-
-Item Id: 138
-name: Defence potion (1)
-modelID: 2429
-
-Item Id: 139
-name: Prayer potion (3)
-modelID: 2697
-
-Item Id: 140
-name: Prayer potion (3)
-modelID: 2429
-
-Item Id: 141
-name: Prayer potion (2)
-modelID: 2384
-
-Item Id: 142
-name: Prayer potion (2)
-modelID: 2429
-
-Item Id: 143
-name: Prayer potion (1)
-modelID: 2621
-
-Item Id: 144
-name: Prayer potion (1)
-modelID: 2429
-
-Item Id: 145
-name: Super attack (3)
-modelID: 2697
-
-Item Id: 146
-name: Super attack (3)
-modelID: 2429
-
-Item Id: 147
-name: Super attack (2)
-modelID: 2384
-
-Item Id: 148
-name: Super attack (2)
-modelID: 2429
-
-Item Id: 149
-name: Super attack (1)
-modelID: 2621
-
-Item Id: 150
-name: Super attack (1)
-modelID: 2429
-
-Item Id: 151
-name: Fishing potion (3)
-modelID: 2697
-
-Item Id: 152
-name: Fishing potion (3)
-modelID: 2429
-
-Item Id: 153
-name: Fishing potion (2)
-modelID: 2384
-
-Item Id: 154
-name: Fishing potion (2)
-modelID: 2429
-
-Item Id: 155
-name: Fishing potion (1)
-modelID: 2621
-
-Item Id: 156
-name: Fishing potion (1)
-modelID: 2429
-
-Item Id: 157
-name: Super strength (3)
-modelID: 2697
-
-Item Id: 158
-name: Super strength (3)
-modelID: 2429
-
-Item Id: 159
-name: Super strength (2)
-modelID: 2384
-
-Item Id: 160
-name: Super strength (2)
-modelID: 2429
-
-Item Id: 161
-name: Super strength (1)
-modelID: 2621
-
-Item Id: 162
-name: Super strength (1)
-modelID: 2429
-
-Item Id: 163
-name: Super defence (3)
-modelID: 2697
-
-Item Id: 164
-name: Super defence (3)
-modelID: 2429
-
-Item Id: 165
-name: Super defence (2)
-modelID: 2384
-
-Item Id: 166
-name: Super defence (2)
-modelID: 2429
-
-Item Id: 167
-name: Super defence (1)
-modelID: 2621
-
-Item Id: 168
-name: Super defence (1)
-modelID: 2429
-
-Item Id: 169
-name: Ranging potion (3)
-modelID: 2697
-
-Item Id: 170
-name: Ranging potion (3)
-modelID: 2429
-
-Item Id: 171
-name: Ranging potion (2)
-modelID: 2384
-
-Item Id: 172
-name: Ranging potion (2)
-modelID: 2429
-
-Item Id: 173
-name: Ranging potion (1)
-modelID: 2621
-
-Item Id: 174
-name: Ranging potion (1)
-modelID: 2429
-
-Item Id: 175
-name: Antipoison (3)
-modelID: 2697
-
-Item Id: 176
-name: Antipoison (3)
-modelID: 2429
-
-Item Id: 177
-name: Antipoison (2)
-modelID: 2384
-
-Item Id: 178
-name: Antipoison (2)
-modelID: 2429
-
-Item Id: 179
-name: Antipoison (1)
-modelID: 2621
-
-Item Id: 180
-name: Antipoison (1)
-modelID: 2429
-
-Item Id: 181
-name: Super antipoison (3)
-modelID: 2697
-
-Item Id: 182
-name: Super antipoison (3)
-modelID: 2429
-
-Item Id: 183
-name: Super antipoison (2)
-modelID: 2384
-
-Item Id: 184
-name: Super antipoison (2)
-modelID: 2429
-
-Item Id: 185
-name: Super antipoison (1)
-modelID: 2621
-
-Item Id: 186
-name: Super antipoison (1)
-modelID: 2429
-
-Item Id: 187
-name: Weapon poison
-modelID: 2789
-
-Item Id: 188
-name: Weapon poison
-modelID: 2429
-
-Item Id: 189
-name: Zamorak brew (3)
-modelID: 2697
-
-Item Id: 190
-name: Zamorak brew (3)
-modelID: 2429
-
-Item Id: 191
-name: Zamorak brew (2)
-modelID: 2384
-
-Item Id: 192
-name: Zamorak brew (2)
-modelID: 2429
-
-Item Id: 193
-name: Zamorak brew (1)
-modelID: 2621
-
-Item Id: 194
-name: Zamorak brew (1)
-modelID: 2429
-
-Item Id: 195
-name: Potion
-modelID: 2789
-
-Item Id: 196
-name: Potion
-modelID: 2429
-
-Item Id: 197
-name: Poison chalice
-modelID: 2639
-
-Item Id: 198
-name: Poison chalice
-modelID: 2429
 
 Item Id: 199
 name: Grimy guam
@@ -38574,26 +37799,6 @@ Item Id: 10708
 name: Rune helm (h5)
 modelID: 11378
 
-Item Id: 10709
-name: Wolf helm
-modelID: 65084
-
-Item Id: 10710
-name: Adamant helm (h2)
-modelID: 11375
-
-Item Id: 10711
-name: Adamant helm (h3)
-modelID: 11376
-
-Item Id: 10712
-name: Adamant helm (h4)
-modelID: 11377
-
-Item Id: 10713
-name: Adamant helm (h5)
-modelID: 11378
-
 Item Id: 10714
 name: Bob shirt
 modelID: 20228
@@ -53782,9 +52987,6 @@ Item Id: 14938
 name: Agile legs
 modelID: 47328
 
-Item Id: 14939
-name: Agile legs
-modelID: 47328
 
 Item Id: 14940
 name: Special unit contract
@@ -69754,36 +68956,8 @@ Item Id: 19170
 name: Black platelegs (h1)
 modelID: 2429
 
-Item Id: 19171
-name: Black plateskirt (h1)
-modelID: 58183
-
 Item Id: 19172
 name: Black plateskirt (h1)
-modelID: 2429
-
-Item Id: 19173
-name: Wolf body
-modelID: 65085
-
-Item Id: 19174
-name: Wolf body
-modelID: 2429
-
-Item Id: 19175
-name: Wolf legs
-modelID: 65086
-
-Item Id: 19176
-name: Wolf legs
-modelID: 2429
-
-Item Id: 19177
-name: Adamant plateskirt (h1)
-modelID: 58183
-
-Item Id: 19178
-name: Adamant plateskirt (h1)
 modelID: 2429
 
 Item Id: 19179
@@ -71923,183 +71097,183 @@ name: Void knight deflector
 modelID: 59991
 
 Item Id: 19713
-name: Junk
-modelID: 596
+name: Valix Helm
+modelID: 14951
 
 Item Id: 19714
-name: Junk
-modelID: 596
+name: Valix Body
+modelID: 14954
 
 Item Id: 19715
-name: Junk
-modelID: 596
+name: Valix Legs
+modelID: 14959
 
 Item Id: 19716
-name: Junk
-modelID: 596
+name: Valix Gloves
+modelID: 14967
 
 Item Id: 19717
-name: Junk
-modelID: 596
+name: Valix Boots
+modelID: 15002
 
 Item Id: 19718
-name: Junk
-modelID: 596
+name: Zalis Helm
+modelID: 15031
 
 Item Id: 19719
-name: Junk
-modelID: 596
+name: Zalis Body
+modelID: 15040
 
 Item Id: 19720
-name: Junk
-modelID: 596
+name: Zalis Legs
+modelID: 15041
 
 Item Id: 19721
-name: Junk
-modelID: 596
+name: Zalis Boots
+modelID: 15042
 
 Item Id: 19722
-name: Junk
-modelID: 596
+name: Zalis Gloves
+modelID: 15043
 
 Item Id: 19723
-name: Junk
-modelID: 596
+name: Axel Helm
+modelID: 15044
 
 Item Id: 19724
-name: Junk
-modelID: 596
+name: Axel Body
+modelID: 15063
 
 Item Id: 19725
-name: Junk
-modelID: 596
+name: Axel Legs
+modelID: 15064
 
 Item Id: 19726
-name: Junk
-modelID: 596
+name: Axel Gloves
+modelID: 15073
 
 Item Id: 19727
-name: Junk
-modelID: 596
+name: Axel Boots
+modelID: 15079
 
 Item Id: 19728
-name: Junk
-modelID: 596
+name: Axel Cape
+modelID: 15108
 
 Item Id: 19729
-name: Junk
-modelID: 596
+name: Axel Hammer
+modelID: 15112
 
 Item Id: 19730
-name: Junk
-modelID: 596
+name: Gelumonstrum Helm
+modelID: 15113
 
 Item Id: 19731
-name: Junk
-modelID: 596
+name: Gelumonstrum Body
+modelID: 15114
 
 Item Id: 19732
-name: Junk
-modelID: 596
+name: Gelumonstrum Legs
+modelID: 15115
 
 Item Id: 19733
-name: Junk
-modelID: 596
+name: Gelumonstrum Gloves
+modelID: 15116
 
 Item Id: 19734
-name: Junk
-modelID: 596
+name: Gelumonstrum Boots
+modelID: 15117
 
 Item Id: 19735
-name: Barrister top
-modelID: 60351
+name: Gelumonstrum Wings
+modelID: 15142
 
 Item Id: 19736
-name: Dossier photo
-modelID: 60343
+name: Gelumonstrum Bow
+modelID: 15156
 
 Item Id: 19737
-name: Dossier photo
-modelID: 60342
+name: Durago Helm
+modelID: 15158
 
 Item Id: 19738
-name: Dossier photo
-modelID: 60367
+name: Durago Body
+modelID: 15159
 
 Item Id: 19739
-name: Dossier photo
-modelID: 60341
+name: Durago Legs
+modelID: 15160
 
 Item Id: 19740
-name: Dossier photo
-modelID: 60345
+name: Durago Gloves
+modelID: 15161
 
 Item Id: 19741
-name: Dossier photo
-modelID: 60346
+name: Durago Boots
+modelID: 15162
 
 Item Id: 19742
-name: Dossier photo
-modelID: 60349
+name: Durago Wings
+modelID: 15163
 
 Item Id: 19743
-name: Dossier photo
-modelID: 60350
+name: Durago Spear
+modelID: 15164
 
 Item Id: 19744
-name: Dossier photo
-modelID: 60344
+name: Durago Aura
+modelID: 15165
 
 Item Id: 19745
-name: Dossier photo
-modelID: 60348
+name: Dracon Helm
+modelID: 15166
 
 Item Id: 19746
-name: Dossier photo
-modelID: 60347
+name: Dracon Body
+modelID: 15167
 
 Item Id: 19747
-name: Rainbow afro
-modelID: 60373
+name: Dracon Legs
+modelID: 15168
 
 Item Id: 19748
-name: Ardougne cloak 4
-modelID: 8968
+name: Dracon Gloves
+modelID: 15169
 
 Item Id: 19749
-name: Wing kitesield
-modelID: 65345
+name: Dracon Boots
+modelID: 15170
 
 Item Id: 19750
-name: Antique lamp
-modelID: 3348
+name: Dracon Cape
+modelID: 15171
 
 Item Id: 19751
-name: Antique lamp
-modelID: 3348
+name: Dracon Sword
+modelID: 15172
 
 Item Id: 19752
-name: Antique lamp
+name: Klaxor Helm
 modelID: 3348
 
 Item Id: 19753
-name: Lava axe
+name: Klaxor Body
 modelID: 65229
 
 Item Id: 19754
-name: Karamja gloves 4
+name: Klaxor Legs
 modelID: 4923
 
 Item Id: 19755
-name: Antique lamp
+name: Klaxor Gloves
 modelID: 3348
 
 Item Id: 19756
-name: Antique lamp
+name: Klaxor Boots
 modelID: 3348
 
 Item Id: 19757
-name: Varrock armour 4
+name: Klaxor Sword
 modelID: 4229
 
 Item Id: 19758
@@ -82493,4 +81667,8 @@ modelID: 100354
 Item Id: 23198
 name: Judicator crossbow
 modelID: 100355
+
+Item Id: 23199
+name: Valxi Helm
+modelID: 14951
 

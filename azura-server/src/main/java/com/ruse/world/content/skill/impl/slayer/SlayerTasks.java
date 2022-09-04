@@ -79,7 +79,7 @@ public enum SlayerTasks {
 
 	JELLO(SlayerMaster.EASY_SLAYER, 1729, "Easy Slayer Dungeon", 15000, new Position(1878, 4912)),
 	JELLYFISH(SlayerMaster.EASY_SLAYER, 1721, "Easy Slayer Dungeon", 18000, new Position(1847, 4899)),
-	VAMPYRE_HAND(SlayerMaster.EASY_SLAYER, 1703, "Easy Slayer Dungeon", 15000, new Position(1813, 4908)),
+	VALIX(SlayerMaster.HARD_SLAYER, 1703, "Easy Slayer Dungeon", 15000, new Position(1813, 4908)),
 
 
 	MOSQUITO(SlayerMaster.EASY_SLAYER, 1713, "Easy Slayer Dungeon 2", 20000, new Position(2032, 4778)),
