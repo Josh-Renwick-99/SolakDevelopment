@@ -71923,184 +71923,184 @@ name: Void knight deflector
 modelID: 59991
 
 Item Id: 19713
-name: Junk
-modelID: 596
+name: Valix Helm
+modelID: 14951
 
 Item Id: 19714
-name: Junk
-modelID: 596
+name: Valix Body
+modelID: 14954
 
 Item Id: 19715
-name: Junk
-modelID: 596
+name: Valix Legs
+modelID: 14959
 
 Item Id: 19716
-name: Junk
-modelID: 596
+name: Valix Gloves
+modelID: 14967
 
 Item Id: 19717
-name: Junk
-modelID: 596
+name: Valix Boots
+modelID: 15002
 
 Item Id: 19718
-name: Junk
-modelID: 596
+name: Zalis Helm
+modelID: 15031
 
 Item Id: 19719
-name: Junk
-modelID: 596
+name: Zalis Body
+modelID: 15040
 
 Item Id: 19720
-name: Junk
-modelID: 596
+name: Zalis Legs
+modelID: 15041
 
 Item Id: 19721
-name: Junk
-modelID: 596
+name: Zalis Boots
+modelID: 15042
 
 Item Id: 19722
-name: Junk
-modelID: 596
+name: Zalis Gloves
+modelID: 15043
 
 Item Id: 19723
-name: Junk
-modelID: 596
+name: Axel Helm
+modelID: 15044
 
 Item Id: 19724
-name: Junk
-modelID: 596
+name: Axel Body
+modelID: 15063
 
 Item Id: 19725
-name: Junk
-modelID: 596
+name: Axel Legs
+modelID: 15064
 
 Item Id: 19726
-name: Junk
-modelID: 596
+name: Axel Gloves
+modelID: 15073
 
 Item Id: 19727
-name: Junk
-modelID: 596
+name: Axel Boots
+modelID: 15079
 
 Item Id: 19728
-name: Junk
-modelID: 596
+name: Axel Cape
+modelID: 15108
 
 Item Id: 19729
-name: Junk
-modelID: 596
+name: Axel Hammer
+modelID: 15112
 
 Item Id: 19730
-name: Junk
-modelID: 596
+name: Gelumonstrum Helm
+modelID: 15113
 
 Item Id: 19731
-name: Junk
-modelID: 596
+name: Gelumonstrum Body
+modelID: 15114
 
 Item Id: 19732
-name: Junk
-modelID: 596
+name: Gelumonstrum Legs
+modelID: 15115
 
 Item Id: 19733
-name: Junk
-modelID: 596
+name: Gelumonstrum Gloves
+modelID: 15116
 
 Item Id: 19734
-name: Junk
-modelID: 596
+name: Gelumonstrum Boots
+modelID: 15117
 
 Item Id: 19735
-name: Barrister top
-modelID: 60351
+name: Gelumonstrum Wings
+modelID: 15142
 
 Item Id: 19736
-name: Dossier photo
-modelID: 60343
+name: Gelumonstrum Bow
+modelID: 15156
 
 Item Id: 19737
-name: Dossier photo
-modelID: 60342
+name: Durago Helm
+modelID: 15158
 
 Item Id: 19738
-name: Dossier photo
-modelID: 60367
+name: Durago Body
+modelID: 15159
 
 Item Id: 19739
-name: Dossier photo
-modelID: 60341
+name: Durago Legs
+modelID: 15160
 
 Item Id: 19740
-name: Dossier photo
-modelID: 60345
+name: Durago Gloves
+modelID: 15161
 
 Item Id: 19741
-name: Dossier photo
-modelID: 60346
+name: Durago Boots
+modelID: 15162
 
 Item Id: 19742
-name: Dossier photo
-modelID: 60349
+name: Durago Wings
+modelID: 15163
 
 Item Id: 19743
-name: Dossier photo
-modelID: 60350
+name: Durago Spear
+modelID: 15164
 
 Item Id: 19744
-name: Dossier photo
-modelID: 60344
+name: Durago Aura
+modelID: 15165
 
 Item Id: 19745
-name: Dossier photo
-modelID: 60348
+name: Dracon Helm
+modelID: 15166
 
 Item Id: 19746
-name: Dossier photo
-modelID: 60347
+name: Dracon Body
+modelID: 15167
 
 Item Id: 19747
-name: Rainbow afro
-modelID: 60373
+name: Dracon Legs
+modelID: 15168
 
 Item Id: 19748
-name: Ardougne cloak 4
-modelID: 8968
+name: Dracon Gloves
+modelID: 15169
 
 Item Id: 19749
-name: Wing kitesield
-modelID: 65345
+name: Dracon Boots
+modelID: 15170
 
 Item Id: 19750
-name: Antique lamp
-modelID: 3348
+name: Dracon Cape
+modelID: 15171
 
 Item Id: 19751
-name: Antique lamp
-modelID: 3348
+name: Dracon Sword
+modelID: 15172
 
 Item Id: 19752
-name: Antique lamp
-modelID: 3348
+name: Klaxor Helm
+modelID: 15174
 
 Item Id: 19753
-name: Lava axe
-modelID: 65229
+name: Klaxor Body
+modelID: 15175
 
 Item Id: 19754
-name: Karamja gloves 4
-modelID: 4923
+name: Klaxor Legs
+modelID: 15176
 
 Item Id: 19755
-name: Antique lamp
-modelID: 3348
+name: Klaxor Gloves
+modelID: 15177
 
 Item Id: 19756
-name: Antique lamp
-modelID: 3348
+name: Klaxor Boots
+modelID: 15178
 
 Item Id: 19757
-name: Varrock armour 4
-modelID: 4229
+name: Klaxor Sword
+modelID: 15179
 
 Item Id: 19758
 name: Antique lamp
