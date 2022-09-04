@@ -2834,3 +2834,12 @@
 [9/4/22 09:10PM]  [ Adam Test1 ] Adam Test1 used command ::global | Player rights = DEVELOPER	
 [9/4/22 09:11PM]  [ Adam ] Adam used command ::find herc | Player rights = DEVELOPER	
 [9/4/22 09:11PM]  [ Adam ] Adam used command ::item 15005 | Player rights = DEVELOPER	
+[9/4/22 09:32PM]  [ Adam ] Adam used command ::find her | Player rights = DEVELOPER	
+[9/4/22 09:32PM]  [ Adam ] Adam used command ::find glad | Player rights = DEVELOPER	
+[9/4/22 09:32PM]  [ Adam ] Adam used command ::item 15006 | Player rights = DEVELOPER	
+[9/4/22 09:32PM]  [ Adam ] Adam used command ::item 15007 | Player rights = DEVELOPER	
+[9/4/22 09:32PM]  [ Adam ] Adam used command ::item 15008 | Player rights = DEVELOPER	
+[9/4/22 09:33PM]  [ Adam ] Adam used command ::find 19164 | Player rights = DEVELOPER	
+[9/4/22 09:33PM]  [ Adam ] Adam used command ::find combat | Player rights = DEVELOPER	
+[9/4/22 09:33PM]  [ Adam ] Adam used command ::item 19164 | Player rights = DEVELOPER	
+[9/4/22 09:34PM]  [ Adam ] Adam used command ::item 19715 | Player rights = DEVELOPER	

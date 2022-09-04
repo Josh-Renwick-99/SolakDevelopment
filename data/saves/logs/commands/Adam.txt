@@ -611,3 +611,12 @@
 [8/24/22 01:04PM] Adam used command ::giveowner adam test1 | Player rights = DEVELOPER	
 [9/4/22 09:11PM] Adam used command ::find herc | Player rights = DEVELOPER	
 [9/4/22 09:11PM] Adam used command ::item 15005 | Player rights = DEVELOPER	
+[9/4/22 09:32PM] Adam used command ::find her | Player rights = DEVELOPER	
+[9/4/22 09:32PM] Adam used command ::find glad | Player rights = DEVELOPER	
+[9/4/22 09:32PM] Adam used command ::item 15006 | Player rights = DEVELOPER	
+[9/4/22 09:32PM] Adam used command ::item 15007 | Player rights = DEVELOPER	
+[9/4/22 09:32PM] Adam used command ::item 15008 | Player rights = DEVELOPER	
+[9/4/22 09:33PM] Adam used command ::find 19164 | Player rights = DEVELOPER	
+[9/4/22 09:33PM] Adam used command ::find combat | Player rights = DEVELOPER	
+[9/4/22 09:33PM] Adam used command ::item 19164 | Player rights = DEVELOPER	
+[9/4/22 09:34PM] Adam used command ::item 19715 | Player rights = DEVELOPER	

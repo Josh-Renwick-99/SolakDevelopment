@@ -176,3 +176,4 @@
 [9/4/22 09:11PM] Logout with password lol123Logout from host 127.0.0.1, serial number: , mac address:18-C0-4D-26-CC-66	
 [9/4/22 09:11PM] Login from host 127.0.0.1, serial number: , mac address:18-C0-4D-26-CC-66	
 [9/4/22 09:18PM] Logout with password lol123Logout from host 127.0.0.1, serial number: , mac address:18-C0-4D-26-CC-66	
+[9/4/22 09:32PM] Login from host 127.0.0.1, serial number: , mac address:18-C0-4D-26-CC-66	
