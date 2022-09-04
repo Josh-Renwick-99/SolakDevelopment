@@ -77,3 +77,5 @@
 [8/23/22 01:44PM] Player dropped item: Judicator crossbow, id: 23198, amount: 1	
 [8/23/22 01:44PM] Player dropped item: SS Aura, id: 12608, amount: 1	
 [8/23/22 01:44PM] Player dropped item: Dark Twisted Bow, id: 22113, amount: 1	
+[8/27/22 11:46PM] Player dropped item: Elite Winged Aura, id: 4373, amount: 1	
+[8/27/22 11:46PM] Player dropped item: Elite Winged Aura, id: 4373, amount: 1	

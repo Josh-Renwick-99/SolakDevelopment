@@ -7,6 +7,9 @@ import com.ruse.engine.task.TaskManager;
 import com.ruse.engine.task.impl.PlayerDeathTask;
 import com.ruse.engine.task.impl.WalkToTask;
 import com.ruse.model.*;
+import com.ruse.model.Augment.AugmentHandler;
+import com.ruse.model.Augment.AugmentInterface;
+import com.ruse.model.Augment.ItemAugment;
 import com.ruse.model.PlayerRelations;
 import com.ruse.model.container.impl.*;
 import com.ruse.model.container.impl.Bank.BankSearchAttributes;
@@ -128,6 +131,13 @@ public class Player extends Character {
     private final UpgradeInterface upgradeInterface = new UpgradeInterface(this);
 
     @Getter
+    private Integer currentAugment;
+
+    public void setCurrentAugment(Integer augId){
+        this.currentAugment = augId;
+    }
+
+    @Getter
     private final ArrayList<TeleportInterface.Teleport> favoriteTeleports = new ArrayList<>();
 
     public boolean canMysteryBox;
@@ -158,7 +168,9 @@ public class Player extends Character {
     @Setter
     private TeleportInterface.Teleport previousTeleport;
 
-
+    @Getter
+    @Setter
+    private AugmentHandler augmentHandler = new AugmentHandler();
     public NPC findSpawnedFor() {
         return findSpawnedFor(position.getRegionId());
     }

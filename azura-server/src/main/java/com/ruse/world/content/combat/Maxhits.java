@@ -1,5 +1,7 @@
 package com.ruse.world.content.combat;
 
+import com.ruse.model.Augment.AugmentBonusType;
+import com.ruse.model.Augment.ItemAugment;
 import com.ruse.model.Skill;
 import com.ruse.model.container.impl.Equipment;
 import com.ruse.util.Misc;
@@ -12,6 +14,8 @@ import com.ruse.world.content.skill.impl.summoning.Familiar;
 import com.ruse.world.entity.impl.Character;
 import com.ruse.world.entity.impl.npc.NPC;
 import com.ruse.world.entity.impl.player.Player;
+
+import java.util.concurrent.atomic.AtomicReference;
 
 public class Maxhits {
 
@@ -42,6 +46,14 @@ public class Maxhits {
             // Special effects also affect maxhit
             if (player.isSpecialActivated() && player.getCombatSpecial().getCombatType() == CombatType.MELEE) {
                 specialBonus = player.getCombatSpecial().getStrengthBonus();
+            }
+
+            if(player.getAugmentHandler().getAugments() != null){
+                Double bonus = 0.0;
+                for (ItemAugment aug : player.getAugmentHandler().getAugments()){
+                    bonus += aug.getDamageBonus();
+                }
+                base *= bonus;
             }
 
             if (specialBonus > 1) {
