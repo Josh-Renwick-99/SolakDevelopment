@@ -3,6 +3,7 @@ package com.ruse.world.content;
 import com.ruse.model.Position;
 import com.ruse.model.definitions.NPCDrops;
 import com.ruse.world.content.casketopening.Box;
+import com.ruse.world.content.minigames.impl.*;
 import com.ruse.world.content.minigames.impl.dungeoneering.DungeoneeringParty;
 import com.ruse.world.content.progressionzone.ProgressionZone;
 import com.ruse.world.content.transportation.TeleportHandler;
@@ -28,7 +29,7 @@ public class TeleportInterface {
             case 1716:
                 if (!player.isOpenedTeleports()) {
                     player.setOpenedTeleports(true);
-                    TeleportInterface.sendMonsterData(player, TeleportInterface.ProgressionMonsters.values()[0]);
+                    TeleportInterface.sendMonsterData(player, TeleportInterface.Monsters.values()[0]);
                     TeleportInterface.sendMonsterTab(player);
                 } else {
                     player.getPacketSender().sendInterface(122000);
@@ -61,8 +62,8 @@ public class TeleportInterface {
             case 1717:
                 Teleport data = player.getPreviousTeleport();
                 if (data != null) {
-                    if (data instanceof ProgressionMonsters) {
-                        handleMonsterTeleport(player, (ProgressionMonsters) data);
+                    if (data instanceof Monsters) {
+                        handleMonsterTeleport(player, (Monsters) data);
                     } else if (data instanceof Bosses) {
                         handleBossTeleport(player, (Bosses) data);
                     } else if (data instanceof Minigames) {
@@ -82,8 +83,8 @@ public class TeleportInterface {
                 if (index < player.getFavoriteTeleports().size()) {
                     Teleport data = player.getFavoriteTeleports().get(index);
                     if (data != null) {
-                        if (data instanceof ProgressionMonsters) {
-                            handleMonsterTeleport(player, (ProgressionMonsters) data);
+                        if (data instanceof Monsters) {
+                            handleMonsterTeleport(player, (Monsters) data);
                         } else if (data instanceof Bosses) {
                             handleBossTeleport(player, (Bosses) data);
                         } else if (data instanceof Minigames) {
@@ -110,8 +111,8 @@ public class TeleportInterface {
 
             if ((buttonID - 122302) % 3 == 0) {
                 if (player.getCurrentTeleportTab() == 0) {
-                    if (index < ProgressionMonsters.values().length) {
-                        ProgressionMonsters monsterData = ProgressionMonsters.values()[index];
+                    if (index < Monsters.values().length) {
+                        Monsters monsterData = Monsters.values()[index];
                         player.setCurrentTeleportClickIndex(index);
                         sendMonsterData(player, monsterData);
                     }
@@ -148,8 +149,8 @@ public class TeleportInterface {
                 Teleport data = null;
 
                 System.out.println("here " + index);
-                if (player.getCurrentTeleportTab() == 0 && index < ProgressionMonsters.values().length) {
-                    data = ProgressionMonsters.values()[index];
+                if (player.getCurrentTeleportTab() == 0 && index < Monsters.values().length) {
+                    data = Monsters.values()[index];
                 } else if (player.getCurrentTeleportTab() == 1 && index < Bosses.values().length) {
                     data = Bosses.values()[index];
                 } else if (player.getCurrentTeleportTab() == 2 && index < Minigames.values().length) {
@@ -207,7 +208,7 @@ public class TeleportInterface {
     public static void handleTeleports(Player player) {
         switch (player.getCurrentTeleportTab()) {
             case 0:
-                ProgressionMonsters monsterData = ProgressionMonsters.values()[player.getCurrentTeleportClickIndex()];
+                Monsters monsterData = Monsters.values()[player.getCurrentTeleportClickIndex()];
                 handleMonsterTeleport(player, monsterData);
                 break;
             case 1:
@@ -236,7 +237,7 @@ public class TeleportInterface {
                 player.getSpellbook().getTeleportType());
     }
 
-    public static void handleMonsterTeleport(Player player, ProgressionMonsters monsterData) {
+    public static void handleMonsterTeleport(Player player, Monsters monsterData) {
         player.setPreviousTeleport(monsterData);
 
         /*if (monsterData == Monsters.STARTER_ZONE) {
@@ -258,7 +259,7 @@ public class TeleportInterface {
     public static void handleMiscTeleport(Player player, Misc miscData) {
         player.setPreviousTeleport(miscData);
 
-        if (miscData == Misc.TRAIN_ZONE) {
+        if (miscData == Misc.STARTER_ZONE) {
             ProgressionZone.teleport(player);
             player.getPacketSender().sendInterfaceRemoval();
             return;
@@ -272,13 +273,13 @@ public class TeleportInterface {
     public static void handleMinigameTeleport(Player player, Minigames minigameData) {
         player.setPreviousTeleport(minigameData);
 
-        if (minigameData == Minigames.PlaceholderMini1) {
+        if (minigameData == Minigames.HOV) {
             player.hov.initArea();
             player.hov.start();
             player.getPacketSender().sendInterfaceRemoval();
             return;
         }
-        if (minigameData == Minigames.PlaceholderMini2) {
+        if (minigameData == Minigames.VOD) {
             player.vod.initArea();
             player.vod.start();
             player.getPacketSender().sendInterfaceRemoval();
@@ -294,7 +295,7 @@ public class TeleportInterface {
         sendDrops(player, data.npcId);
     }
 
-    public static void sendMonsterData(Player player, ProgressionMonsters data) {
+    public static void sendMonsterData(Player player, Monsters data) {
         player.getPacketSender().sendNpcOnInterface(122051, data.npcId, data.adjustedZoom);
       //  player.getPacketSender().sendString(122202, NpcDefinition.forId(data.npcId).getHitpoints() + " - " + data.npcId);
         sendDrops(player, data.npcId);
@@ -358,7 +359,7 @@ public class TeleportInterface {
 
     public static void sendMonsterTab(Player player) {
         setUp(player, 0);
-        showList(player, ProgressionMonsters.values());
+        showList(player, Monsters.values());
     }
 
     public static void sendBossTab(Player player) {
@@ -464,37 +465,56 @@ public class TeleportInterface {
 
     }
 
-    public enum ProgressionMonsters implements Teleport {
+    public enum Monsters implements Teleport {
 
         // STARTER_ZONE("Starter Zone", 9001, new int[]{1, 1, 0}, 600),
 
-        Placeholder1("@gre@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder2("@gre@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder3("@gre@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder4("@gre@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder5("@gre@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder6("@yel@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder7("@yel@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder8("@yel@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder9("@yel@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder10("@yel@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder11("Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder12("Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder13("Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder14("Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder15("Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder16("@red@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder17("@red@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder18("@red@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder19("@red@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
-        Placeholder20("@red@Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700);
+        VAMP("Vampyre hands", 1703, new int[]{1815, 4909, 0}, 700),
+        JELLY("Jellyfish", 1721, new int[]{1848, 4896, 0}, 800),
+        JELLO("Jello", 1729, new int[]{1878, 4908, 0}, 800),
+        BUNYIP("Bunyip", 1705, new int[]{1903, 4879, 0}, 800),
+        GARG("Rusted Gargoyle", 1712, new int[]{1904, 4850, 0}, 1500),
+        BUTTERFLY("Flaming butterfly", 1711, new int[]{1880, 4822, 0}, 800),
+        CLOUD("Blast cloud", 1739, new int[]{1846, 4819, 0}, 1200),
+        BLOODVELD("Dark bloodveld", 1710, new int[]{1809, 4834, 0}, 800),
+        LAVANNOTH("Lavannoth", 1702, new int[]{1829, 4863, 0}, 1000),
+        CRAB("Granite crab", 1700, new int[]{1869, 4863, 0}, 800),
+
+        ANT("Ant worker", 1724, new int[]{2005, 4772, 0}, 700),
+        MOSQUITO("Mosquito", 1713, new int[]{2025, 4772, 0}, 800),
+        PLANT("War plant", 1737, new int[]{2026, 4759, 0}, 800),
+        BIRD("Tycoons bird", 1730, new int[]{2004, 4754, 0}, 800),
+
+        UNICORN("Nature unicorn", 1742, new int[]{2212, 4941, 0}, 1200),
+        DRAGON("Bronze dragon", 1706, new int[]{2187, 4943, 0}, 800),
+        Z_BIRD("Zamorak bird", 1725, new int[]{2214, 4960, 0}, 800),
+        SYM("Symbiote", 1727, new int[]{2218, 4976, 0}, 800),
+        GOUL("Ghoulord", 1708, new int[]{2195, 4975, 0}, 800),
+        GROOTER("Grooter", 1744, new int[]{2166, 4946, 0}, 1200),
+        MOSS("Elemental moss", 1740, new int[]{2166, 4946, 0}, 1000),
+        FIRE("Elemental fire", 1741, new int[]{2162, 4972, 0}, 1000),
+        PELICAN("Pelican bird", 1709, new int[]{2147, 4950, 0}, 1000),
+        TURTLE("Runite turtle", 1745, new int[]{2129, 4977, 0}, 800),
+        SABRE("Sabretooth", 1731, new int[]{2129, 4977, 0}, 800),
+        MINOTAUR("Armoured minotaur", 1719, new int[]{2126, 4953, 0}, 800),
+
+        DEMON("Native demon", 1715, new int[]{1633, 4844, 0}, 1200),
+        GRAAHK("Wild graahk", 1734, new int[]{1669, 4843, 0}, 800),
+        LEOPARD("Leopard", 1733, new int[]{1686, 4843, 0}, 800),
+        SEA("Sea creature", 1735, new int[]{1705, 4840, 0}, 800),
+        KREE("Kree devil", 1736, new int[]{1708, 4818, 0}, 900),
+        HYNDRA("Hyndra", 1743, new int[]{1665, 4819, 0}, 800),
+        CHIN("Evil chinchompa", 1723, new int[]{1640, 4819, 0}, 800),
+        CHIN_DRAGON("Chinese dragon", 1716, new int[]{1623, 4816, 0}, 800),
+
+        ;
 
         private final String name;
         private final int npcId;
         private final int[] teleportCords;
         private final int adjustedZoom;
 
-        ProgressionMonsters(String name, int npcId, int[] teleportCords, int adjustedZoom) {
+        Monsters(String name, int npcId, int[] teleportCords, int adjustedZoom) {
             this.name = name;
             this.npcId = npcId;
             this.teleportCords = teleportCords;
@@ -509,15 +529,23 @@ public class TeleportInterface {
 
 
     public enum Bosses implements Teleport {
-        //TODO update with actual bosses
-        PlaceHolderBoss1("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
-        PlaceHolderBoss2("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
-        PlaceHolderBoss3("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
-        PlaceHolderBoss4("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
-        PlaceHolderBoss5("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
-        PlaceHolderBoss6("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
-        PlaceHolderBoss7("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
-        PlaceHolderBoss8("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
+        ELITE_DRAGON("Elite dragon", 8015, new int[]{2911, 3991, 0}, 1300),
+        ETERNAL_DRAGON("Eternal dragon", 4972, new int[]{2975, 4000, 0}, 2200),
+        SCARLET_FALCON("Scarlet falcon", 2949, new int[]{3036, 4003, 0}, 2200),
+
+        CRYSTAL_QUEEN("Crystal queen", 6430, new int[]{1887, 5468, 0}, 1100),
+        LUCIFER("Lucifer", 9012, new int[]{2335, 3998, 0}, 1000),
+        MEGA_AVATAR("Mega avatar", 4540, new int[]{1884, 5334, 0}, 1600),
+
+        CRAZY_WITCH("Crazy witch", 1234, new int[]{2784, 4445, 0}, 1000),
+        LIGHT_SUPREME("Light supreme", 440, new int[]{2761, 4575, 0}, 1000),
+        DARK_SUPREME("Dark supreme", 438, new int[]{2721, 4450, 0}, 1500),
+        FRACTITE_DEMON("Fractite demon", 12843, new int[]{2785, 4525, 0}, 1000),
+        INFERNAL_DEMON("Infernal demon", 12810, new int[]{2712, 4508, 0}, 1500),
+
+        GLOBAL_BOSSES("Global bosses", 9014, new int[]{2139, 5019, 0}, 1000),
+
+
         ;
 
         private final int npcId;
@@ -552,11 +580,12 @@ public class TeleportInterface {
 
 
     public enum Minigames implements Teleport {
-        //TODO update placehoolder minigame teleports with actual minigames
-        PlaceholderMini1("Dungeoneering", 11226, new int[]{2251, 5040, 0}, DungeoneeringParty.loot, 700),
-        PlaceholderMini2("Dungeoneering", 11226, new int[]{2251, 5040, 0}, DungeoneeringParty.loot, 700),
-        PlaceholderMini3("Dungeoneering", 11226, new int[]{2251, 5040, 0}, DungeoneeringParty.loot, 700),
-        PlaceholderMini4("Dungeoneering", 11226, new int[]{2251, 5040, 0}, DungeoneeringParty.loot, 700),
+        DUNG("Dungeoneering", 11226, new int[]{2251, 5040, 0}, DungeoneeringParty.loot, 700),
+        HOV("Halls of Valor", 9024, new int[]{2195, 5037, 0}, HallsOfValor.loot, 1400),
+        VOD("Void of Darkness", 9028, new int[]{1954, 5010, 0}, VoidOfDarkness.loot, 600),
+        TH("Treasure Hunter", 9816, new int[]{2015, 5022, 0}, TreasureHunter.loot, 3000),
+        KOL("Keepers of Light", 9835, new int[]{2322, 5028, 0}, KeepersOfLight.loot, 1200),
+        VOW("Vault of War", 9839, new int[]{1776, 5335, 0}, VaultOfWar.loot, 1200),
         ;
 
         private final String name;
@@ -589,10 +618,11 @@ public class TeleportInterface {
 
 
     public enum Dungeons implements Teleport {
-        //TODO Update dungeon zones with actual dungeons
-        PlaceholderDungeon1("Easy Dungeon", 1705, new int[]{1905, 4870, 0}, 700),
-        PlaceholderDungeon2("Easy Dungeon", 1705, new int[]{1905, 4870, 0}, 700),
-        PlaceholderDungeon3("Easy Dungeon", 1705, new int[]{1905, 4870, 0}, 700),
+
+        EASY_DUNGEON("Easy Dungeon", 1705, new int[]{1905, 4870, 0}, 700),
+        EASY_DUNGEON_1("Easy Dungeon 2", 1724, new int[]{2016, 4767, 0}, 700),
+        MEDIUM_DUNGEON("Medium Dungeon", 1742, new int[]{2227, 4946, 0}, 1200),
+        HARD_DUNGEON("Hard Dungeon", 1715, new int[]{1637, 4856, 0}, 1200),
         ;
 
         private final String name;
@@ -614,11 +644,16 @@ public class TeleportInterface {
     }
 
     public enum Misc implements Teleport {
-        //TODO Update misc zones with actual zones
-        PlaceholderMisc1("Starter Zone", 9001, new int[]{1, 1, 0}, 600),
-        PlaceholderMisc2("Starter Zone", 9001, new int[]{1, 1, 0}, 600),
-        PlaceholderMisc3("Starter Zone", 9001, new int[]{1, 1, 0}, 600),
-        TRAIN_ZONE("Training zone", 9001, new int[]{3472, 9484, 0}, 600),
+
+        STARTER_ZONE("Starter Zone", 9001, new int[]{1, 1, 0}, 600),
+        SKILL_ISLAND("Skill Island", 805, new int[]{2817, 2600, 0}, 700),
+        GLOBAL_BOSSES("Global bosses", 9014, new int[]{2139, 5019, 0}, 1000),
+        PURO_PURO_TELEPORT("Puro Puro", 6064, new int[]{2589, 4319, 0}, 700),
+        TELE0("Gnome Course", 437, new int[]{2480, 3435, 0}, 700),
+        TELE1("Barbarian Course", 437, new int[]{2552, 3556, 0}, 700),
+        TELE2("Wilderness Course", 437, new int[]{3003, 3934, 0}, 700),
+
+
         ;
 
         private final String name;
