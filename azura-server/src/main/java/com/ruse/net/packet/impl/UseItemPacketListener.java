@@ -53,6 +53,10 @@ import com.ruse.world.entity.impl.mini.MiniPlayer;
 import com.ruse.world.entity.impl.npc.NPC;
 import com.ruse.world.entity.impl.player.Player;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * This packet listener is called when a player 'uses' an item on another
  * entity.
@@ -88,6 +92,9 @@ public class UseItemPacketListener implements PacketListener {
         if (usedWithSlot < 0 || itemUsedSlot < 0 || itemUsedSlot > player.getInventory().capacity()
                 || usedWithSlot > player.getInventory().capacity())
             return;
+
+        List<Integer> augmentItemIds = new ArrayList<Integer>(Arrays.asList(1, 3));
+
         Item usedOn = player.getInventory().getItems()[usedWithSlot];
         Item usedItem = player.getInventory().getItems()[itemUsedSlot];
         if (player.getRights() == PlayerRights.DEVELOPER) {
@@ -138,6 +145,16 @@ public class UseItemPacketListener implements PacketListener {
                     }
 
                 }
+            }
+        }
+
+        if (augmentItemIds.contains(usedItem.getId())){
+            if (ItemDefinition.forId(usedOn.getId()).isEquitable) {
+                player.getAugmentHandler().add(usedOn.getId(), usedItem.getId(), player);
+                player.setCurrentAugment(usedOn.getId());
+                player.getAugmentHandler().updateInterface(player.getCurrentAugment(), player);
+            } else {
+                player.getPacketSender().sendMessage("You can only augment gear pieces");
             }
         }
 

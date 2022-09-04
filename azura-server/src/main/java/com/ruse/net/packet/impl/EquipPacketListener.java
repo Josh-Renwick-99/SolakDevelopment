@@ -26,6 +26,7 @@ import com.ruse.world.content.skill.impl.old_dungeoneering.Dungeoneering;
 import com.ruse.world.entity.impl.player.Player;
 
 import java.time.LocalDateTime;
+import java.util.stream.Collectors;
 
 /**
  * This packet listener manages the equip action a player executes when wielding
@@ -430,6 +431,12 @@ public class EquipPacketListener implements PacketListener {
                         }
 
                         player.setCastSpell(null);
+                        player.getAugmentHandler().getAugments().stream().filter(aug -> aug.getItemId().equals(id)).forEach(aug -> {
+                            if (!aug.isEquipped()) {
+                                player.getAugmentHandler().equipAugment(id);
+                            }
+                        });
+
                         BonusManager.update(player);
                         player.getEquipment().refreshItems();
                         player.getInventory().refreshItems();

@@ -1,6 +1,7 @@
 package com.ruse.world.content;
 
 import com.ruse.GameSettings;
+import com.ruse.model.Augment.ItemAugment;
 import com.ruse.model.GameMode;
 import com.ruse.model.Locations;
 import com.ruse.model.PlayerRights;
@@ -199,7 +200,9 @@ public class CustomDropUtils {
 
     public static int getDoubleDropChance(Player player, int npc) {
         int percentBoost = 0;
-
+        for (ItemAugment aug : player.getAugmentHandler().getAugments()){
+            percentBoost += aug.getDdrBonus();
+        }
         Equipment equipment = player.getEquipment();
         if (equipment.contains(23092)
                 || equipment.contains(23093)

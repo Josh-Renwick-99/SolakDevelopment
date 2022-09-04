@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 12072088,
+  "total-play-time-ms": 3323932162765,
   "username": "Josh",
   "password": "123",
   "email": "null",
@@ -9,15 +9,15 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3471,
-    "y": 9482,
+    "x": 2088,
+    "y": 4455,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": true,
   "has-pin2": true,
   "saved-pin2": "1234",
-  "saved-ip": "80.195.183.129",
+  "saved-ip": "127.0.0.1",
   "donated": 250,
   "current-boss-task": 0,
   "current-boss-amount": 0,
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661344910610,
+  "lastlogin": 1662126691627,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -61,7 +61,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": -216423508,
+  "total-gained-exp": -788711404,
   "barrows-points": 0,
   "donator-points": 250,
   "Skilling-points": 0,
@@ -82,7 +82,7 @@
     false
   ],
   "tasks-progress": [
-    141,
+    151,
     0,
     0,
     0,
@@ -140,7 +140,7 @@
   ],
   "total-prestiges": 0,
   "slayer-spree": 0,
-  "npc-killcount": 131,
+  "npc-killcount": 137,
   "spawn-killcount": 0,
   "lord-killcount": 0,
   "demon-killcount": 0,
@@ -169,14 +169,14 @@
   "gender": "MALE",
   "spell-book": "NORMAL",
   "prayer-book": "NORMAL",
-  "running": true,
+  "running": false,
   "run-energy": 100,
   "music": false,
   "sounds": false,
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 319367576,
+  "last-veng": 1661673560511,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -209,7 +209,7 @@
   "autocast-spell": -1,
   "dfs-charges": 0,
   "coins-gambled": 0,
-  "slayer-master": "EASY_SLAYER",
+  "slayer-master": "MEDIUM_SLAYER",
   "slayer-task": "NO_TASK",
   "prev-slayer-task": "NO_TASK",
   "task-amount": 0,
@@ -409,6 +409,31 @@
       "npcId": 1715,
       "item": 450,
       "amount": 8
+    },
+    {
+      "npcId": 1703,
+      "item": 995,
+      "amount": 12541
+    },
+    {
+      "npcId": 1703,
+      "item": 437,
+      "amount": 39
+    },
+    {
+      "npcId": 1703,
+      "item": 439,
+      "amount": 41
+    },
+    {
+      "npcId": 1703,
+      "item": 200,
+      "amount": 8
+    },
+    {
+      "npcId": 1703,
+      "item": 202,
+      "amount": 9
     }
   ],
   "holy-prayers-unlocked": [
@@ -510,10 +535,10 @@
       1
     ],
     "experience": [
-      106031108,
+      -2094953754,
       104273167,
       104273167,
-      14401053,
+      1643052425,
       104273167,
       13034431,
       104273167,
@@ -527,7 +552,7 @@
       104273167,
       104273167,
       104273167,
-      104273167,
+      104318761,
       104273167,
       104273167,
       104273167,
@@ -539,8 +564,18 @@
   },
   "inventory": [
     {
-      "id": 4373,
+      "id": 23127,
       "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 437,
+      "amount": 39,
+      "slot": 0
+    },
+    {
+      "id": 995,
+      "amount": 165523,
       "slot": 0
     },
     {
@@ -549,83 +584,23 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 1,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 3,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 439,
+      "amount": 80,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
+      "id": 23147,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -634,18 +609,68 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 200,
+      "amount": 8,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 202,
+      "amount": 9,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 22076,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23201,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23021,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23201,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23201,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23201,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23198,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23202,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23202,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23201,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23087,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -681,8 +706,8 @@
   ],
   "equipment": [
     {
-      "id": 23127,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -691,13 +716,13 @@
       "slot": 0
     },
     {
-      "id": 23087,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 22076,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -711,8 +736,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 4373,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -883,17 +908,17 @@
       "boss": false
     },
     {
-      "runningTotal": 68,
+      "runningTotal": 71,
       "npcId": 9001,
       "npcName": "Sonic",
-      "amount": 68,
+      "amount": 71,
       "boss": false
     },
     {
-      "runningTotal": 31,
+      "runningTotal": 32,
       "npcId": 9002,
       "npcName": "Patrick",
-      "amount": 31,
+      "amount": 32,
       "boss": false
     },
     {
@@ -930,9 +955,27 @@
       "npcName": "Squirtle",
       "amount": 2,
       "boss": false
+    },
+    {
+      "runningTotal": 6,
+      "npcId": 1703,
+      "npcName": "Vampyre Hand",
+      "amount": 6,
+      "boss": false
     }
   ],
-  "drops": [],
+  "drops": [
+    {
+      "item": 995,
+      "amount": 129802,
+      "rareDrop": false
+    },
+    {
+      "item": 439,
+      "amount": 80,
+      "rareDrop": false
+    }
+  ],
   "achievements-completion": [],
   "achievements-progress": [
     0,
@@ -1324,11 +1367,113 @@
       0,
       0,
       0,
+      1,
+      0,
+      0,
+      0,
+      151,
       0,
       0,
       0,
       0,
-      141,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      151,
       0,
       0,
       0,
@@ -1427,113 +1572,11 @@
       0,
       0,
       0,
+      1,
       0,
       0,
       0,
-      141,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      141,
+      151,
       0,
       0,
       0,
@@ -2130,10 +2173,10 @@
       false
     ]
   ],
-  "achievements-daily": 724,
+  "achievements-daily": 802,
   "progression-zones": [
-    68,
-    31,
+    71,
+    32,
     32,
     2,
     3
@@ -2174,5 +2217,13 @@
     -1
   ],
   "favorite-teleports": [],
-  "obtained-pets": []
+  "obtained-pets": [],
+  "current-augment": 23087,
+  "item-augments": [
+    {
+      "itemId": 23087,
+      "firstAugment": "DAMAGE_BOOST_1",
+      "equipped": false
+    }
+  ]
 }
