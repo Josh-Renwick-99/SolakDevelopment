@@ -609,3 +609,5 @@
 [8/24/22 01:03PM] Adam used command ::item 21816 50 | Player rights = DEVELOPER	
 [8/24/22 01:03PM] Adam used command ::teleto adam test | Player rights = DEVELOPER	
 [8/24/22 01:04PM] Adam used command ::giveowner adam test1 | Player rights = DEVELOPER	
+[9/4/22 09:11PM] Adam used command ::find herc | Player rights = DEVELOPER	
+[9/4/22 09:11PM] Adam used command ::item 15005 | Player rights = DEVELOPER	

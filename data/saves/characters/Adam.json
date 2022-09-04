@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 77932162,
+  "total-play-time-ms": 78390555,
   "username": "Adam",
   "password": "lol123",
   "email": "null",
@@ -9,15 +9,15 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3473,
-    "y": 9483,
+    "x": 1812,
+    "y": 4908,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": true,
   "has-pin2": true,
   "saved-pin2": "0000",
-  "saved-ip": "86.156.42.226",
+  "saved-ip": "127.0.0.1",
   "donated": 258,
   "current-boss-task": 0,
   "current-boss-amount": 0,
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661346782687,
+  "lastlogin": 1662322271642,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -176,8 +176,8 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1661176794846,
-  "fight-type": "TWOHANDEDSWORD_SLASH",
+  "last-veng": 1661177246650,
+  "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -576,13 +576,13 @@
   ],
   "skills": {
     "level": [
-      14169,
-      14169,
-      14169,
+      14164,
+      14164,
+      14164,
       60506,
-      14166,
+      14161,
       150000,
-      14169,
+      14164,
       120,
       120,
       120,
@@ -689,8 +689,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 15005,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -2453,7 +2453,7 @@
       false
     ]
   ],
-  "achievements-daily": 724,
+  "achievements-daily": 804,
   "progression-zones": [
     37,
     44,
@@ -2499,5 +2499,6 @@
     -1
   ],
   "favorite-teleports": [],
-  "obtained-pets": []
+  "obtained-pets": [],
+  "item-augments": []
 }

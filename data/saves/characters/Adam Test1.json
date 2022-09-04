@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 7177644,
+  "total-play-time-ms": 8594786,
   "username": "Adam Test1",
   "password": "lol123",
   "email": "null",
@@ -9,15 +9,15 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2004,
-    "y": 4438,
+    "x": 2137,
+    "y": 5020,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": true,
   "has-pin2": true,
   "saved-pin2": "4281",
-  "saved-ip": "86.156.42.226",
+  "saved-ip": "127.0.0.1",
   "donated": 0,
   "current-boss-task": 0,
   "current-boss-amount": 0,
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1661346815083,
+  "lastlogin": 1662322208688,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -176,8 +176,8 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 5827443,
-  "fight-type": "SWORD_LUNGE",
+  "last-veng": 1662315420612,
+  "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -466,13 +466,13 @@
   ],
   "skills": {
     "level": [
-      14979,
-      14979,
-      14979,
+      14963,
+      14963,
+      14963,
       149980,
-      14993,
+      14977,
       150000,
-      14993,
+      14977,
       120,
       120,
       120,
@@ -549,13 +549,13 @@
   },
   "inventory": [
     {
-      "id": 14076,
+      "id": 14065,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 995,
-      "amount": 56680,
+      "id": 15006,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -691,8 +691,8 @@
   ],
   "equipment": [
     {
-      "id": -1,
-      "amount": 0,
+      "id": 19713,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -706,13 +706,13 @@
       "slot": 0
     },
     {
-      "id": 14065,
+      "id": 15005,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 19714,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -726,8 +726,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 19715,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -736,13 +736,13 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 19716,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 19717,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -2212,7 +2212,7 @@
       false
     ]
   ],
-  "achievements-daily": 724,
+  "achievements-daily": 804,
   "progression-zones": [
     11,
     26,
@@ -2258,5 +2258,6 @@
     -1
   ],
   "favorite-teleports": [],
-  "obtained-pets": []
+  "obtained-pets": [],
+  "item-augments": []
 }

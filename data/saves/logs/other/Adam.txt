@@ -233,3 +233,6 @@
 [8/24/22 02:12PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
 [8/24/22 02:13PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
 [8/24/22 03:05PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 09:11PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 09:11PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 09:11PM] Attempted to redeem a None, but was a staff member! (Unsuccessful)	

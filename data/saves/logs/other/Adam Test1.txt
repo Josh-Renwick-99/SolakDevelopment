@@ -45,3 +45,13 @@
 [8/24/22 02:54PM] Emptied item (id:17011, amount:1) -- Sanguinesti Execution Staff	
 [8/24/22 02:58PM] Emptied item (id:20591, amount:1) -- Crystalized cape	
 [8/24/22 03:05PM] Login. ip: 86.156.42.226, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 08:48PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 08:48PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 08:48PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 08:49PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 08:51PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 08:52PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 08:57PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 09:00PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
+[9/4/22 09:00PM] Emptied item (id:14076, amount:1) -- None	
+[9/4/22 09:10PM] Login. ip: 127.0.0.1, mac: 18-C0-4D-26-CC-66, uuid: 	
