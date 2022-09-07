@@ -304,3 +304,10 @@
 [9/2/22 02:47PM] Login. ip: 127.0.0.1, mac: D6-69-84-8A-33-9B, uuid: null	
 [9/2/22 02:48PM] Login. ip: 127.0.0.1, mac: D6-69-84-8A-33-9B, uuid: null	
 [9/2/22 02:51PM] Login. ip: 127.0.0.1, mac: D6-69-84-8A-33-9B, uuid: null	
+[9/4/22 09:54PM] Login. ip: 127.0.0.1, mac: 46-CD-BB-27-75-1E, uuid: null	
+[9/4/22 09:58PM] Login. ip: 127.0.0.1, mac: 46-CD-BB-27-75-1E, uuid: null	
+[9/4/22 10:21PM] Login. ip: 127.0.0.1, mac: 46-CD-BB-27-75-1E, uuid: null	
+[9/5/22 11:19AM] Login. ip: 127.0.0.1, mac: 46-CD-BB-27-75-1E, uuid: null	
+[9/5/22 11:23AM] Login. ip: 127.0.0.1, mac: 46-CD-BB-27-75-1E, uuid: null	
+[9/5/22 11:23AM] Login. ip: 127.0.0.1, mac: 46-CD-BB-27-75-1E, uuid: null	
+[9/5/22 11:26AM] DEFAULT|2078,4457,0|Said: :npc 6452	

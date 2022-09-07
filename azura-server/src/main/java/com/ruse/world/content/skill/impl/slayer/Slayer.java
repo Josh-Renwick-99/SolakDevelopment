@@ -160,7 +160,7 @@ public class Slayer {
             } else if (slayerTask.getTaskMaster() == SlayerMaster.MEDIUM_SLAYER) {
                 amountOfTickets += 50;
                 DailyTask.MEDIUM_SLAYER_TASKS.tryProgress(player);
-            } else if (slayerTask.getTaskMaster() == SlayerMaster.HARD_SLAYER) {
+            } else if (slayerTask.getTaskMaster() == SlayerMaster.NIGHTMARE_SLAYER) {
                 amountOfTickets += 75;
                 DailyTask.HARD_SLAYER_TASKS.tryProgress(player);
             } else if (slayerTask.getTaskMaster() == SlayerMaster.BOSS_SLAYER) {
@@ -227,7 +227,7 @@ public class Slayer {
             case MEDIUM_SLAYER:
                 pointsReceived = 5;
                 break;
-            case HARD_SLAYER:
+            case NIGHTMARE_SLAYER:
                 pointsReceived = 7;
                 break;
 

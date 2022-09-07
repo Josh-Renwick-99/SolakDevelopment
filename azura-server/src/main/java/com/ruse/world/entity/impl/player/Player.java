@@ -78,6 +78,7 @@ import com.ruse.world.content.skill.impl.construction.HouseFurniture;
 import com.ruse.world.content.skill.impl.construction.Portal;
 import com.ruse.world.content.skill.impl.construction.Room;
 import com.ruse.world.content.skill.impl.farming.Farming;
+import com.ruse.world.content.skill.impl.slayer.NightmareSlayer;
 import com.ruse.world.content.skill.impl.slayer.Slayer;
 import com.ruse.world.content.skill.impl.summoning.BossPets;
 import com.ruse.world.content.skill.impl.summoning.Pouch;
@@ -3229,6 +3230,16 @@ public class Player extends Character {
 
     public void setResetPosition(Position resetPosition) {
         this.resetPosition = resetPosition;
+    }
+
+    public NightmareSlayer nightmareSlayer;
+
+    public NightmareSlayer getNightmareSlayer(){
+        return this.nightmareSlayer;
+    }
+
+    public void setNightmareSlayer(NightmareSlayer nightmareSlayer){
+        this.nightmareSlayer = nightmareSlayer;
     }
 
     public Slayer getSlayer() {

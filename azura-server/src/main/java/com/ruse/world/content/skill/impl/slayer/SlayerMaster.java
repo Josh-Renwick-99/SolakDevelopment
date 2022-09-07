@@ -10,8 +10,8 @@ public enum SlayerMaster {
 	BOSS_SLAYER(90, 9000, new Position(2667, 4015)),
 	EASY_SLAYER(1, 1597, new Position(2853, 9374)),
 	MEDIUM_SLAYER(70, 8275, new Position(2174, 5016)),
-	HARD_SLAYER(80, 9085, new Position(2019, 5009))
-
+	HARD_SLAYER(80, 9085, new Position(2019, 5009)),
+	NIGHTMARE_SLAYER(80, 9085, new Position(2072, 4455))
 	;
 
 	private SlayerMaster(int slayerReq, int npcId, Position telePosition) {
@@ -69,7 +69,7 @@ public enum SlayerMaster {
 		String masterName = "Vannaka";
 		if(master == SlayerMaster.MEDIUM_SLAYER) {
 			masterName = "Duradel";
-		} else if(master == SlayerMaster.HARD_SLAYER) {
+		} else if(master == SlayerMaster.NIGHTMARE_SLAYER) {
 			masterName = "Kuradal";
 		} else if(master == SlayerMaster.BOSS_SLAYER) {
 			masterName = "Boss Slayer Master";

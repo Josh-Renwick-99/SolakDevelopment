@@ -198,6 +198,82 @@ public class SlayerDialogues {
 		};
 	}
 
+	public static Dialogue receivedNightmareTask(final Player player, final NightmareSlayerMaster master, final NightmareTasks task) {
+		return new Dialogue() {
+			final int amountToKill = player.getSlayer().getAmountToSlay();
+
+			@Override
+			public DialogueType type() {
+				return DialogueType.NPC_STATEMENT;
+			}
+
+			@Override
+			public int npcId() {
+				return master.getNpcId();
+			}
+
+			@Override
+			public DialogueExpression animation() {
+				return DialogueExpression.NORMAL;
+			}
+
+			@Override
+			public String[] dialogue() {
+				String you = "You";
+				String line1 = "You have been assigned to kill " + amountToKill + " "
+						+ task.getName() + "s.";
+				String line2 = "";
+				if (player.getSlayer().getLastTask() != SlayerTasks.NO_TASK) {
+					line1 = "" + you + " are doing great! Your new";
+					line2 = "assignment is to kill " + amountToKill + " "
+							+ task.getName() + "s.";
+				}
+				return new String[] { "" + line1 + "", "" + line2 + "" };
+			}
+
+			@Override
+			public void specialAction() {
+
+			}
+
+			@Override
+			public Dialogue nextDialogue() {
+				return new Dialogue() {
+
+					@Override
+					public DialogueType type() {
+						return DialogueType.OPTION;
+					}
+
+					@Override
+					public int npcId() {
+						return master.getNpcId();
+					}
+
+					@Override
+					public DialogueExpression animation() {
+						return null;
+					}
+
+					@Override
+					public String[] dialogue() {
+						boolean inDuo = player.getSlayer().getDuoPartner() != null;
+						return new String[] { "What's my current assignment?", "I'd like to reset my Slayer Task",
+								"How many points do I currently receive per task?",
+								inDuo ? "I'd like to reset my duo team" : "Nothing, thanks"
+
+						};
+					}
+
+					@Override
+					public void specialAction() {
+						player.setDialogueActionId(31);
+					}
+				};
+			}
+		};
+	}
+
 	public static Dialogue findAssignment(final Player player) {
 		final SlayerMaster master = player.getSlayer().getSlayerMaster();
 		final SlayerTasks task = player.getSlayer().getSlayerTask();

@@ -61,7 +61,7 @@ public class ClueScrollTask {
         if(difficulty == ClueScroll.MEDIUM) {
             master = SlayerMaster.MEDIUM_SLAYER;
         } else if(difficulty == ClueScroll.HARD) {
-            master = SlayerMaster.HARD_SLAYER;
+            master = SlayerMaster.NIGHTMARE_SLAYER;
         }
         SlayerTaskData taskData = getNewTaskData(master);
         int slayerTaskAmount = taskData.getSlayerTaskAmount();
@@ -109,7 +109,7 @@ public class ClueScrollTask {
             slayerTaskAmount = 10 + Misc.random(15);
         } else if (master == SlayerMaster.MEDIUM_SLAYER) {
             slayerTaskAmount = 25 + Misc.random(10);
-        } else if (master == SlayerMaster.HARD_SLAYER) {
+        } else if (master == SlayerMaster.NIGHTMARE_SLAYER) {
             slayerTaskAmount = 50 + Misc.random(25);
         }
         return new SlayerTaskData(task, slayerTaskAmount);

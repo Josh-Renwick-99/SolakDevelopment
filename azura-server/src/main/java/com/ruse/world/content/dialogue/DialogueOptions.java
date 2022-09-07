@@ -533,7 +533,7 @@ public class DialogueOptions {
                             player.getSpellbook().getTeleportType());
                     break;
                 case 29:
-                    SlayerMaster.changeSlayerMaster(player, SlayerMaster.HARD_SLAYER);
+                    SlayerMaster.changeSlayerMaster(player, SlayerMaster.NIGHTMARE_SLAYER);
                     break;
                 case 36:
                     player.setDialogueActionId(37);

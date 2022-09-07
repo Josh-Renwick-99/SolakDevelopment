@@ -79,7 +79,7 @@ public enum SlayerTasks {
 
 	JELLO(SlayerMaster.EASY_SLAYER, 1729, "Easy Slayer Dungeon", 15000, new Position(1878, 4912)),
 	JELLYFISH(SlayerMaster.EASY_SLAYER, 1721, "Easy Slayer Dungeon", 18000, new Position(1847, 4899)),
-	VALIX(SlayerMaster.HARD_SLAYER, 1703, "Easy Slayer Dungeon", 15000, new Position(1813, 4908)),
+	VALIX(SlayerMaster.NIGHTMARE_SLAYER, 1703, "Easy Slayer Dungeon", 15000, new Position(1813, 4908)),
 
 
 	MOSQUITO(SlayerMaster.EASY_SLAYER, 1713, "Easy Slayer Dungeon 2", 20000, new Position(2032, 4778)),
@@ -105,14 +105,14 @@ public enum SlayerTasks {
 
 
 	// Hard slayer tasks 125-250k * 2 = 250-500k / task
-	NATIVE_DEMON(SlayerMaster.HARD_SLAYER, 1715, "Hard Slayer Dungeon", 150_000, new Position(1632, 4844)),
-	WILD_GRAAHK(SlayerMaster.HARD_SLAYER, 1734, "Hard Slayer Dungeon", 125_000, new Position(1667, 4845)),
-	LEOPARD(SlayerMaster.HARD_SLAYER, 1733, "Hard Slayer Dungeon", 175_000, new Position(1688, 4841)),
-	SEA_CREATURE(SlayerMaster.HARD_SLAYER, 1735, "Hard Slayer Dungeon", 180_000, new Position(1704, 4839)),
-	KREE_DEVIL(SlayerMaster.HARD_SLAYER, 1736, "Hard Slayer Dungeon", 200_000, new Position(1708, 4816)),
-	HYNDRA(SlayerMaster.HARD_SLAYER, 1743, "Hard Slayer Dungeon", 225_000, new Position(1670, 4815)),
-	CHINESE_DRAGON(SlayerMaster.HARD_SLAYER, 1716, "Hard Slayer Dungeon", 250_000, new Position(1641, 4820)),
-	EVIL_CHINCHOMPA(SlayerMaster.HARD_SLAYER, 1723, "Hard Slayer Dungeon", 200_000, new Position(1617, 4823)),
+	NATIVE_DEMON(SlayerMaster.NIGHTMARE_SLAYER, 1715, "Hard Slayer Dungeon", 150_000, new Position(1632, 4844)),
+	WILD_GRAAHK(SlayerMaster.NIGHTMARE_SLAYER, 1734, "Hard Slayer Dungeon", 125_000, new Position(1667, 4845)),
+	LEOPARD(SlayerMaster.NIGHTMARE_SLAYER, 1733, "Hard Slayer Dungeon", 175_000, new Position(1688, 4841)),
+	SEA_CREATURE(SlayerMaster.NIGHTMARE_SLAYER, 1735, "Hard Slayer Dungeon", 180_000, new Position(1704, 4839)),
+	KREE_DEVIL(SlayerMaster.NIGHTMARE_SLAYER, 1736, "Hard Slayer Dungeon", 200_000, new Position(1708, 4816)),
+	HYNDRA(SlayerMaster.NIGHTMARE_SLAYER, 1743, "Hard Slayer Dungeon", 225_000, new Position(1670, 4815)),
+	CHINESE_DRAGON(SlayerMaster.NIGHTMARE_SLAYER, 1716, "Hard Slayer Dungeon", 250_000, new Position(1641, 4820)),
+	EVIL_CHINCHOMPA(SlayerMaster.NIGHTMARE_SLAYER, 1723, "Hard Slayer Dungeon", 200_000, new Position(1617, 4823)),
 	;
 
 

@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 3323932162765,
+  "total-play-time-ms": 4986283323133,
   "username": "Josh",
   "password": "123",
   "email": "null",
@@ -9,8 +9,8 @@
   "loyalty-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2088,
-    "y": 4455,
+    "x": 2078,
+    "y": 4457,
     "z": 0
   },
   "online-status": "ON",
@@ -47,7 +47,7 @@
   "claimed-third": false,
   "last-donation": 0,
   "last-time-reset": 0,
-  "lastlogin": 1662126691627,
+  "lastlogin": 1662373423038,
   "lastdailyclaim": 0,
   "lastvotetime": 0,
   "hasvotedtoday": false,
@@ -61,7 +61,7 @@
   "minutes-bonus-exp": 0,
   "minutes-voting-dr": 0,
   "minutes-voting-dmg": 0,
-  "total-gained-exp": -788711404,
+  "total-gained-exp": 888365650,
   "barrows-points": 0,
   "donator-points": 250,
   "Skilling-points": 0,
@@ -82,7 +82,7 @@
     false
   ],
   "tasks-progress": [
-    151,
+    155,
     0,
     0,
     0,
@@ -140,7 +140,7 @@
   ],
   "total-prestiges": 0,
   "slayer-spree": 0,
-  "npc-killcount": 137,
+  "npc-killcount": 140,
   "spawn-killcount": 0,
   "lord-killcount": 0,
   "demon-killcount": 0,
@@ -175,9 +175,9 @@
   "sounds": false,
   "auto-retaliate": false,
   "xp-locked": false,
-  "veng-cast": true,
-  "last-veng": 1661673560511,
-  "fight-type": "UNARMED_PUNCH",
+  "veng-cast": false,
+  "last-veng": 724044383,
+  "fight-type": "LONGBOW_ACCURATE",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -413,7 +413,7 @@
     {
       "npcId": 1703,
       "item": 995,
-      "amount": 12541
+      "amount": 12544
     },
     {
       "npcId": 1703,
@@ -433,7 +433,32 @@
     {
       "npcId": 1703,
       "item": 202,
-      "amount": 9
+      "amount": 11
+    },
+    {
+      "npcId": 1703,
+      "item": 364,
+      "amount": 7
+    },
+    {
+      "npcId": 1729,
+      "item": 995,
+      "amount": 12281
+    },
+    {
+      "npcId": 1729,
+      "item": 437,
+      "amount": 37
+    },
+    {
+      "npcId": 9017,
+      "item": 995,
+      "amount": 1631014
+    },
+    {
+      "npcId": 9017,
+      "item": 537,
+      "amount": 25
     }
   ],
   "holy-prayers-unlocked": [
@@ -481,17 +506,13 @@
   ],
   "skills": {
     "level": [
-      120,
-      120,
-      120,
-      1200,
-      120,
-      1200,
-      120,
-      120,
-      120,
-      120,
-      120,
+      14743,
+      14743,
+      14743,
+      146860,
+      14743,
+      150000,
+      14743,
       120,
       120,
       120,
@@ -505,6 +526,10 @@
       120,
       120,
       120,
+      120,
+      120,
+      120,
+      15000,
       1
     ],
     "maxLevel": [
@@ -535,11 +560,11 @@
       1
     ],
     "experience": [
-      -2094953754,
       104273167,
       104273167,
-      1643052425,
       104273167,
+      2000000000,
+      -350296469,
       13034431,
       104273167,
       104273167,
@@ -552,7 +577,7 @@
       104273167,
       104273167,
       104273167,
-      104318761,
+      104273167,
       104273167,
       104273167,
       104273167,
@@ -575,7 +600,7 @@
     },
     {
       "id": 995,
-      "amount": 165523,
+      "amount": 177159,
       "slot": 0
     },
     {
@@ -674,18 +699,18 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 23130,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 19714,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 4373,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -721,8 +746,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 22113,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -736,7 +761,7 @@
       "slot": 0
     },
     {
-      "id": 4373,
+      "id": 19744,
       "amount": 1,
       "slot": 0
     },
@@ -751,7 +776,7 @@
       "slot": 0
     },
     {
-      "id": 23130,
+      "id": 19716,
       "amount": 1,
       "slot": 0
     },
@@ -957,22 +982,56 @@
       "boss": false
     },
     {
-      "runningTotal": 6,
+      "runningTotal": 8,
       "npcId": 1703,
       "npcName": "Vampyre Hand",
-      "amount": 6,
+      "amount": 8,
       "boss": false
+    },
+    {
+      "runningTotal": 1,
+      "npcId": 1729,
+      "npcName": "Axel",
+      "amount": 1,
+      "boss": false
+    },
+    {
+      "runningTotal": 1,
+      "npcId": 9017,
+      "npcName": "Zenyte",
+      "amount": 1,
+      "boss": true
     }
   ],
   "drops": [
     {
       "item": 995,
-      "amount": 129802,
+      "amount": 1791347,
       "rareDrop": false
     },
     {
       "item": 439,
       "amount": 80,
+      "rareDrop": false
+    },
+    {
+      "item": 364,
+      "amount": 7,
+      "rareDrop": false
+    },
+    {
+      "item": 202,
+      "amount": 20,
+      "rareDrop": false
+    },
+    {
+      "item": 437,
+      "amount": 37,
+      "rareDrop": false
+    },
+    {
+      "item": 537,
+      "amount": 25,
       "rareDrop": false
     }
   ],
@@ -1371,8 +1430,8 @@
       0,
       0,
       0,
-      151,
-      0,
+      155,
+      1,
       0,
       0,
       0,
@@ -1473,7 +1532,7 @@
       0,
       0,
       0,
-      151,
+      155,
       0,
       0,
       0,
@@ -1576,7 +1635,7 @@
       0,
       0,
       0,
-      151,
+      155,
       0,
       0,
       0,
@@ -2173,7 +2232,7 @@
       false
     ]
   ],
-  "achievements-daily": 802,
+  "achievements-daily": 805,
   "progression-zones": [
     71,
     32,

@@ -425,11 +425,11 @@ public class NPCOptionPacketListener implements PacketListener {
                         }
                         break;
                     case 9085:
-                        if (!player.getSlayer().getSlayerMaster().equals(SlayerMaster.HARD_SLAYER)
+                        if (!player.getSlayer().getSlayerMaster().equals(SlayerMaster.NIGHTMARE_SLAYER)
                                 && player.getSlayer().getSlayerTask().equals(SlayerTasks.NO_TASK)) {
-                            SlayerMaster.changeSlayerMaster(player, SlayerMaster.HARD_SLAYER);
+                            SlayerMaster.changeSlayerMaster(player, SlayerMaster.NIGHTMARE_SLAYER);
                         }
-                        if (player.getSlayer().getSlayerMaster().equals(SlayerMaster.HARD_SLAYER))
+                        if (player.getSlayer().getSlayerMaster().equals(SlayerMaster.NIGHTMARE_SLAYER))
                             DialogueManager.start(player, SlayerDialogues.dialogue(player));
                         else {
                             SlayerMaster yourMaster = player.getSlayer().getSlayerMaster();
@@ -1034,13 +1034,13 @@ public class NPCOptionPacketListener implements PacketListener {
                         }
                         break;
                     case 9085:
-                        if (!player.getSlayer().getSlayerMaster().equals(SlayerMaster.HARD_SLAYER)
+                        if (!player.getSlayer().getSlayerMaster().equals(SlayerMaster.NIGHTMARE_SLAYER)
                                 && player.getSlayer().getSlayerTask().equals(SlayerTasks.NO_TASK)) {
-                            SlayerMaster.changeSlayerMaster(player, SlayerMaster.HARD_SLAYER);
+                            SlayerMaster.changeSlayerMaster(player, SlayerMaster.NIGHTMARE_SLAYER);
                         }
-                        if (player.getSlayer().getSlayerMaster().equals(SlayerMaster.HARD_SLAYER)) {
+                        if (player.getSlayer().getSlayerMaster().equals(SlayerMaster.NIGHTMARE_SLAYER)) {
 
-                            SlayerMaster.changeSlayerMaster(player, SlayerMaster.HARD_SLAYER);
+                            SlayerMaster.changeSlayerMaster(player, SlayerMaster.NIGHTMARE_SLAYER);
                             if (player.getSlayer().getSlayerTask() == SlayerTasks.NO_TASK)
                                 player.getSlayer().assignTask();
 
